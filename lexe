@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+for file in /{,usr/}bin/*calc
+#		^ Find all executable file ending in " calc
+#+		in /bin and /usr/bin directories.
+
+do	
+	if [ -x "$file" ]
+	then
+	echo $file
+	fi
+done	
+

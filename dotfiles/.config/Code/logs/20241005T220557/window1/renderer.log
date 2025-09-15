@@ -1,0 +1,13 @@
+2024-10-05 22:06:01.606 [info] Started local extension host with pid 5502.
+2024-10-05 22:06:01.821 [info] Started initializing default profile extensions in extensions installation folder. file:///home/taufiq/.vscode/extensions
+2024-10-05 22:06:02.758 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/taufiq/.vscode/extensions
+2024-10-05 22:06:07.596 [info] [perf] Render performance baseline is 66ms
+2024-10-05 22:07:13.173 [info] Started local extension host with pid 5653.
+2024-10-05 22:07:16.104 [info] [perf] Render performance baseline is 76ms
+2024-10-05 22:08:40.693 [error] [network] #3: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2024-10-05 22:12:04.822 [error] [network] #6: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2024-10-05 22:12:49.141 [error] [network] #7: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2024-10-05 22:13:32.589 [error] [network] #11: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2024-10-05 22:13:32.621 [error] [network] #12: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2024-10-05 22:13:32.622 [error] [network] #13: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2024-10-05 22:26:34.554 [error] [network] #21: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+URL_="https://download.quranicaudio.com/quran/"
+RECITER_="mehysni/"
+
+CMD="$(which wget)"
+#OPTS="-qc -r -l1 -A.mp3 -P ~/Downloads/misc/quran/"
+OPTS='-qc -nc -w 5 ' #-o ~/Downloads/misc/quran/quran.log'
+
+# RUN
+for (( CHAPTER=1; CHAPTER<=109; ((CHAPTER++)) ))
+do
+    if [ "$CHAPTER" -lt 10 ]
+    then
+        PREFIX_="00"
+    elif [ "$CHAPTER" -ge 10 ] && [ "$CHAPTER" -le 99 ]
+    then
+        PREFIX_="0"
+    else
+        PREFIX_=""
+    fi
+
+    $CMD $OPTS "$URL_$RECITER_$PREFIX_$CHAPTER.mp3"
+done

@@ -1,0 +1,8 @@
+[window]
+width=959
+height=1038
+is-maximized=false
+is-fullscreen=false
+
+[scanner]
+scan-type=single

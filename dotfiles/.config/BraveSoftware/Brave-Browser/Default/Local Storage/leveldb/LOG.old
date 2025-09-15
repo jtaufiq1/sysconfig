@@ -1,0 +1,39 @@
+2025/09/11-23:58:26.246 5 Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/09/11-23:58:26.250 5 Recovering log #1106
+2025/09/11-23:58:26.251 5 Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001106.log 
+2025/09/11-23:58:46.629 7 Level-0 table #1110: started
+2025/09/11-23:58:46.646 7 Level-0 table #1110: 55819 bytes OK
+2025/09/11-23:58:46.658 7 Delete type=0 #1106
+2025/09/11-23:59:35.698 7 Level-0 table #1112: started
+2025/09/11-23:59:35.706 7 Level-0 table #1112: 27540 bytes OK
+2025/09/11-23:59:35.724 7 Delete type=0 #1109
+2025/09/11-23:59:35.725 7 Compacting 4@0 + 1@1 files
+2025/09/11-23:59:35.760 7 Generated table #1113@0: 1670 keys, 1990110 bytes
+2025/09/11-23:59:35.760 7 Compacted 4@0 + 1@1 files => 1990110 bytes
+2025/09/11-23:59:35.770 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/11-23:59:35.770 7 Delete type=2 #1103
+2025/09/11-23:59:35.770 7 Delete type=2 #1105
+2025/09/11-23:59:35.770 7 Delete type=2 #1107
+2025/09/11-23:59:35.770 7 Delete type=2 #1110
+2025/09/11-23:59:35.771 7 Delete type=2 #1112
+2025/09/12-12:44:44.844 7 Level-0 table #1115: started
+2025/09/12-12:44:44.846 7 Level-0 table #1115: 10019 bytes OK
+2025/09/12-12:44:44.848 7 Delete type=0 #1111
+2025/09/12-17:14:15.311 7 Level-0 table #1117: started
+2025/09/12-17:14:15.324 7 Level-0 table #1117: 13598 bytes OK
+2025/09/12-17:14:15.331 7 Delete type=0 #1114
+2025/09/13-04:07:17.708 7 Level-0 table #1119: started
+2025/09/13-04:07:17.725 7 Level-0 table #1119: 11823 bytes OK
+2025/09/13-04:07:17.735 7 Delete type=0 #1116
+2025/09/13-13:22:17.873 7 Level-0 table #1121: started
+2025/09/13-13:22:17.879 7 Level-0 table #1121: 9778 bytes OK
+2025/09/13-13:22:17.882 7 Delete type=0 #1118
+2025/09/13-13:22:17.882 7 Compacting 4@0 + 1@1 files
+2025/09/13-13:22:17.948 7 Generated table #1122@0: 1755 keys, 1996834 bytes
+2025/09/13-13:22:17.949 7 Compacted 4@0 + 1@1 files => 1996834 bytes
+2025/09/13-13:22:17.951 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/13-13:22:17.952 7 Delete type=2 #1113
+2025/09/13-13:22:17.952 7 Delete type=2 #1115
+2025/09/13-13:22:17.953 7 Delete type=2 #1117
+2025/09/13-13:22:17.953 7 Delete type=2 #1119
+2025/09/13-13:22:17.953 7 Delete type=2 #1121

@@ -1,0 +1,176 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Din ePub-bok kan inte öppnas, eftersom servern begär en autentisering."
+   },
+   "errorDownloading": {
+      "message": "Tyvärr uppstod ett fel vid nedladdningen av e-boken."
+   },
+   "errorEncrypted": {
+      "message": "Din ePub-bok är skyddad med Digital Rights Management (DRM). Därför kan den tyvärr inte öppnas."
+   },
+   "errorErrorCode": {
+      "message": "Din ePub-bok kunde inte öppnas, eftersom servern skickade följande felmeddelande:"
+   },
+   "errorInvalid": {
+      "message": "E-pub-filen är trasig och kan inte öppnas."
+   },
+   "errorNotFound": {
+      "message": "Din ePub-bok kan inte öppnas, eftersom den inte finns på servern, på den här adressen."
+   },
+   "errorOther": {
+      "message": "Ledsen, men tyvärr uppstod ett fel när din ePub-bok öppnades. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Filen är inte en giltig epub-fil."
+   },
+   "extensionDescription": {
+      "message": "Läs epub filer direkt i browsern"
+   },
+   "hintBookmark": {
+      "message": "Bokmärke har sparats"
+   },
+   "hintDownloading": {
+      "message": "Laddar ner e-bok..."
+   },
+   "hintFileaccess": {
+      "message": "Klicka på länken nedan och sedan på 'Allow access fo file URLs' för att öppna lokalt sparade e-böcker."
+   },
+   "hintSave": {
+      "message": "Klicka i mitten och sedan på 'Spara e-bok'-knappen för att spara e-boken."
+   },
+   "hintSetupFileaccess": {
+      "message": "Konfigurera filaccess"
+   },
+   "hintStart": {
+      "message": "Öppna EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Klicka/Tryck i mitten för att öppna verktygsfältet eller en annan e-bok."
+   },
+   "installDownload": {
+      "message": "Klicka på en nedladdningslänk. E-boken laddas hem och öppnas sedan automatiskt."
+   },
+   "installFileExplorer": {
+      "message": "Dubbelklicka på en e-bok i en filbrowser."
+   },
+   "installMiddle": {
+      "message": "Om du redan har öppnat en e-bok, klicka i mitten för att öppna verktygsfältet eller en annan e-bok."
+   },
+   "installTitle": {
+      "message": "Flera sätt att öppna e-böcker"
+   },
+   "installToolbar": {
+      "message": "Klicka på EPUBReader knappen i browserns verktygsfält. Klicka därefter på filmappsikonen i toppen."
+   },
+   "prefBkgColor": {
+      "message": "Bakgrundsfärg"
+   },
+   "prefBook": {
+      "message": "Som i boken"
+   },
+   "prefColumnWidth": {
+      "message": "Kolumnbredd"
+   },
+   "prefFontColor": {
+      "message": "Teckenfärg"
+   },
+   "prefFontFace": {
+      "message": "Teckensnitt"
+   },
+   "prefFontSize": {
+      "message": "Teckenstorlek"
+   },
+   "prefFontsLoadSlower": {
+      "message": "E-böcker öppnar långsammare"
+   },
+   "prefLineHeight": {
+      "message": "Radhöjd"
+   },
+   "prefLoadFonts": {
+      "message": "Ladda fonter"
+   },
+   "prefMarginLr": {
+      "message": "Marginal"
+   },
+   "prefNo": {
+      "message": "Nej"
+   },
+   "prefReadingDir": {
+      "message": "Läsriktning"
+   },
+   "prefReadingDirLtr": {
+      "message": "Vänster till Höger"
+   },
+   "prefReadingDirRtl": {
+      "message": "Höger till Vänster"
+   },
+   "prefReadingStyle": {
+      "message": "Läsvy"
+   },
+   "prefReadingStyleBook": {
+      "message": "Bok"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Webbplats"
+   },
+   "prefUser": {
+      "message": "Egen inställning"
+   },
+   "prefYes": {
+      "message": "Ja"
+   },
+   "tooltipBookmark": {
+      "message": "Infoga bokmärke/D"
+   },
+   "tooltipDonate": {
+      "message": "Stöd EPUBReader!"
+   },
+   "tooltipFontLess": {
+      "message": "Minska teckenstorlek/-"
+   },
+   "tooltipFontMore": {
+      "message": "Öka teckenstorlek/+"
+   },
+   "tooltipHelp": {
+      "message": "Hjälp"
+   },
+   "tooltipOpen": {
+      "message": "Öppna e-bok"
+   },
+   "tooltipPref": {
+      "message": "Inställningar"
+   },
+   "tooltipReadingStyle": {
+      "message": "Ändra läsläge"
+   },
+   "tooltipSave": {
+      "message": "Spara e-bok/S"
+   },
+   "tooltipToc": {
+      "message": "Innehållsförteckning/T"
+   },
+   "updateExport": {
+      "message": "Export kommer bara att fungera med Firefox tillochmed version 56."
+   },
+   "updateIntro": {
+      "message": "Det här är den helt nya versionen utav EPUBReader som skall fungera med framtida versioner utav firefox."
+   },
+   "updateLibrary": {
+      "message": "Det privata biblioteket finns inte längre då Firefox inte längre stödjer denna funktion. Dina böcker i det privata biblioteket finns fortfarande kvar. Om du vill exportera böckerna, var god och installera det nya Firefox tillägget"
+   },
+   "updateMemory": {
+      "message": "E-böcker öppnas nu i minnet från den plats där de är sparade. Det betyder att inget extra diskutrymme krävs och att böcker öppnas snabbare."
+   },
+   "updateSize": {
+      "message": "Du kan nu öppna e-böcker som är större än 250MB."
+   },
+   "updateSponsors": {
+      "message": "Dessa sponsorer gjorde den nya versionen möjlig"
+   },
+   "updateTitle": {
+      "message": "Ändringar i EPUBReader"
+   }
+}

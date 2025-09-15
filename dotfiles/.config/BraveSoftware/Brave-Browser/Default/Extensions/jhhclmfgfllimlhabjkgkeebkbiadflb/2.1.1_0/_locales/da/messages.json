@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "e-bogen kan ikke åbnes da serveren kræver et gyldigt login."
+   },
+   "errorDownloading": {
+      "message": "Desværre opstod en fejl ved download af e-bogen."
+   },
+   "errorEncrypted": {
+      "message": "Din e-bog er beskyttet med Digital Rights Management (DRM). Derfor kan den desværre ikke åbnes."
+   },
+   "errorErrorCode": {
+      "message": "e-bog kunne ikke åbnes. Serveren sendte følgende fejl:"
+   },
+   "errorInvalid": {
+      "message": "e-bogen er ufuldstændig, og kan derfor ikke åbnes."
+   },
+   "errorNotFound": {
+      "message": "Serveren kan ikke finde en e-bog på den angivne link."
+   },
+   "errorOther": {
+      "message": "Der opstod desværre en uventet fejl under åbning af e-bogen. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Denne fil er ikke en gyldig e-bogs fil."
+   },
+   "extensionDescription": {
+      "message": "Indlæs e-bogs filer direkte ind i browseren"
+   },
+   "hintBookmark": {
+      "message": "Bogmærke er blevet indstillet"
+   },
+   "hintDownloading": {
+      "message": "Henter e-bog..."
+   },
+   "hintFileaccess": {
+      "message": "Klik på nedenstående link og så på 'Tillad adgang til filens URL' for at åbne lokalt gemte e-bøger."
+   },
+   "hintSave": {
+      "message": "Klik i miden og så på 'Gem e-bog' for at gemme e-bogen."
+   },
+   "hintSetupFileaccess": {
+      "message": "Tillad fil adgang"
+   },
+   "hintStart": {
+      "message": "Start e-bogslæser"
+   },
+   "hintToolbar": {
+      "message": "Klik/Tap i midten for at åbne værktøjslinien, eller en anden e-bog."
+   },
+   "installDownload": {
+      "message": "Klik på en hjemmeside med et e-bogs download link. Bogen vil automatisk blive downloadet og åbnet."
+   },
+   "installFileExplorer": {
+      "message": "Dobbletklik på en e-bog i stifinderen."
+   },
+   "installMiddle": {
+      "message": "Hvis du allered har åbnet en e-bog. Så klik i midten for at vise værktøjslinien, og åbne en ny e-bog."
+   },
+   "installTitle": {
+      "message": "Flere måder at åbne e-bøger"
+   },
+   "installToolbar": {
+      "message": "Klik på e-bogslæserens knap i browserens værktøjslinie. Klik derefter på mappens knap i toppen."
+   },
+   "prefBkgColor": {
+      "message": "Baggrundsfarve"
+   },
+   "prefBook": {
+      "message": "Som defineret i bogen"
+   },
+   "prefColumnWidth": {
+      "message": "Kolonnebredde"
+   },
+   "prefFontColor": {
+      "message": "Skriftfarve"
+   },
+   "prefFontFace": {
+      "message": "Skriftfamilie"
+   },
+   "prefFontSize": {
+      "message": "Skriftstørrelse"
+   },
+   "prefFontsLoadSlower": {
+      "message": "E-bogen åbner langsomt"
+   },
+   "prefLineHeight": {
+      "message": "Linjehøjde"
+   },
+   "prefLoadFonts": {
+      "message": "Indlæs fontene"
+   },
+   "prefMarginLr": {
+      "message": "Margin"
+   },
+   "prefNo": {
+      "message": "Nej"
+   },
+   "prefReadingDir": {
+      "message": "Læseretning"
+   },
+   "prefReadingDirLtr": {
+      "message": "Fra venstre mod højre"
+   },
+   "prefReadingDirRtl": {
+      "message": "Fra højre mod venstre"
+   },
+   "prefReadingStyle": {
+      "message": "Læsestil"
+   },
+   "prefReadingStyleBook": {
+      "message": "Bog"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Hjemmeside"
+   },
+   "prefUser": {
+      "message": "Brugerdefineret"
+   },
+   "prefYes": {
+      "message": "Ja"
+   },
+   "tooltipBookmark": {
+      "message": "Tilføj bogmærke/D"
+   },
+   "tooltipFontLess": {
+      "message": "Formindsk skriftstørrelse/-"
+   },
+   "tooltipFontMore": {
+      "message": "Forøg skriftstørrelse/+"
+   },
+   "tooltipHelp": {
+      "message": "Hjælp"
+   },
+   "tooltipOpen": {
+      "message": "Åben e-bog"
+   },
+   "tooltipPref": {
+      "message": "Indstillinger"
+   },
+   "tooltipReadingStyle": {
+      "message": "Ændr læsestil"
+   },
+   "tooltipSave": {
+      "message": "Gem e-bog/S"
+   },
+   "tooltipToc": {
+      "message": "Indholdsfortegnelse/T"
+   },
+   "updateExport": {
+      "message": "Eksport vil kun virke op til Firefox vers. 56 (inklusiv)."
+   },
+   "updateIntro": {
+      "message": "Dette er den helt ny version af e-bogslæseren, som vil virke med den fremtidige Firefox."
+   },
+   "updateLibrary": {
+      "message": "Det private bibliotek findes ikke længere, da forskellige nødvendige funktioner ikke længere er tilstede i Firefox. Men dine ePub bøger findes stadig i det private bibliotek. Hvis du ønsker at eksportere dem, så installer den nye Firefox add-on"
+   },
+   "updateMemory": {
+      "message": "e-bøger åbnes nu i den del af hukommelsen hvor de er gemt. Resultatet er, at der ikke kræves ekstra plads på harddisken, og at e-bøgerne åbnes hurtigere."
+   },
+   "updateSize": {
+      "message": "Du kan nu åbne e-bøger som er større end 250 MB."
+   },
+   "updateSponsors": {
+      "message": "Disse sponsorer har gjort den nye version mulig"
+   },
+   "updateTitle": {
+      "message": "Ændringer til e-bogslæseren"
+   }
+}

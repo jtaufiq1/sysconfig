@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "E-boken kan ikke åpnes fordi tjenesten krever autentisering."
+   },
+   "errorDownloading": {
+      "message": "En feil oppstod under nedlasting av e-boken."
+   },
+   "errorEncrypted": {
+      "message": "E-boken er krypter med DRM og kan ikke åpnes."
+   },
+   "errorErrorCode": {
+      "message": "E-boken kan ikke åpnes fordi tjenesten sendte følgende feil kode:"
+   },
+   "errorInvalid": {
+      "message": "E-boken er ikke komplett og kan derfor ikke åpnes."
+   },
+   "errorNotFound": {
+      "message": "E-boken kan ikke åpnes fordi den finnes ikke på denne plassen på tjenesten."
+   },
+   "errorOther": {
+      "message": "En uventet feil oppstod ved åpningen av e-bok filen. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Dette er ikke en epub fil."
+   },
+   "extensionDescription": {
+      "message": "Les epub filer direkte i nettleseren"
+   },
+   "hintBookmark": {
+      "message": "Bokmerke har blitt satt"
+   },
+   "hintDownloading": {
+      "message": "Laster ned e-bok..."
+   },
+   "hintFileaccess": {
+      "message": "Klikk på lenken nedenfor og så på *Allow access to file URLs' for å åpne e-bøker lagret lokalt."
+   },
+   "hintSave": {
+      "message": "Klikk i midten og så på 'large e-bok' knappen for å large e-boken."
+   },
+   "hintSetupFileaccess": {
+      "message": "Opprett fil tilgang"
+   },
+   "hintStart": {
+      "message": "Start EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Klikk i midten for å åpne verktøy linjen eller en annen e-bok."
+   },
+   "installDownload": {
+      "message": "Klikk på en nettside på en link til en ebok.E-boken blir lastet ned og åpnes automatisk."
+   },
+   "installFileExplorer": {
+      "message": "Dobbel-klikk på en e-bok i fil utforskeren."
+   },
+   "installMiddle": {
+      "message": "Om du allerede har åpnet en e-bok, bare klikk i midten for å vise verktøy linjen og for å åpne en ny e-bok."
+   },
+   "installTitle": {
+      "message": "Ulike måte å åpne e-bøker"
+   },
+   "installToolbar": {
+      "message": "Kill på EPUBReader ikonet i nettleserens verktøy linje. Kill etterpå på katalog ikonet på toppen."
+   },
+   "prefBkgColor": {
+      "message": "Bakgrunns farge"
+   },
+   "prefBook": {
+      "message": "Slik som definert i boken"
+   },
+   "prefColumnWidth": {
+      "message": "Kolonnebredde"
+   },
+   "prefFontColor": {
+      "message": "Bokstav Farge"
+   },
+   "prefFontFace": {
+      "message": "Bokstav type"
+   },
+   "prefFontSize": {
+      "message": "Bokstav Størrelse"
+   },
+   "prefFontsLoadSlower": {
+      "message": "e-bøker lastes tregere"
+   },
+   "prefLineHeight": {
+      "message": "Linje høyde"
+   },
+   "prefLoadFonts": {
+      "message": "Last bokstav typer"
+   },
+   "prefMarginLr": {
+      "message": "Marg"
+   },
+   "prefNo": {
+      "message": "Nei"
+   },
+   "prefReadingDir": {
+      "message": "Lese rettning"
+   },
+   "prefReadingDirLtr": {
+      "message": "Venstre til Høyre"
+   },
+   "prefReadingDirRtl": {
+      "message": "Høyre til venstre"
+   },
+   "prefReadingStyle": {
+      "message": "Lese stil"
+   },
+   "prefReadingStyleBook": {
+      "message": "Bok"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Netside"
+   },
+   "prefUser": {
+      "message": "Bruker definert"
+   },
+   "prefYes": {
+      "message": "Ja"
+   },
+   "tooltipBookmark": {
+      "message": "Sett bokmerke/D"
+   },
+   "tooltipFontLess": {
+      "message": "Øk bokstav størrelse/-"
+   },
+   "tooltipFontMore": {
+      "message": "Forminske bokstav størrelse/+"
+   },
+   "tooltipHelp": {
+      "message": "Hjelp"
+   },
+   "tooltipOpen": {
+      "message": "Åpne e-bok"
+   },
+   "tooltipPref": {
+      "message": "Instillinger"
+   },
+   "tooltipReadingStyle": {
+      "message": "Endre lese stil"
+   },
+   "tooltipSave": {
+      "message": "Large e-bok/S"
+   },
+   "tooltipToc": {
+      "message": "Innholdsfortegnelse/T"
+   },
+   "updateExport": {
+      "message": "eksportering virker bare opp til og med Firefox versjon 56."
+   },
+   "updateIntro": {
+      "message": "Dette er en helt ny versjon av EPUBReader som skal virke med nye versjoner av Firefox."
+   },
+   "updateLibrary": {
+      "message": "Det private biblioteket eksisterer ikke lengre ettersom de nødvendige funksjonene mangler fra Firefox. Men dine ebøker i det provate bibilioteket eksistere fortsatt. Dersom du ønsker å eksportere dem installere den nye Firefox Add-on"
+   },
+   "updateMemory": {
+      "message": "E-bøker åpnes i minne fra der de er larget. Dette resulterer i redusert minne konsum og en raskere fil åpning."
+   },
+   "updateSize": {
+      "message": "e-bøker større enn 250 MB kan nå åpnes."
+   },
+   "updateSponsors": {
+      "message": "Disse sponsorene gjorde denne nye versjonen mulig"
+   },
+   "updateTitle": {
+      "message": "EPUBReader endringer"
+   }
+}

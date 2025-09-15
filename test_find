@@ -1,0 +1,10 @@
+for file in /{,usr/}bin/*cal
+#		find all executables ending with calc in
+#*		/usr/bin or /bin
+
+do
+	if [ -x $file ]
+	then
+	    echo "$file"
+	fi
+done

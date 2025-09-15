@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "editor.minimap.autohide": true,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "issueReporter.experimental.auxWindow": false
+}

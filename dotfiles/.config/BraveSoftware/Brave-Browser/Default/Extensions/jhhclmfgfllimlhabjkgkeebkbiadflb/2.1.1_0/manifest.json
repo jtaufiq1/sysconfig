@@ -1,0 +1,43 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "skin/icon_128.png",
+         "16": "skin/icon_16.png",
+         "32": "skin/icon_32.png",
+         "48": "skin/icon_48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "EPUBReader"
+   },
+   "author": "Michael Volz",
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset_1",
+         "path": "rules.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "homepage_url": "http://www.epubread.com/",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "skin/icon_128.png",
+      "16": "skin/icon_16.png",
+      "32": "skin/icon_32.png",
+      "48": "skin/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3o9ScD0j2xvfLvANR3slyC/4/ke0tsO8+Y77gVy/0wSkGNeZ7zgnbe6x6PGvbqCwx2NI+DMg5VARefueK/tckSxANWboPrK0wEO9AhIzGBfK5n33Bvfi5TiBYTYyDmWD8UiTfrCHqaRyrim6GQH1QdPzNltViGkfX85YKFvWNe7Ku1p8kIrJY3ZKwSFpDOgK+lAN9wsOHNzfA04ee+xFvustHvMfmRoaFdQfe0+kGhqJ5HMlKnGJLUPj0wl8aoJ5YM7NQfP/C4t0jRELOdn3tysTQELF2bBzTtHBtFX1Riv8Mvje1DTsapReKSaYHNYY3KF2oeqShlwRU0HtVe0LZQIDAQAB",
+   "manifest_version": 3,
+   "name": "EPUBReader",
+   "permissions": [ "declarativeNetRequest", "downloads", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "reader.html" ]
+   } ]
+}

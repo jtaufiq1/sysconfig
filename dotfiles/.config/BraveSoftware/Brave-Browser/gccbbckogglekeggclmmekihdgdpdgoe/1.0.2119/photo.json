@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "ac4e6398-2491-494e-bfa2-906135cd4b25",
+      "logo": {
+        "imageUrl": "7873c5d8-85e3-456d-b73a-76f735f8e256/ae64575e-e977-4e34-9c1d-e6881bcb0972.png",
+        "destinationUrl": "https://edenonline.ubisoft.com/game?utm_source=brave&utm_medium=takeover&utm_campaign=leg",
+        "alt": "Ubisoft - Capitan Laserhawk the Game - Discover Ubisoft's most unhinged game! - Play Now",
+        "companyName": "Ubisoft"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "7873c5d8-85e3-456d-b73a-76f735f8e256/152a1d11-cd0c-4104-9a93-b7aa45d87820.jpg",
+          "creativeInstanceId": "0d50adf5-9a09-4a85-88e7-60736965fb59",
+          "focalPoint": {
+            "x": 1204,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "8c33196f-2699-4efc-83f1-2f70a109a426/4cf8b4db-f26a-4a93-bdbe-9cc17dbb4531.jpg",
+          "creativeInstanceId": "7e738d08-3655-4bbf-903c-12564690590e",
+          "focalPoint": {
+            "x": 1225,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "8c33196f-2699-4efc-83f1-2f70a109a426/ae64575e-e977-4e34-9c1d-e6881bcb0972.png",
+            "destinationUrl": "https://edenonline.ubisoft.com/game?utm_source=brave&utm_medium=takeover&utm_campaign=nofuturerayman",
+            "alt": "Ubisoft - Capitan Laserhawk the Game - Discover Ubisoft's most unhinged game! - Play Now",
+            "companyName": "Ubisoft"
+          }
+        },
+        {
+          "imageUrl": "b0ba45df-c4ce-4e5d-b174-a84bbd655029/b0a3be24-0d66-44f6-b459-ec9fc04a0806.jpg",
+          "creativeInstanceId": "ead2f0e9-1497-4948-8bec-110975550175",
+          "focalPoint": {
+            "x": 1300,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "b0ba45df-c4ce-4e5d-b174-a84bbd655029/56429edc-7b05-4c4c-b36d-7c50ccc9b545.png",
+            "destinationUrl": "https://dedsec.edenonline.xyz/brave",
+            "alt": "Ubisoft - Hack into Ubisoft's most WTF game - Play Now",
+            "companyName": "Ubisoft"
+          }
+        },
+        {
+          "imageUrl": "bcd24473-8a21-4409-80b3-438c9b06143f/233be3da-dd4a-4376-8c1f-989f91bff037.jpg",
+          "creativeInstanceId": "58a6cdfc-29b1-4c2d-8382-32ad3bf6356a",
+          "focalPoint": {
+            "x": 1064,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "bcd24473-8a21-4409-80b3-438c9b06143f/ae64575e-e977-4e34-9c1d-e6881bcb0972.png",
+            "destinationUrl": "https://edenonline.ubisoft.com/game?utm_source=brave&utm_medium=takeover&utm_campaign=nofuturedolph",
+            "alt": "Ubisoft - Capitan Laserhawk the Game - Discover Ubisoft's most unhinged game! - Play Now",
+            "companyName": "Ubisoft"
+          }
+        }
+      ]
+    },
+    {
+      "campaignId": "2cf5dc43-bd1a-4550-b896-d497a3594aa9",
+      "logo": {
+        "imageUrl": "2a6a3a8e-3ce6-4a4c-a702-c14e26a55eaa/ec336361-2a85-45f3-ac77-882191d3fa8c.png",
+        "destinationUrl": "https://brave.com/wallet/#zcash",
+        "alt": "ZCash in Brave Wallet - Spend Unstoppable private money. Get Started",
+        "companyName": "ZCash"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "2a6a3a8e-3ce6-4a4c-a702-c14e26a55eaa/3167ef6d-6286-4c12-a003-04cd3315b702.jpg",
+          "creativeInstanceId": "8925d109-e285-452f-92b5-d17c473ad166",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "ac4e6398-2491-494e-bfa2-906135cd4b25",
+      "logo": {
+        "imageUrl": "7873c5d8-85e3-456d-b73a-76f735f8e256/ae64575e-e977-4e34-9c1d-e6881bcb0972.png",
+        "destinationUrl": "https://edenonline.ubisoft.com/game?utm_source=brave&utm_medium=takeover&utm_campaign=leg",
+        "alt": "Ubisoft - Capitan Laserhawk the Game - Discover Ubisoft's most unhinged game! - Play Now",
+        "companyName": "Ubisoft"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "7873c5d8-85e3-456d-b73a-76f735f8e256/152a1d11-cd0c-4104-9a93-b7aa45d87820.jpg",
+          "creativeInstanceId": "0d50adf5-9a09-4a85-88e7-60736965fb59",
+          "focalPoint": {
+            "x": 1204,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "8c33196f-2699-4efc-83f1-2f70a109a426/4cf8b4db-f26a-4a93-bdbe-9cc17dbb4531.jpg",
+          "creativeInstanceId": "7e738d08-3655-4bbf-903c-12564690590e",
+          "focalPoint": {
+            "x": 1225,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "8c33196f-2699-4efc-83f1-2f70a109a426/ae64575e-e977-4e34-9c1d-e6881bcb0972.png",
+            "destinationUrl": "https://edenonline.ubisoft.com/game?utm_source=brave&utm_medium=takeover&utm_campaign=nofuturerayman",
+            "alt": "Ubisoft - Capitan Laserhawk the Game - Discover Ubisoft's most unhinged game! - Play Now",
+            "companyName": "Ubisoft"
+          }
+        },
+        {
+          "imageUrl": "b0ba45df-c4ce-4e5d-b174-a84bbd655029/b0a3be24-0d66-44f6-b459-ec9fc04a0806.jpg",
+          "creativeInstanceId": "ead2f0e9-1497-4948-8bec-110975550175",
+          "focalPoint": {
+            "x": 1300,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "b0ba45df-c4ce-4e5d-b174-a84bbd655029/56429edc-7b05-4c4c-b36d-7c50ccc9b545.png",
+            "destinationUrl": "https://dedsec.edenonline.xyz/brave",
+            "alt": "Ubisoft - Hack into Ubisoft's most WTF game - Play Now",
+            "companyName": "Ubisoft"
+          }
+        },
+        {
+          "imageUrl": "bcd24473-8a21-4409-80b3-438c9b06143f/233be3da-dd4a-4376-8c1f-989f91bff037.jpg",
+          "creativeInstanceId": "58a6cdfc-29b1-4c2d-8382-32ad3bf6356a",
+          "focalPoint": {
+            "x": 1064,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "bcd24473-8a21-4409-80b3-438c9b06143f/ae64575e-e977-4e34-9c1d-e6881bcb0972.png",
+            "destinationUrl": "https://edenonline.ubisoft.com/game?utm_source=brave&utm_medium=takeover&utm_campaign=nofuturedolph",
+            "alt": "Ubisoft - Capitan Laserhawk the Game - Discover Ubisoft's most unhinged game! - Play Now",
+            "companyName": "Ubisoft"
+          }
+        }
+      ]
+    },
+    {
+      "campaignId": "2cf5dc43-bd1a-4550-b896-d497a3594aa9",
+      "logo": {
+        "imageUrl": "2a6a3a8e-3ce6-4a4c-a702-c14e26a55eaa/ec336361-2a85-45f3-ac77-882191d3fa8c.png",
+        "destinationUrl": "https://brave.com/wallet/#zcash",
+        "alt": "ZCash in Brave Wallet - Spend Unstoppable private money. Get Started",
+        "companyName": "ZCash"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "2a6a3a8e-3ce6-4a4c-a702-c14e26a55eaa/3167ef6d-6286-4c12-a003-04cd3315b702.jpg",
+          "creativeInstanceId": "8925d109-e285-452f-92b5-d17c473ad166",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}

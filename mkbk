@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Create Local Backup of File(s) in a directory
+FIND="$(find ./ -type f | sed s:^./::g)"
+
+function backup()
+{
+	for i in $FIND; do
+		ORIG=$i
+		DEST=$i.old
+		cp $ORIG $DEST
+		cp $DEST $DEST.bk
+		echo "Copied $i"
+	done
+}
+
+function del_backup()
+{
+	for backup in $FIND;
+	do
+		if [ -e $backup.old ] || [  -e $backup.bk ]
+		then
+			echo "Deleting $backup.old"
+			# rm -r $backup.old || rm -r $backup.bk
+		fi
+	done
+	echo "Done"
+}
+
+if [ $1 == "-b" ]; then
+       	echo "Backing Up" && backup
+elif [ $1 == "-r" ]; then
+	echo "Removing Backup" && del_backup
+else
+	echo -e $"Usage:\t$0 [-b | -r]"
+fi

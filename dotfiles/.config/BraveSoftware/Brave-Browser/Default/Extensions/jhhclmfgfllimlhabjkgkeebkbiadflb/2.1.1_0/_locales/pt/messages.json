@@ -1,0 +1,176 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "O seu livro ePub não pôde ser aberto, porque o servidor requer uma autenticação."
+   },
+   "errorDownloading": {
+      "message": "Infelizmente ocorreu um erro durante o descarregamento do ebook."
+   },
+   "errorEncrypted": {
+      "message": "Este ebook está protegido por um Sistema de Gestão de Direitos de Autor (DRM) e infelizmente não poderá ser aberto."
+   },
+   "errorErrorCode": {
+      "message": "O seu ficheiro ePub não pôde ser aberto, porque o servidor enviou o seguinte código de erro:"
+   },
+   "errorInvalid": {
+      "message": "O ficheiro epub está incompleto e não pode ser aberto."
+   },
+   "errorNotFound": {
+      "message": "O seu livro ePub não pôde ser aberto, porque não existe no servidor na localização indicada."
+   },
+   "errorOther": {
+      "message": "Infelizmente ocorreu um erro durante a abertura do seu ficheiro ePub. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "O ficheiro não é um ficheiro epub válido."
+   },
+   "extensionDescription": {
+      "message": "Ler ficheiros epub directamente no browser"
+   },
+   "hintBookmark": {
+      "message": "Marcador adicionado"
+   },
+   "hintDownloading": {
+      "message": "Descarregando eBook..."
+   },
+   "hintFileaccess": {
+      "message": "Clicar no link abaixo e depois em 'Permitir acesso a URLs de ficheiro' para abrir ebooks armazenados localmente."
+   },
+   "hintSave": {
+      "message": "Clique no centro e depois no botão 'Guardar ebook' para guardar o ebook."
+   },
+   "hintSetupFileaccess": {
+      "message": "Configurar acesso a ficheiros"
+   },
+   "hintStart": {
+      "message": "Iniciar EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Clicar no centro para abrir a barra de ferramentas ou outro ebook."
+   },
+   "installDownload": {
+      "message": "Clique num website num link de download de um ebook. O ebook é descarregado e depois aberto automaticamente."
+   },
+   "installFileExplorer": {
+      "message": "Faça duplo clique num ebook no explorador de ficheiros."
+   },
+   "installMiddle": {
+      "message": "Se já tiver aberto um ebook, simplesmente clique no centro para mostrar a barra de ferramentas e abrir um novo ebook."
+   },
+   "installTitle": {
+      "message": "Várias maneiras de abrir ebooks"
+   },
+   "installToolbar": {
+      "message": "Clique no botão do EPUBReader na barra de ferramentas do browser. Clique de seguida no botão de ficheiro em cima."
+   },
+   "prefBkgColor": {
+      "message": "Cor de fundo"
+   },
+   "prefBook": {
+      "message": "Como definido no livro"
+   },
+   "prefColumnWidth": {
+      "message": "Largura da coluna"
+   },
+   "prefFontColor": {
+      "message": "Cor do texto"
+   },
+   "prefFontFace": {
+      "message": "Tipo de letra"
+   },
+   "prefFontSize": {
+      "message": "Tamanho de letra"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Ebooks abrem mais lentamente"
+   },
+   "prefLineHeight": {
+      "message": "Altura de linha"
+   },
+   "prefLoadFonts": {
+      "message": "Carregar tipos de letra"
+   },
+   "prefMarginLr": {
+      "message": "Largura das margens"
+   },
+   "prefNo": {
+      "message": "Não"
+   },
+   "prefReadingDir": {
+      "message": "Sentido de leitura"
+   },
+   "prefReadingDirLtr": {
+      "message": "Da esquerda para a direita"
+   },
+   "prefReadingDirRtl": {
+      "message": "Da direita para a esquerda"
+   },
+   "prefReadingStyle": {
+      "message": "Estilo de leitura"
+   },
+   "prefReadingStyleBook": {
+      "message": "Livro"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Website"
+   },
+   "prefUser": {
+      "message": "Definido pelo utilizador"
+   },
+   "prefYes": {
+      "message": "Sim"
+   },
+   "tooltipBookmark": {
+      "message": "Adicionar marcador/D"
+   },
+   "tooltipDonate": {
+      "message": "Apoie o EPUBReader!"
+   },
+   "tooltipFontLess": {
+      "message": "Diminuir tamanho de letra/-"
+   },
+   "tooltipFontMore": {
+      "message": "Aumentar tamanho de letra/+"
+   },
+   "tooltipHelp": {
+      "message": "Ajuda"
+   },
+   "tooltipOpen": {
+      "message": "Abrir ebook"
+   },
+   "tooltipPref": {
+      "message": "Preferências"
+   },
+   "tooltipReadingStyle": {
+      "message": "Mudar estilo de leitura"
+   },
+   "tooltipSave": {
+      "message": "Guardar ebook/S"
+   },
+   "tooltipToc": {
+      "message": "Tabela de Conteúdos/T"
+   },
+   "updateExport": {
+      "message": "Exportar só funcionará até ao Firefox 56 (inclusive)."
+   },
+   "updateIntro": {
+      "message": "Esta é a versão completamente nova do EPUBReader que vai funcionar com o futuro Firefox."
+   },
+   "updateLibrary": {
+      "message": "A biblioteca privada já não existe devido às funções necessárias estarem em falta no Firefox. Mas os seus livros na biblioteca privada ainda existem. Se quiser exportá-los, por favor instale o novo Add-on Firefox"
+   },
+   "updateMemory": {
+      "message": "Os ebooks são agora abertos em memória no local onde estão armazenados. O resultado é que não é necessário espaço extra no disco e os ebooks abrem mais rápido."
+   },
+   "updateSize": {
+      "message": "Pode agora abrir ebooks maiores que 250MB."
+   },
+   "updateSponsors": {
+      "message": "Estes patrocinadores tornaram possível a nova versão"
+   },
+   "updateTitle": {
+      "message": "Mudanças ao EPUBReader"
+   }
+}

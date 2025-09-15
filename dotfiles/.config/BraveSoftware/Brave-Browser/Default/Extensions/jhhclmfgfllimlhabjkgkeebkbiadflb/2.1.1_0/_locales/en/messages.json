@@ -1,0 +1,185 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Your ebook can't be opened, because the server requests an authentication."
+   },
+   "errorDownloading": {
+      "message": "Unfortunately an error occurred downloading the ebook."
+   },
+   "errorEncrypted": {
+      "message": "The ebook is encrypted by DRM and can unfortunately not be opened."
+   },
+   "errorErrorCode": {
+      "message": "Your ebook couldn't be opened, because the server sent the following error code:"
+   },
+   "errorInvalid": {
+      "message": "The ebook is incomplete and can unfortunately not be opened."
+   },
+   "errorNotFound": {
+      "message": "Your ebook can't be opened, because it doesn't exist on the server at this location."
+   },
+   "errorOther": {
+      "message": "Unfortunately an unexpected error occurred opening the ebook. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "The file is not a valid epub file."
+   },
+   "extensionDescription": {
+      "message": "Read epub files directly in the browser"
+   },
+   "hintBookmark": {
+      "message": "Bookmark has been set"
+   },
+   "hintDownloading": {
+      "message": "Downloading eBook..."
+   },
+   "hintFileaccess": {
+      "message": "Click on the link below and then on 'Allow access to file URLs' to open locally stored ebooks."
+   },
+   "hintSave": {
+      "message": "Click in the middle and then on the 'Save ebook' button to save the ebook."
+   },
+   "hintSaveDownloadOnly": {
+      "message": "Unfortunately, saving only works for ebooks opened directly from websites."
+   },
+   "hintSavedError": {
+      "message": "Unfortunately, your ebook couldn't be saved. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "hintSavedSuccess": {
+      "message": "Ebook has been saved to the download folder."
+   },
+   "hintSetupFileaccess": {
+      "message": "Setup file access"
+   },
+   "hintStart": {
+      "message": "Start EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Click/Tap in the middle to open the toolbar or another ebook."
+   },
+   "installDownload": {
+      "message": "Click on a website on an ebook download link. The ebook is downloaded and opened automatically afterwards."
+   },
+   "installFileExplorer": {
+      "message": "Double-click on an ebook in the file explorer."
+   },
+   "installMiddle": {
+      "message": "If you have already opened an ebook, just click in the middle to show the toolbar and to open a new ebook."
+   },
+   "installTitle": {
+      "message": "Several ways to open ebooks"
+   },
+   "installToolbar": {
+      "message": "Click on the EPUBReader button in the browser toolbar. Click afterwards on the folder button on the top."
+   },
+   "prefBkgColor": {
+      "message": "Background color"
+   },
+   "prefBook": {
+      "message": "As defined in book"
+   },
+   "prefColumnWidth": {
+      "message": "Column width"
+   },
+   "prefFontColor": {
+      "message": "Font color"
+   },
+   "prefFontFace": {
+      "message": "Font"
+   },
+   "prefFontSize": {
+      "message": "Font size"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Ebooks open slower"
+   },
+   "prefLineHeight": {
+      "message": "Line height"
+   },
+   "prefLoadFonts": {
+      "message": "Load fonts"
+   },
+   "prefMarginLr": {
+      "message": "Margin width"
+   },
+   "prefNo": {
+      "message": "No"
+   },
+   "prefReadingDir": {
+      "message": "Reading direction"
+   },
+   "prefReadingDirLtr": {
+      "message": "Left to Right"
+   },
+   "prefReadingDirRtl": {
+      "message": "Right to Left"
+   },
+   "prefReadingStyle": {
+      "message": "Reading style"
+   },
+   "prefReadingStyleBook": {
+      "message": "Book"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Website"
+   },
+   "prefUser": {
+      "message": "User defined"
+   },
+   "prefYes": {
+      "message": "Yes"
+   },
+   "tooltipBookmark": {
+      "message": "Set bookmark/D"
+   },
+   "tooltipDonate": {
+      "message": "Support EPUBReader!"
+   },
+   "tooltipFontLess": {
+      "message": "Decrease font size/-"
+   },
+   "tooltipFontMore": {
+      "message": "Increase font size/+"
+   },
+   "tooltipHelp": {
+      "message": "Help"
+   },
+   "tooltipOpen": {
+      "message": "Open ebook"
+   },
+   "tooltipPref": {
+      "message": "Preferences"
+   },
+   "tooltipReadingStyle": {
+      "message": "Change reading style"
+   },
+   "tooltipSave": {
+      "message": "Save ebook/S"
+   },
+   "tooltipToc": {
+      "message": "Table of contents/T"
+   },
+   "updateExport": {
+      "message": "Exporting will only work up to Firefox 56 (including)."
+   },
+   "updateIntro": {
+      "message": "This is the completely new EPUBReader version which will work with future Firefox."
+   },
+   "updateLibrary": {
+      "message": "The private library no longer exists as needed functions are missing in Firefox. But your ebooks in the private library still exist. If you want to export them, please install the new Firefox Add-on"
+   },
+   "updateMemory": {
+      "message": "Ebooks are now opened in memory at the location where they are stored. The result is, that no extra disk space is required and ebooks open faster."
+   },
+   "updateSize": {
+      "message": "You can now open ebooks which are larger than 250MB."
+   },
+   "updateSponsors": {
+      "message": "These sponsors made the new version possible"
+   },
+   "updateTitle": {
+      "message": "EPUBReader Changes"
+   }
+}

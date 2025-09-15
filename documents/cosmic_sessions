@@ -1,0 +1,28 @@
+ greetd --config /etc/greetd/cosmic-greeter.toml
+ /usr/bin/cosmic-session
+ cosmic-comp
+ cosmic-settings-daemon
+ cosmic-notifications
+ cosmic-panel
+ cosmic-app-library
+ cosmic-launcher
+ cosmic-workspaces
+ cosmic-osd
+ cosmic-bg
+ cosmic-greeter
+ cosmic-files-applet
+ cosmic-idle
+ /usr/libexec/xdg-desktop-portal-cosmic
+ cosmic-applet-audio
+ cosmic-applet-battery
+ cosmic-applet-bluetooth
+ /usr/lib/pop-launcher/plugins/cosmic_toplevel/cosmic-toplevel
+ cosmic-applet-network
+ cosmic-applet-notifications
+ cosmic-applet-power
+ cosmic-applet-status-area
+ cosmic-applet-tiling
+ cosmic-applet-time
+ cosmic-applet-workspaces
+ cosmic-app-list
+ cosmic-panel-button com.system.CosmicAppLibrary

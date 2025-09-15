@@ -1,0 +1,57 @@
+# first sed attr - substitute : sed 's/old/new/
+
+# delimeters \ _ : |
+
+sed 's/\/old\/name/\/new\/name/' <oldfile >newfile
+
+sed 's|/old/name|/new/name|' <oldfile >newfile
+
+sed 's:/old/name:/new/name:' <oldfile >newfile
+
+sed 's_/old/name_/new/name_' <oldfile >newfile
+
+# Using (&) matched string
+
+sed 's/[a-z]*/(&)/' <old >new
+
+# regex && Eregex 
+sed -r 's/[a-z]+/& &/'
+
+Sed has several commands but the most frequently used command is the substitute: 's/old/new/'
+
+
+using delimeters
+
+sed 's/\/old\/name/\/new\/name/' <oldfile >newfile
+sed 's:/old/name:/new/name:' < oldfile >newfile
+sed 's_/old/name:/new/name:' <oldfile >newfile
+sed 's|/old/name|/new/name|' <olfile >newfile
+
+/usr/local/bin
+\n\nGit Commit Test\n\n git commit -a -m 'commit message' [some files] [etc]
+Sed has several commands but the most frequently used command is the substitute: 's/old/new/'
+
+
+/usr/sbin/new
+Sed has several commands but the most frequently used command is the substitute: 's/old/new/'
+
+
+using delimeters
+
+sed 's/\/old\/name/\/new\/name/' <oldfile >newfile
+sed 's:(/old/name):/new/name:' < oldfile >newfile
+sed 's_(/old/name):/new/name:' <oldfile >newfile
+sed 's|(/old/name)|/new/name|' <olfile >newfile
+
+/usr/local/bin
+Sed has several commands but the most frequently used command is the substitute: 's/old/new/'
+
+
+using delimeters
+
+sed 's/\/old\/name/\/new\/name/' <oldfile >newfile
+sed 's:/old/name:/new/name:' < oldfile >newfile
+sed 's_/old/name:/new/name:' <oldfile >newfile
+sed 's|/old/name|/new/name|' <olfile >newfile
+
+(/usr/local/bin)

@@ -1,0 +1,602 @@
+# Rust Systems Programming: In-Depth Foundation with Real-World Examples
+
+Let me walk you through the core systems programming concepts in Rust with practical explanations and examples you can apply to real problems.
+
+## 1. Memory Management: Ownership and Borrowing
+
+### Core Concept
+Rust's most revolutionary feature is its ownership system that provides memory safety without garbage collection.
+
+### How It Really Works
+
+```rust
+fn main() {
+    // OWNERSHIP
+    let s1 = String::from("hello"); // s1 owns this heap data
+    let s2 = s1;                    // Ownership transfers to s2
+    // println!("{}", s1);          // This would cause a compile error!
+    
+    // BORROWING
+    let s3 = String::from("world");
+    print_string(&s3);              // s3 is borrowed temporarily
+    println!("I can still use {}", s3); // s3 is still valid here
+    
+    // MUTABLE BORROWING
+    let mut s4 = String::from("hello");
+    add_world(&mut s4);             // Mutably borrow s4
+    println!("Modified: {}", s4);   // Prints "hello world"
+}
+
+fn print_string(s: &String) {
+    println!("{}", s);
+}
+
+fn add_world(s: &mut String) {
+    s.push_str(" world");
+}
+```
+
+### Real-World Application: File Processing System
+```rust
+// A real-world file processor that handles different file types
+struct Document {
+    content: String,
+    filename: String,
+}
+
+impl Document {
+    fn new(filename: &str) -> Result<Document, std::io::Error> {
+        let content = std::fs::read_to_string(filename)?;
+        Ok(Document {
+            content,
+            filename: filename.to_string(),
+        })
+    }
+    
+    fn word_count(&self) -> usize {
+        self.content.split_whitespace().count()
+    }
+}
+
+fn process_documents(filenames: &[&str]) -> Vec<Document> {
+    let mut documents = Vec::new();
+    
+    for &filename in filenames {
+        match Document::new(filename) {
+            Ok(doc) => {
+                println!("Processed {}: {} words", filename, doc.word_count());
+                documents.push(doc);
+            }
+            Err(e) => println!("Error processing {}: {}", filename, e),
+        }
+    }
+    
+    documents
+}
+```
+
+### Why This Matters
+In traditional systems programming (C/C++), you'd need to manually track who owns memory and when to free it. In Rust:
+- Each value has exactly one owner
+- When the owner goes out of scope, the value is dropped automatically
+- You can borrow references to values without taking ownership
+- The compiler guarantees no dangling pointers or double-frees
+
+## 2. Type System and Error Handling
+
+### Core Concept
+Rust's type system helps catch errors at compile time that would be runtime errors in other languages.
+
+### How It Really Works
+
+```rust
+// Enums for representing variants
+enum ConnectionState {
+    Connected(String),  // IP address
+    Disconnected,
+    Connecting(u32),    // Attempt number
+}
+
+// Pattern matching to safely handle all possible states
+fn describe_connection(state: &ConnectionState) -> String {
+    match state {
+        ConnectionState::Connected(ip) => format!("Connected to {}", ip),
+        ConnectionState::Disconnected => String::from("Not connected"),
+        ConnectionState::Connecting(attempt) => {
+            format!("Connecting... (attempt {})", attempt)
+        }
+    }
+}
+
+// Result type for error handling
+fn divide(a: i32, b: i32) -> Result<i32, String> {
+    if b == 0 {
+        Err(String::from("Cannot divide by zero"))
+    } else {
+        Ok(a / b)
+    }
+}
+```
+
+### Real-World Application: Network Configuration Tool
+```rust
+enum NetworkError {
+    InvalidIP(String),
+    ConnectionFailed(String),
+    Timeout,
+    PermissionDenied,
+}
+
+struct NetworkConfig {
+    ip_address: String,
+    subnet_mask: String,
+    gateway: Option<String>,  // Optional field
+}
+
+impl NetworkConfig {
+    fn new(ip: &str, subnet: &str) -> Result<NetworkConfig, NetworkError> {
+        // Validate IP address (simplified)
+        if !ip.contains('.') || ip.split('.').count() != 4 {
+            return Err(NetworkError::InvalidIP(ip.to_string()));
+        }
+        
+        Ok(NetworkConfig {
+            ip_address: ip.to_string(),
+            subnet_mask: subnet.to_string(),
+            gateway: None,
+        })
+    }
+    
+    fn with_gateway(mut self, gateway: &str) -> Self {
+        self.gateway = Some(gateway.to_string());
+        self
+    }
+    
+    fn apply(&self) -> Result<(), NetworkError> {
+        println!("Configuring network with IP: {}", self.ip_address);
+        println!("Subnet mask: {}", self.subnet_mask);
+        
+        if let Some(ref gateway) = self.gateway {
+            println!("Gateway: {}", gateway);
+        }
+        
+        // Simulate network configuration
+        if self.ip_address == "192.168.1.1" {
+            Err(NetworkError::PermissionDenied)
+        } else {
+            Ok(())
+        }
+    }
+}
+
+fn main() {
+    let config_result = NetworkConfig::new("192.168.0.100", "255.255.255.0")
+        .map(|config| config.with_gateway("192.168.0.1"));
+    
+    match config_result {
+        Ok(config) => {
+            match config.apply() {
+                Ok(()) => println!("Network configured successfully"),
+                Err(NetworkError::PermissionDenied) => {
+                    println!("Error: You don't have permission to change network settings")
+                },
+                Err(e) => println!("Configuration error: {:?}", e),
+            }
+        },
+        Err(NetworkError::InvalidIP(ip)) => {
+            println!("Invalid IP address: {}", ip)
+        },
+        Err(e) => println!("Configuration creation error: {:?}", e),
+    }
+}
+```
+
+### Why This Matters
+- Rust's enums and pattern matching ensure you handle all possible states
+- The `Result` and `Option` types force explicit handling of errors and null values
+- The compiler ensures you don't forget to handle any possible case
+
+## 3. Concurrency and Parallelism
+
+### Core Concept
+Rust provides tools for concurrent programming that prevent data races at compile time.
+
+### How It Really Works
+
+```rust
+use std::thread;
+use std::sync::{Arc, Mutex};
+
+fn main() {
+    // Shared data protected by a mutex
+    let counter = Arc::new(Mutex::new(0));
+    let mut handles = vec![];
+    
+    for _ in 0..10 {
+        let counter_clone = Arc::clone(&counter);
+        
+        // Spawn a thread
+        let handle = thread::spawn(move || {
+            // Lock the mutex to safely modify the data
+            let mut num = counter_clone.lock().unwrap();
+            *num += 1;
+            // Lock is automatically released when `num` goes out of scope
+        });
+        
+        handles.push(handle);
+    }
+    
+    // Wait for all threads to complete
+    for handle in handles {
+        handle.join().unwrap();
+    }
+    
+    println!("Final count: {}", *counter.lock().unwrap());
+}
+```
+
+### Real-World Application: Web Server Request Counter
+
+```rust
+use std::sync::{Arc, Mutex};
+use std::thread;
+use std::time::Duration;
+
+// A simplified statistics tracker for a web server
+struct ServerStats {
+    requests: Mutex<u64>,
+    errors: Mutex<u64>,
+    active_connections: Mutex<u32>,
+}
+
+impl ServerStats {
+    fn new() -> Self {
+        ServerStats {
+            requests: Mutex::new(0),
+            errors: Mutex::new(0),
+            active_connections: Mutex::new(0),
+        }
+    }
+    
+    fn increment_requests(&self) {
+        let mut count = self.requests.lock().unwrap();
+        *count += 1;
+    }
+    
+    fn increment_errors(&self) {
+        let mut count = self.errors.lock().unwrap();
+        *count += 1;
+    }
+    
+    fn connection_started(&self) {
+        let mut count = self.active_connections.lock().unwrap();
+        *count += 1;
+    }
+    
+    fn connection_ended(&self) {
+        let mut count = self.active_connections.lock().unwrap();
+        *count -= 1;
+    }
+    
+    fn print_stats(&self) {
+        let requests = *self.requests.lock().unwrap();
+        let errors = *self.errors.lock().unwrap();
+        let connections = *self.active_connections.lock().unwrap();
+        
+        println!("Server Stats:");
+        println!("  Total Requests: {}", requests);
+        println!("  Error Count: {}", errors);
+        println!("  Active Connections: {}", connections);
+    }
+}
+
+fn simulate_request(stats: &Arc<ServerStats>, id: u32, will_error: bool) {
+    stats.connection_started();
+    println!("Request {} started", id);
+    
+    stats.increment_requests();
+    
+    // Simulate processing time
+    thread::sleep(Duration::from_millis(100 + (id as u64 * 10) % 400));
+    
+    if will_error {
+        stats.increment_errors();
+        println!("Request {} failed", id);
+    } else {
+        println!("Request {} completed successfully", id);
+    }
+    
+    stats.connection_ended();
+}
+
+fn main() {
+    let stats = Arc::new(ServerStats::new());
+    let mut handles = vec![];
+    
+    // Simulate 25 concurrent requests
+    for i in 0..25 {
+        let stats_clone = Arc::clone(&stats);
+        let will_error = i % 5 == 0;  // Every 5th request fails
+        
+        let handle = thread::spawn(move || {
+            simulate_request(&stats_clone, i, will_error);
+        });
+        
+        handles.push(handle);
+        
+        // Stagger request starts slightly
+        thread::sleep(Duration::from_millis(20));
+    }
+    
+    // Status reporting thread
+    let stats_clone = Arc::clone(&stats);
+    let reporter = thread::spawn(move || {
+        for _ in 0..5 {
+            thread::sleep(Duration::from_millis(500));
+            stats_clone.print_stats();
+        }
+    });
+    
+    // Wait for all request threads
+    for handle in handles {
+        handle.join().unwrap();
+    }
+    
+    // Wait for reporter
+    reporter.join().unwrap();
+    
+    // Final stats
+    stats.print_stats();
+}
+```
+
+### Why This Matters
+- Rust's ownership system extends to threads, preventing data races
+- The type system ensures you properly synchronize access to shared data
+- Thread safety is enforced at compile time, not runtime
+
+## 4. Low-Level System Interaction
+
+### Core Concept
+Rust provides safe abstractions for low-level system operations, with the ability to drop into unsafe code when needed.
+
+### System Calls and FFI (Foreign Function Interface)
+
+```rust
+use std::process::Command;
+
+fn main() {
+    // Run an external process
+    let output = Command::new("ls")
+        .arg("-la")
+        .output()
+        .expect("Failed to execute command");
+    
+    println!("Status: {}", output.status);
+    println!("Output: {}", String::from_utf8_lossy(&output.stdout));
+    
+    // Using low-level system features when needed
+    unsafe {
+        let ptr = libc::malloc(100) as *mut u8;
+        
+        // Use the raw memory...
+        *ptr = 42;
+        println!("Value at ptr: {}", *ptr);
+        
+        // Must manually free
+        libc::free(ptr as *mut libc::c_void);
+    }
+}
+```
+
+### Real-World Application: Custom Memory Allocator
+
+```rust
+use std::alloc::{GlobalAlloc, Layout, System};
+use std::sync::atomic::{AtomicUsize, Ordering};
+
+// A custom allocator that tracks memory usage
+struct TracingAllocator {
+    allocated: AtomicUsize,
+    freed: AtomicUsize,
+    system: System,
+}
+
+unsafe impl GlobalAlloc for TracingAllocator {
+    unsafe fn alloc(&self, layout: Layout) -> *mut u8 {
+        self.allocated.fetch_add(layout.size(), Ordering::SeqCst);
+        self.system.alloc(layout)
+    }
+    
+    unsafe fn dealloc(&self, ptr: *mut u8, layout: Layout) {
+        self.freed.fetch_add(layout.size(), Ordering::SeqCst);
+        self.system.dealloc(ptr, layout)
+    }
+}
+
+// Create a global instance of our custom allocator
+#[global_allocator]
+static ALLOCATOR: TracingAllocator = TracingAllocator {
+    allocated: AtomicUsize::new(0),
+    freed: AtomicUsize::new(0),
+    system: System,
+};
+
+// Function to get memory usage statistics
+fn memory_usage() -> (usize, usize, usize) {
+    let allocated = ALLOCATOR.allocated.load(Ordering::SeqCst);
+    let freed = ALLOCATOR.freed.load(Ordering::SeqCst);
+    (allocated, freed, allocated - freed)
+}
+
+fn main() {
+    println!("Initial memory: {:?}", memory_usage());
+    
+    // Allocate some memory
+    let data = vec![0u8; 1_000_000];
+    println!("After allocation: {:?}", memory_usage());
+    
+    // Use the data to prevent optimization
+    let sum: u64 = data.iter().map(|&x| x as u64).sum();
+    println!("Sum: {}", sum);
+    
+    // Drop the data
+    drop(data);
+    println!("After deallocation: {:?}", memory_usage());
+    
+    // Another allocation pattern
+    {
+        let _strings: Vec<String> = (0..1000)
+            .map(|i| format!("String {}", i))
+            .collect();
+        
+        println!("With 1000 strings: {:?}", memory_usage());
+    } // strings are dropped here
+    
+    println!("Final memory: {:?}", memory_usage());
+}
+```
+
+### Why This Matters
+- Rust lets you interface with operating system calls directly
+- The FFI allows calling C libraries without overhead
+- Unsafe code is clearly marked and confined to specific areas
+- Custom allocators provide control over memory management
+
+## 5. Filesystem and I/O Operations
+
+### Core Concept
+Rust provides safe, efficient abstractions for working with files and I/O.
+
+### How It Really Works
+
+```rust
+use std::fs::{self, File};
+use std::io::{self, Read, Write, BufReader, BufWriter};
+use std::path::Path;
+
+fn main() -> io::Result<()> {
+    // Create a directory
+    fs::create_dir_all("output/logs")?;
+    
+    // Write to a file with buffered I/O
+    let file = File::create("output/logs/app.log")?;
+    let mut writer = BufWriter::new(file);
+    
+    writer.write_all(b"Application started\n")?;
+    writer.write_all(b"Processing data...\n")?;
+    writer.flush()?;
+    
+    // Read from a file with a buffer
+    let file = File::open("output/logs/app.log")?;
+    let mut reader = BufReader::new(file);
+    let mut contents = String::new();
+    reader.read_to_string(&mut contents)?;
+    
+    println!("Log contents:\n{}", contents);
+    
+    // Copy a file
+    fs::copy("output/logs/app.log", "output/logs/app.log.bak")?;
+    
+    // Get file metadata
+    let metadata = fs::metadata("output/logs/app.log")?;
+    println!("File size: {} bytes", metadata.len());
+    println!("Created: {:?}", metadata.created());
+    
+    Ok(())
+}
+```
+
+### Real-World Application: Log File Analyzer
+
+```rust
+use std::collections::HashMap;
+use std::fs::File;
+use std::io::{self, BufRead, BufReader};
+use std::path::Path;
+use std::time::Instant;
+
+// Analyze a log file for HTTP status codes
+fn analyze_log_file(path: &Path) -> io::Result<HashMap<String, usize>> {
+    let start = Instant::now();
+    let file = File::open(path)?;
+    let reader = BufReader::new(file);
+    
+    let mut status_counts: HashMap<String, usize> = HashMap::new();
+    let mut line_count = 0;
+    
+    // Example log format: 192.168.1.1 - - [21/Mar/2025:10:32:15 +0000] "GET /index.html HTTP/1.1" 200 4747
+    for line in reader.lines() {
+        let line = line?;
+        line_count += 1;
+        
+        // Extract HTTP status code using simple parsing
+        if let Some(pos) = line.find("\" ") {
+            if let Some(status_end) = line[pos+2..].find(' ') {
+                let status = &line[pos+2..pos+2+status_end];
+                *status_counts.entry(status.to_string()).or_insert(0) += 1;
+            }
+        }
+    }
+    
+    println!("Processed {} lines in {:?}", line_count, start.elapsed());
+    Ok(status_counts)
+}
+
+fn main() -> io::Result<()> {
+    // Create a sample log file
+    let log_path = Path::new("sample.log");
+    {
+        let file = File::create(log_path)?;
+        let mut writer = io::BufWriter::new(file);
+        
+        // Write sample log entries
+        for i in 0..10000 {
+            let status = match i % 10 {
+                0 => "404", // Every 10th request is a 404
+                1 => "500", // Every 10th request after a 404 is a 500
+                _ => "200", // The rest are 200s
+            };
+            
+            writeln!(
+                writer,
+                "192.168.1.{} - - [21/Mar/2025:10:32:{} +0000] \"GET /page{}.html HTTP/1.1\" {} {}",
+                i % 255 + 1,
+                i % 60,
+                i,
+                status,
+                1000 + (i % 9000)
+            )?;
+        }
+    }
+    
+    // Analyze the log file
+    match analyze_log_file(log_path) {
+        Ok(counts) => {
+            println!("Status Code Summary:");
+            
+            // Sort by status code
+            let mut codes: Vec<_> = counts.iter().collect();
+            codes.sort_by_key(|&(k, _)| k);
+            
+            for (status, count) in codes {
+                println!("  {}: {} requests ({}%)", 
+                         status, 
+                         count, 
+                         ((*count as f64) / 10000.0 * 100.0).round());
+            }
+        },
+        Err(e) => println!("Error analyzing log file: {}", e),
+    }
+    
+    Ok(())
+}
+```
+
+### Why This Matters
+- Rust's I/O types provide efficient buffered reading and writing
+- Error handling is built into the return types of I/O operations
+- The standard library handles platform-specific file path formats
+- File operations use RAII (Resource Acquisition Is Initialization) to ensure resources are cleaned up
+
+These examples demonstrate the foundational principles of systems programming in Rust with practical applications. Each one highlights how Rust's safety guarantees help prevent common bugs while still giving you low-level control over system resources.

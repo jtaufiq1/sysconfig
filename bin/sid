@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Run as root
+if [ $UID -ne `id -u 0` ]
+then
+    echo "Run as root"
+    exit -99
+
+else
+    # Check command-line argument
+    if [ $# -ne 1 ]
+    then
+        echo -e $"$(basename $0) <program_name>\n" 
+        exit -101
+    fi
+
+    echo "[+] Changing owner of $1 to root"
+    chown root:root $1
+    sleep 1s
+
+    echo "[+] Setting setuid bit on $1"
+    chmod u+s $1
+    sleep 1s
+fi
+
+echo "Done" && sudo -k
+exit 0

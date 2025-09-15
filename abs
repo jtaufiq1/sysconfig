@@ -1,0 +1,70 @@
+<h1><b>Advance bash Scripting</b></h1> 
+
+<p>Introduction to Bash Scripting 
+
+Starting on Fedora
+</p>
+
+<h2>By --Herbert Mayer <h22>
+
+<p>	No programming language is perfect.
+	There is not even a single best language;
+	there are only language well suited or perhaps
+	poorly suited for particular purposes.
+</p>
+
+
+<p>	A usefule language needs to have arrays,
+	pointers and a generic mechanism for building
+	data structures. "By these criteria, shell scripting
+	fall somewhat short of "useful" ...
+</p>
+
+<p>
+
+The sha-bang
+	#!/bin/bash
+	A two-byte magic number
+
+VARIABLES
+	VAR_NAME=value
+	$VAR_NAME	# accessing value of VAR_NAME
+
+Exit
+	exit $EXIT_CODE
+	proper way to exit shell script (EXIT_CODE) is optional if present
+
+Conditional Statement
+
+	if...then...else...
+	fi
+
+	case "$1" 
+	checking for cmd arguments
+
+Command line arguments
+
+	E_WRONG_ARGS=85	# Bad Arguments exit code
+	script_parameters="-a -h -m -z"
+#	cmd parameters
+	if [ $# -ne $Number_of_expected_args ]
+	then
+		echo "Usage: `basename $0` $script_parameters"
+#	`basename $0` is the script's filename.
+	exit $E_WRONG_ARGS
+# 	Exit code for bad arguments
+
+
+Direct Error messages to stderr
+	&>2
+
+Quoting Strings
+	single quotes 'STRINGS' # Full quoting
+	double quotes "STRINGS" # Partial quoting
+
+comma separator
+	( - )
+	concatenates two arithmetric values but only the last one is return
+
+continue
+  sch script

@@ -1,0 +1,176 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Le fichier ePub n'a pas pu être chargé parce que le serveur requiert une authentification."
+   },
+   "errorDownloading": {
+      "message": "Désolé, une erreur s’est produite durant le téléchargement du fichier ePub."
+   },
+   "errorEncrypted": {
+      "message": "Votre fichier ePub est protégé par un système de gestion de droits (DRM). Pour cette raison, il est malheureusement impossible de le charger."
+   },
+   "errorErrorCode": {
+      "message": "Votre fichier ePub n'a pas pu être chargé parce que le serveur a renvoyé le code d'erreur suivant:"
+   },
+   "errorInvalid": {
+      "message": "Désolé, le fichier ePub est corrompu et n'a pas pu être chargé."
+   },
+   "errorNotFound": {
+      "message": "Le fichier ePub n'a pas pu être chargé parce qu'il n'existe pas sur le serveur, à l'emplacement indiqué."
+   },
+   "errorOther": {
+      "message": "Désolé, mais une erreur s’est produite durant le chargement de votre fichier ePub. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Le fichier n’est pas un fichier ePub valide."
+   },
+   "extensionDescription": {
+      "message": "Lire les fichiers ePub directement dans le navigateur"
+   },
+   "hintBookmark": {
+      "message": "Le marque-page a été placé"
+   },
+   "hintDownloading": {
+      "message": "Téléchargement du fichier ePub…"
+   },
+   "hintFileaccess": {
+      "message": "Cliquez sur le lien ci-dessous puis sur ‘Autoriser l’accès aux URL de fichiers’ pour ouvrir les fichiers ePub stockés localement."
+   },
+   "hintSave": {
+      "message": "Cliquez au milieu puis sur ‘Enregistrer fichier epub’ pour enregistrer le fichier ePub."
+   },
+   "hintSetupFileaccess": {
+      "message": "Accès au fichier de configuration"
+   },
+   "hintStart": {
+      "message": "Lancer EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Cliquez ou appuyez au milieu pour ouvrir la barre d’outils ou un autre fichier ePub."
+   },
+   "installDownload": {
+      "message": "Cliquer sur le lien de téléchargement d’un fichier ePub sur un site web. Le fichier sera téléchargé et s’ouvrira ensuite automatiquement."
+   },
+   "installFileExplorer": {
+      "message": "Double-cliquer sur un fichier ePub dans l’explorateur de fichiers."
+   },
+   "installMiddle": {
+      "message": "Si un ePUB est déjà ouvert, cliquer simplement au milieu pour afficher la barre d’outils et ouvrir un autre fichier ePub."
+   },
+   "installTitle": {
+      "message": "Diverses manières d’ouvrir un fichier ePub"
+   },
+   "installToolbar": {
+      "message": "Cliquer sur le bouton EPUBReader dans la barre d’outils du navigateur. Cliquer ensuite sur le bouton de dossier en haut."
+   },
+   "prefBkgColor": {
+      "message": "Couleur de fond"
+   },
+   "prefBook": {
+      "message": "Comme défini dans le livre"
+   },
+   "prefColumnWidth": {
+      "message": "Largeur de colonne"
+   },
+   "prefFontColor": {
+      "message": "Couleur du texte"
+   },
+   "prefFontFace": {
+      "message": "Police"
+   },
+   "prefFontSize": {
+      "message": "Taille du texte"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Les fichiers ePub s’ouvrent plus lentement"
+   },
+   "prefLineHeight": {
+      "message": "Hauteur de ligne"
+   },
+   "prefLoadFonts": {
+      "message": "Charger les polices"
+   },
+   "prefMarginLr": {
+      "message": "Largeur de la marge"
+   },
+   "prefNo": {
+      "message": "Non"
+   },
+   "prefReadingDir": {
+      "message": "Sens de lecture"
+   },
+   "prefReadingDirLtr": {
+      "message": "De gauche à droite"
+   },
+   "prefReadingDirRtl": {
+      "message": "De droite à gauche"
+   },
+   "prefReadingStyle": {
+      "message": "Style de lecture"
+   },
+   "prefReadingStyleBook": {
+      "message": "Livre"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Site internet"
+   },
+   "prefUser": {
+      "message": "Défini par l'utilisateur"
+   },
+   "prefYes": {
+      "message": "Oui"
+   },
+   "tooltipBookmark": {
+      "message": "Placer un marque-page/D"
+   },
+   "tooltipDonate": {
+      "message": "Soutenez EPUBReader!"
+   },
+   "tooltipFontLess": {
+      "message": "Réduire la taille du texte/-"
+   },
+   "tooltipFontMore": {
+      "message": "Augmenter la taille du texte/+"
+   },
+   "tooltipHelp": {
+      "message": "Aide"
+   },
+   "tooltipOpen": {
+      "message": "Ouvrir fichier epub"
+   },
+   "tooltipPref": {
+      "message": "Préférences"
+   },
+   "tooltipReadingStyle": {
+      "message": "Changer le style de lecture"
+   },
+   "tooltipSave": {
+      "message": "Enregistrer fichier epub/S"
+   },
+   "tooltipToc": {
+      "message": "Table des matières/T"
+   },
+   "updateExport": {
+      "message": "L’exporation ne fonctionnera que jusqu’à la version Firefox 56 (incluse)."
+   },
+   "updateIntro": {
+      "message": "Cette version d’EPUBReader est une version totalement renouvelée et adaptée au futur Firefox."
+   },
+   "updateLibrary": {
+      "message": "La bibliothèque privée n’existe plus car les fonctions nécessaires ne sont plus disponibles dans Firefox. Les fichiers ePub de la bibliothèque privée ne sont pas perdus pour autant. Pour les exporter, installez le nouveau module complémentaire Firefox"
+   },
+   "updateMemory": {
+      "message": "Les fichiers ePub sont désormais chargés en mémoire depuis l’emplacement où ils sont stockés. Résultat : plus besoin d’’espace disque supplémentaire et une ouverture accélérée."
+   },
+   "updateSize": {
+      "message": "Il est désormais possible d’ouvrir des fichiers ePub d’une taille supérieure à 250 Mo."
+   },
+   "updateSponsors": {
+      "message": "Cette nouvelle version n’existerait pas sans les soutiens suivants"
+   },
+   "updateTitle": {
+      "message": "Modifications apportées à EPUBReader"
+   }
+}

@@ -1,0 +1,38 @@
+# Aliases
+# Some example alias instructions
+# they may mask.  For example, alias rm='rm -i' will mask the rm
+# application.  To override the alias instruction use a \ before, ie
+# \rm will call the real rm not the alias.
+# alias rm='rm -i'
+# alias cp='cp -i'
+# alias mv='mv -i'
+alias df='df -h'
+alias du='du -h'
+alias less='less -r'                          # raw control characters
+# alias whence='type -a'                        # where, of a sort
+alias grep='grep --color'                     # show differences in colour
+alias egrep='egrep --color=auto'              # show differences in colour
+alias fgrep='fgrep --color=auto'              # show differences in colour
+alias ls='ls -hF --color=tty'                 # classify files in colour
+alias dir='ls --color=auto --format=vertical'
+alias vdir='ls --color=auto --format=long'
+# alias ll='ls -l'                              # long list
+# alias la='ls -A'                              # all but . and ..
+# alias l='ls -CF'                              #
+
+alias vi='vim'
+
+# Working Directories
+export workspace='/d/workspace'
+export dev='workspace/dev'
+
+alias df='df -h'
+alias dir='ls --color=auto --format=vertical'
+alias du='du -h'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color'
+alias less='less -r'
+alias ls='ls -hF --color=tty'
+alias vdir='ls --color=auto --format=long'
+alias vi='vim'

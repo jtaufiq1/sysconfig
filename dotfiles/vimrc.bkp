@@ -1,0 +1,118 @@
+" Disable compatibility with vi
+set nocompatible
+
+" Show line number
+set number
+
+" Relative line number
+set relativenumber
+
+" Enable file type detection.
+filetype on
+
+" Enable plugins and load plugin for the detected file type.
+filetype plugin on
+
+" Load an indent file for  the detected file type.
+filetype indent on
+
+" Turn syntax highlighting on.
+syntax enable
+
+" Exact location of cursor by highlighting the line it is
+" on horizontally and vertically.
+set cursorline
+set cursorcolumn
+
+" Set shift width to 4 spaces.
+set shiftwidth=4
+
+" Set tab width to 4 columns.
+set tabstop=4
+
+" Use spaces instead of tabs
+set expandtab
+
+" Do not save backup files.
+set nobackup
+
+" Do no let cursor scroll below or above N number of lines when scrolling.
+" set scrolloff=10
+
+" Do not wrap lines. Allow long to extend as far as the lines goes.
+set nowrap
+
+" Highlight matching characters whiles searching incrementally.
+set incsearch
+
+" Ignore capital letters during search.
+set ignorecase
+
+" Override the ignorecase option if searching for capital letters.
+" This will allow searching specifically for capital letters.
+set smartcase
+
+" Show partial command typed in the last line of the screen.
+set showcmd
+
+" Show mode 
+set showmode
+
+" Use highlighting during search
+set hlsearch
+
+" Set the command to save in history. Default number is 20.
+set history=1000
+
+" Enable auto completion menu after pressing TAB.
+set wildmenu
+
+" Make wildmenu behave similar to Bash completion.
+"set wildmenu=list:longest
+
+" Set wildmenu to ignore files with these extensions.
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx,*.mp4,*.mp3,*.mkv
+
+colorscheme molokai
+
+" PLUGINS ---------------------------------------------------------------- {{{
+"
+" Plugin code goes here.
+call plug#begin('~/.vim/plugged')
+
+ Plug 'dense-analysis/ale'
+
+ Plug 'preservvim/nerdtree'
+
+
+call plug#end()
+
+" }}}
+
+
+" MAPPINGS --------------------------------------------------------------- {{{
+
+" Mappings code goes here.
+
+" }}}
+
+" VIMSCRIPT -------------------------------------------------------------- {{{
+
+" This will enable code folding.
+" Use the marker method of folding.
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+augroup END
+
+" More Vimscripts code goes here.
+
+" }}}
+
+
+" STATUS LINE ------------------------------------------------------------ {{{
+
+" Status bar code goes here.
+
+" }}}
+

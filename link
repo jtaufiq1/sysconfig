@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Create Symbolic from $HOME/bin to 
+# /usr/local/bin
+
+src_path=$HOME/bin/*		# source executables
+des_path=/usr/local/bin/	# destination
+current_dir=$des_path/*
+
+for file in $src_path
+do
+	if [ -x $file ]
+	then
+		# cd $current_dir
+		for flink in $current_dir
+		do
+			if [ -h $flink ]
+			then
+				echo skipped $file
+			elif [ -x $file ]
+			then
+				echo linking $file
+				ln --symbolic -t $des_path $file
+			fi
+		done
+
+		# echo linking $file
+		# ln --symbolic -t $des_path $file
+	fi
+done	
+# NOTE COMPLETE

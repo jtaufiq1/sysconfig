@@ -1,0 +1,7 @@
+#!/bin/bash -x 
+
+# Current IP address on the subnet
+
+# $NET_DEV=""
+# $IP=""
+# $SUBNET_MASK=""

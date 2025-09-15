@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Serverul cere autentificare şi fişierul nu poate fi deschis."
+   },
+   "errorDownloading": {
+      "message": "Fişierul nu poate fi descărcat din cauza unei erori."
+   },
+   "errorEncrypted": {
+      "message": "Fişierul este protejat prin DRM şi nu poate fi deschis."
+   },
+   "errorErrorCode": {
+      "message": "Fişierul nu poate fi deschis din cauza urmatorului cod de eroare:"
+   },
+   "errorInvalid": {
+      "message": "Fişierul este incomplet şi nu poate fi deschis."
+   },
+   "errorNotFound": {
+      "message": "Fişierul nu există la locația specificată."
+   },
+   "errorOther": {
+      "message": "Fişierul nu poate fi deschis din cauza unei erori nespecificate. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Fişierul este invalid."
+   },
+   "extensionDescription": {
+      "message": "Citeşte fişiere epub direct in browser"
+   },
+   "hintBookmark": {
+      "message": "Semnul de carte a fost adaugat"
+   },
+   "hintDownloading": {
+      "message": "Descarcă eBook..."
+   },
+   "hintFileaccess": {
+      "message": "Pentru a deschide fişiere locale, dăți click pe linkul de mai jos şi pe 'Allow access to file URLs'."
+   },
+   "hintSave": {
+      "message": "Dăți click în mijloc și apoi pe butonul „Save ebook“ pentru a salva cartea electronică."
+   },
+   "hintSetupFileaccess": {
+      "message": "Configurează acces fişier"
+   },
+   "hintStart": {
+      "message": "Deschide EPUBreader"
+   },
+   "hintToolbar": {
+      "message": "Dăți click în mijloc pentru a deschide bara de instrumente sau un alt fişier."
+   },
+   "installDownload": {
+      "message": "Dăți click pe linkul de descarcare al unui ebook şi acesta sa va deschide automat odată ce sa descarcat."
+   },
+   "installFileExplorer": {
+      "message": "Dăți dublu-click pe un ebook din file explorer."
+   },
+   "installMiddle": {
+      "message": "Dacă eveți un ebook deja deschis, dăți click in mijloc pentru a deschide bara de instrumente sau un alt fişier."
+   },
+   "installTitle": {
+      "message": "Multe moduri de a deschide ebooks"
+   },
+   "installToolbar": {
+      "message": "Dăți click pe butonul EPUBReader din bara de instrumente şi apoi dă click pe butonul dosar aflat in partea de sus."
+   },
+   "prefBkgColor": {
+      "message": "Culoare fundal"
+   },
+   "prefBook": {
+      "message": "Precum specificat in carte"
+   },
+   "prefColumnWidth": {
+      "message": "Lățimea coloanei"
+   },
+   "prefFontColor": {
+      "message": "Culoare font"
+   },
+   "prefFontFace": {
+      "message": "Font"
+   },
+   "prefFontSize": {
+      "message": "Mărime font"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Ebook-urile se deschid mai incet"
+   },
+   "prefLineHeight": {
+      "message": "Inălțime linie"
+   },
+   "prefLoadFonts": {
+      "message": "Incarcă fonturi"
+   },
+   "prefMarginLr": {
+      "message": "Lățime margine"
+   },
+   "prefNo": {
+      "message": "Nu"
+   },
+   "prefReadingDir": {
+      "message": "Direcție de citit"
+   },
+   "prefReadingDirLtr": {
+      "message": "Stânga spre dreapta"
+   },
+   "prefReadingDirRtl": {
+      "message": "Dreapta spre stânga"
+   },
+   "prefReadingStyle": {
+      "message": "Stil de citit"
+   },
+   "prefReadingStyleBook": {
+      "message": "Carte"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Website"
+   },
+   "prefUser": {
+      "message": "Specificat de utilizator"
+   },
+   "prefYes": {
+      "message": "Da"
+   },
+   "tooltipBookmark": {
+      "message": "Adaugă semn de carte/D"
+   },
+   "tooltipFontLess": {
+      "message": "Micşorează scrisul/-"
+   },
+   "tooltipFontMore": {
+      "message": "Măreşte scrisul/+"
+   },
+   "tooltipHelp": {
+      "message": "Ajutor"
+   },
+   "tooltipOpen": {
+      "message": "Deschide ebook"
+   },
+   "tooltipPref": {
+      "message": "Preferințe"
+   },
+   "tooltipReadingStyle": {
+      "message": "Schimbă stilul de citit"
+   },
+   "tooltipSave": {
+      "message": "Salvează ebook/S"
+   },
+   "tooltipToc": {
+      "message": "Cuprins/T"
+   },
+   "updateExport": {
+      "message": "Exportatul funcționează până in versiunea Firefox 56 (inclusiv)."
+   },
+   "updateIntro": {
+      "message": "Aceasta este versiunea noua EPUBreader care funcționează cu viitoarele versiuni Firefox."
+   },
+   "updateLibrary": {
+      "message": "Librăria privată nu mai există din cauză ca funcționalitatea a fost scoasă din Firefox. Ebook-urile din librăria privată incă există. Instalați addon-ul nou de Firefox numit EPUBReader Library dacă doreşti să exporți ebook-urile:"
+   },
+   "updateMemory": {
+      "message": "Ebook-urile sunt deschise in memorie din locația prezentă si nu mai consumă spațiu suplementar."
+   },
+   "updateSize": {
+      "message": "Puteți deschide ebooks peste 250MB."
+   },
+   "updateSponsors": {
+      "message": "Aceşti sponsori au facut posibilă noua versiune"
+   },
+   "updateTitle": {
+      "message": "Modificări EPUBreader"
+   }
+}

@@ -1,0 +1,185 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Das eBook kann nicht geöffnet werden, da der Server eine Authentifizierung anfordert."
+   },
+   "errorDownloading": {
+      "message": "Beim Herunterladen des eBooks ist ein Fehler aufgetreten."
+   },
+   "errorEncrypted": {
+      "message": "Das eBook ist mit DRM verschlüsselt und kann daher leider nicht geöffnet werden."
+   },
+   "errorErrorCode": {
+      "message": "Das eBook kann nicht geöffnet werden, da der Server den folgenden Fehler-Code gesendet hat:"
+   },
+   "errorInvalid": {
+      "message": "Das eBook ist unvollständig und kann daher leider nicht geöffnet werden."
+   },
+   "errorNotFound": {
+      "message": "Das eBook kann nicht geöffnet werden, da es auf dem Server an dieser Stelle nicht existiert."
+   },
+   "errorOther": {
+      "message": "Leider ist beim Öffnen des eBooks ein unerwarteter Fehler aufgetreten. Bitte senden Sie die folgende Fehlermeldung an epubread@gmail.com. Danke!"
+   },
+   "errorUnzip": {
+      "message": "Die Datei ist keine gültige ePub-Datei."
+   },
+   "extensionDescription": {
+      "message": "Epub-Dateien direkt im Browser lesen"
+   },
+   "hintBookmark": {
+      "message": "Lesezeichen wurde gesetzt"
+   },
+   "hintDownloading": {
+      "message": "Lade eBook herunter..."
+   },
+   "hintFileaccess": {
+      "message": "Klicken Sie auf den u.a. Link und dann auf 'Zugriff auf Datei-URLs zulassen' um lokal gespeicherte eBooks zu öffnen."
+   },
+   "hintSave": {
+      "message": "Klicken Sie in die Mitte und dann auf den 'eBook speichern' Button um das eBook zu speichern."
+   },
+   "hintSaveDownloadOnly": {
+      "message": "Leider können nur direkt von Websites geöffnet eBooks gespeichert werden."
+   },
+   "hintSavedError": {
+      "message": "Leider ist beim Speichern Ihres eBooks ein Fehler aufgetreten. Bitte senden Sie die folgende Fehlermeldung an epubread@gmail.com. Danke!"
+   },
+   "hintSavedSuccess": {
+      "message": "Das eBook wurde im Download-Ordner gespeichert."
+   },
+   "hintSetupFileaccess": {
+      "message": "Zugriff einrichten"
+   },
+   "hintStart": {
+      "message": "EPUBReader starten"
+   },
+   "hintToolbar": {
+      "message": "Klicken/Tippen Sie in die Mitte, um die Toolbar oder ein anderes eBook zu öffnen."
+   },
+   "installDownload": {
+      "message": "Klicken Sie auf einer Website auf einen eBook-Download-Link. Das eBook wird heruntergeladen und danach automatisch geöffnet."
+   },
+   "installFileExplorer": {
+      "message": "Doppelklicken Sie auf ein eBook im Datei-Explorer."
+   },
+   "installMiddle": {
+      "message": "Wenn Sie bereits ein eBook geöffnet haben, klicken Sie in die Mitte um die Toolbar anzuzeigen und ein neues eBook zu öffnen."
+   },
+   "installTitle": {
+      "message": "Mehrere Wege um eBooks zu öffnen"
+   },
+   "installToolbar": {
+      "message": "Klicken Sie auf den EPUBReader-Button in der Browser-Toolbar. Klicken Sie danach oben auf den Ordner-Button."
+   },
+   "prefBkgColor": {
+      "message": "Hintergrundfarbe"
+   },
+   "prefBook": {
+      "message": "Wie im Buch definiert"
+   },
+   "prefColumnWidth": {
+      "message": "Spaltenbreite"
+   },
+   "prefFontColor": {
+      "message": "Schriftfarbe"
+   },
+   "prefFontFace": {
+      "message": "Schrift"
+   },
+   "prefFontSize": {
+      "message": "Schriftgröße"
+   },
+   "prefFontsLoadSlower": {
+      "message": "eBooks öffnen sich langsamer"
+   },
+   "prefLineHeight": {
+      "message": "Zeilenhöhe"
+   },
+   "prefLoadFonts": {
+      "message": "Schriften laden"
+   },
+   "prefMarginLr": {
+      "message": "Breite des Randes"
+   },
+   "prefNo": {
+      "message": "Nein"
+   },
+   "prefReadingDir": {
+      "message": "Leserichtung"
+   },
+   "prefReadingDirLtr": {
+      "message": "Links nach Rechts"
+   },
+   "prefReadingDirRtl": {
+      "message": "Rechts nach Links"
+   },
+   "prefReadingStyle": {
+      "message": "Lesestil"
+   },
+   "prefReadingStyleBook": {
+      "message": "Buch"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Website"
+   },
+   "prefUser": {
+      "message": "Benutzer definiert"
+   },
+   "prefYes": {
+      "message": "Ja"
+   },
+   "tooltipBookmark": {
+      "message": "Lesezeichen setzen/D"
+   },
+   "tooltipDonate": {
+      "message": "Unterstützen Sie EPUBReader!"
+   },
+   "tooltipFontLess": {
+      "message": "Schriftgröße verkleinern/-"
+   },
+   "tooltipFontMore": {
+      "message": "Schriftgröße vergrößern/+"
+   },
+   "tooltipHelp": {
+      "message": "Hilfe"
+   },
+   "tooltipOpen": {
+      "message": "eBook öffnen"
+   },
+   "tooltipPref": {
+      "message": "Einstellungen"
+   },
+   "tooltipReadingStyle": {
+      "message": "Lesestil ändern"
+   },
+   "tooltipSave": {
+      "message": "eBook speichern/S"
+   },
+   "tooltipToc": {
+      "message": "Inhaltsverzeichnis/T"
+   },
+   "updateExport": {
+      "message": "Exportieren wird nur bis Firefox 56 (einschliesslich) möglich sein."
+   },
+   "updateIntro": {
+      "message": "Dies ist die komplett neue EPUBReader-Version, die mit dem zukünftigen Firefox funktioniert."
+   },
+   "updateLibrary": {
+      "message": "Die private Bibliothek existiert nicht mehr, da benötigte Funktionen in Firefox fehlen. Aber die eBooks in der privaten Bibliothek existieren noch. Wenn Sie diese exportieren wollen, installieren Sie bitte das neue Firefox Add-on"
+   },
+   "updateMemory": {
+      "message": "Ebooks werden jetzt im Speicher an der Stelle geöffnet, an der sie gespeichert sind. Dadurch wird kein extra Plattenplatz benötigt und die eBooks öffnen sich schneller."
+   },
+   "updateSize": {
+      "message": "Sie können jetzt eBooks öffnen, die größer als 250MB sind."
+   },
+   "updateSponsors": {
+      "message": "Diese Sponsoren habe die neue Version möglich gemacht"
+   },
+   "updateTitle": {
+      "message": "EPUBReader Änderungen"
+   }
+}

@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "E-Kitabınız açılamaz, çünkü sunucu yetkilendirme istiyor."
+   },
+   "errorDownloading": {
+      "message": "Maalesef, E-Kitabınızı indirirken bir hata oluştu."
+   },
+   "errorEncrypted": {
+      "message": "E-Kitabınız 'Digital Rights Management (DRM)' ile korunmaktadır. Bu sebeple ne yazık ki açılamaz."
+   },
+   "errorErrorCode": {
+      "message": "E-Kitabınız açılamaz, çünkü sunucu aşağıdaki hata kodunu gönderdi:"
+   },
+   "errorInvalid": {
+      "message": "E-Kitabı bozulmuş. Bu sebeple ne yazık ki açılamaz."
+   },
+   "errorNotFound": {
+      "message": "E-Kitabınız açılamaz, çünkü verilen konumdaki sunucuda bulunamıyor."
+   },
+   "errorOther": {
+      "message": "Maalesef, E-Kitabınızı açarken bir hata oluştu. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Bu dosya geçerli bir epub dosyası değildir."
+   },
+   "extensionDescription": {
+      "message": "E-Kitapları internet tarayıcısında okut"
+   },
+   "hintBookmark": {
+      "message": "Yer işareti yerleştirdi"
+   },
+   "hintDownloading": {
+      "message": "E-Kitabı indiriliyor..."
+   },
+   "hintFileaccess": {
+      "message": "Yerel olarak depolanmış olan EPUB dosyalarını açmak için, aşağadaki linkte ve sonra «Dosyanın URL'ine erişime izin ver»'de tıklayınız."
+   },
+   "hintSave": {
+      "message": "E-Kitabı kaydetmek için ilk başta ortada ve sonra 'EPUB dosyasını kaydet' simgesinde tıklayınız."
+   },
+   "hintSetupFileaccess": {
+      "message": "Kurulum dosyasına erişim"
+   },
+   "hintStart": {
+      "message": "EPUBReader'ü başlat"
+   },
+   "hintToolbar": {
+      "message": "Araç çubuğunu ya da başka bir epub dosyasını açmak için ortada tıklayınız/dokunuz."
+   },
+   "installDownload": {
+      "message": "Bir internet sitesinde bir EPUB dosyasının indirme linkinde tıklayınız. Doysayı otomatikman indirilip açılacak."
+   },
+   "installFileExplorer": {
+      "message": "Dosya gezgininde bir EPUB dosyasında cift tıklayınız."
+   },
+   "installMiddle": {
+      "message": "Eğer bir E-Kitabı açık ise, araç çubuğu açmak için ortada tıklayınız ve başka bir epub dosyasını açınız."
+   },
+   "installTitle": {
+      "message": "E-Kitaplarınızı açmak için çeşitli yollar"
+   },
+   "installToolbar": {
+      "message": "Araç çubuğunda EPUBReader simgesinde tıklayınız. Sonra yukarıda dosya simgesinde tıklayını."
+   },
+   "prefBkgColor": {
+      "message": "Arkaplan rengi"
+   },
+   "prefBook": {
+      "message": "Kitapta tanımlandığı gibi"
+   },
+   "prefColumnWidth": {
+      "message": "Sütun genişliği"
+   },
+   "prefFontColor": {
+      "message": "Yazıyüzü rengi"
+   },
+   "prefFontFace": {
+      "message": "Yazıyüzü görünüm"
+   },
+   "prefFontSize": {
+      "message": "Yazıyüzü boyutu"
+   },
+   "prefFontsLoadSlower": {
+      "message": "E-Kitapları daha yavaş açılıyor"
+   },
+   "prefLineHeight": {
+      "message": "Çizgi yüksekliği"
+   },
+   "prefLoadFonts": {
+      "message": "Yazıyüzleri yükle"
+   },
+   "prefMarginLr": {
+      "message": "Kenar boşluğu genişliği"
+   },
+   "prefNo": {
+      "message": "Hayır"
+   },
+   "prefReadingDir": {
+      "message": "Okuma yönü"
+   },
+   "prefReadingDirLtr": {
+      "message": "Soldan sağa"
+   },
+   "prefReadingDirRtl": {
+      "message": "Sağdan sola"
+   },
+   "prefReadingStyle": {
+      "message": "Okuma şekli"
+   },
+   "prefReadingStyleBook": {
+      "message": "Kitap"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "İnternet sitesi"
+   },
+   "prefUser": {
+      "message": "Kullanıcı tanımlı"
+   },
+   "prefYes": {
+      "message": "Evet"
+   },
+   "tooltipBookmark": {
+      "message": "Yer işareti koy/D"
+   },
+   "tooltipFontLess": {
+      "message": "Yazıyüzünü küçült/-"
+   },
+   "tooltipFontMore": {
+      "message": "Yazıyüzünü büyüt/+"
+   },
+   "tooltipHelp": {
+      "message": "Yardım"
+   },
+   "tooltipOpen": {
+      "message": "Epub dosyasını aç"
+   },
+   "tooltipPref": {
+      "message": "Tercihler"
+   },
+   "tooltipReadingStyle": {
+      "message": "Okuma biçimini değiştir"
+   },
+   "tooltipSave": {
+      "message": "Epub dosyasını kaydet/S"
+   },
+   "tooltipToc": {
+      "message": "İçindekiler/T"
+   },
+   "updateExport": {
+      "message": "İhraç etme işi Firefox 56'ya kadar çalışacak."
+   },
+   "updateIntro": {
+      "message": "Bu EPUBReader'ün yepyeni bir versiyonudur. O, Firefox'un gelecek versiyonlarıyla çalışacak."
+   },
+   "updateLibrary": {
+      "message": "Firefox gereken fonksiyonları artık olmadığı için özel kütüphane artık yok. Yine de kütüphanenizdeki EPUB dosyaları hâla var. Onları ihraç etmek isterseniz, EPUBReader Library eklentisini yükleyiniz:"
+   },
+   "updateMemory": {
+      "message": "E-Kitaplar hafızada bulundukları yerden açılıyor. Dolayısıyla ekstra bir disk alanı gerekmiyor ve E-Kitapları daha çabuk açılıyor."
+   },
+   "updateSize": {
+      "message": "Şimdi, boyut 250MB'ten büyük olan E-Kitapları açabilirsiniz."
+   },
+   "updateSponsors": {
+      "message": "Bu sponsorlar elinizdeki versiyonu mümkün kıldı"
+   },
+   "updateTitle": {
+      "message": "EPUBReader değişiyor"
+   }
+}

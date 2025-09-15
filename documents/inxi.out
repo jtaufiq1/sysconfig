@@ -1,0 +1,48 @@
+System:
+  Host: pop-os Kernel: 6.12.10-76061203-generic arch: x86_64 bits: 64
+  Console: pty pts/0 Distro: Pop!_OS 24.04 LTS noble
+Machine:
+  Type: Laptop System: Dell product: Latitude 7300 v: N/A serial: JCRC633
+  Mobo: Dell model: 0PYRY5 v: A01 serial: /JCRC633/CNCMK0003P088F/ UEFI: Dell v: 1.39.0
+    date: 03/06/2025
+Battery:
+  ID-1: BAT0 charge: 32.3 Wh (93.6%) condition: 34.5/60.0 Wh (57.4%)
+CPU:
+  Info: quad core model: Intel Core i5-8365U bits: 64 type: MT MCP cache: L2: 1024 KiB
+  Speed (MHz): avg: 756 min/max: 400/4100 cores: 1: 837 2: 842 3: 400 4: 900 5: 400 6: 900
+    7: 900 8: 876
+Graphics:
+  Device-1: Intel WhiskeyLake-U GT2 [UHD Graphics 620] driver: i915 v: kernel
+  Device-2: Realtek Integrated_Webcam_HD driver: uvcvideo type: USB
+  Display: server: X.org v: 1.21.1.11 with: Xwayland v: 24.1.2 driver: X: loaded: modesetting
+    unloaded: fbdev,vesa dri: iris gpu: i915 tty: 120x33 resolution: 1920x1080
+  API: EGL v: 1.5 drivers: iris,swrast platforms: gbm,surfaceless,device
+  API: OpenGL v: 4.6 compat-v: 4.5 vendor: mesa v: 25.0.5-1pop1~1747633989~24.04~be49689
+    note: console (EGL sourced) renderer: Mesa Intel UHD Graphics 620 (WHL GT2), llvmpipe (LLVM
+    19.1.1 256 bits)
+  API: Vulkan v: 1.3.280 drivers: N/A surfaces: N/A
+Audio:
+  Device-1: Intel Cannon Point-LP High Definition Audio driver: snd_hda_intel
+  API: ALSA v: k6.12.10-76061203-generic status: kernel-api
+Network:
+  Device-1: Intel Cannon Point-LP CNVi [Wireless-AC] driver: iwlwifi
+  IF: wlo1 state: up mac: 74:d8:3e:2c:eb:2e
+  IF-ID-1: virbr0 state: down mac: 52:54:00:7c:2f:09
+  IF-ID-2: wwan0 state: down mac: 3e:85:35:2f:a7:13
+Bluetooth:
+  Message: No bluetooth data found.
+Drives:
+  Local Storage: total: 238.47 GiB used: 163.32 GiB (68.5%)
+  ID-1: /dev/nvme0n1 vendor: SK Hynix model: PC601 NVMe 256GB size: 238.47 GiB
+Partition:
+  ID-1: / size: 110.33 GiB used: 58.8 GiB (53.3%) fs: btrfs dev: /dev/nvme0n1p7
+  ID-2: /boot/efi size: 1022 MiB used: 219.7 MiB (21.5%) fs: vfat dev: /dev/nvme0n1p5
+Swap:
+  ID-1: swap-1 type: partition size: 8 GiB used: 0 KiB (0.0%) dev: /dev/dm-0
+  ID-2: swap-2 type: zram size: 15.43 GiB used: 0 KiB (0.0%) dev: /dev/zram0
+Sensors:
+  System Temperatures: cpu: 42.0 C mobo: 36.0 C
+  Fan Speeds (rpm): cpu: 0
+Info:
+  Memory: total: 16 GiB available: 15.43 GiB used: 1.94 GiB (12.6%) igpu: 32 MiB
+  Processes: 255 Uptime: 13m Init: systemd target: graphical (5) Shell: Sudo inxi: 3.3.34

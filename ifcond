@@ -1,0 +1,18 @@
+echo "Testing if condition using bash"
+
+str=
+
+if [ str == 0 ]
+then
+    echo "Zero length string"
+fi
+
+str="Non-Zero"
+
+if [ str != 0 ]
+then
+    echo "$str length string"
+fi
+
+echo
+echo

@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# ARG Present
+if [ -n $1 ]
+then
+	case "$1" in
+		[0-9]* ) ntimes=$1;;
+		* ) ntimes=1;;
+	esac
+fi
+
+# Compile and Copy N-Times
+output=$2
+source=$3
+
+gcc -o $output $source
+if [ $? -ne 0 ]
+then
+	echo "Failed to compile"
+	exit -99
+fi
+
+for(( count=0; $count<$ntimes-1; $((count++)) ))
+do
+	# echo $output$count
+	cp $output $output$count 
+done

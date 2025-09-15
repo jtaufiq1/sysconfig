@@ -1,0 +1,14 @@
+# Installing niri compositor on Cosmic DE Alpha 
+
+1. Install all dependancies
+2. Install rust tool chain
+3. Clone niri repository
+4. Run `cargo build --release` # DO NOT BUILD WITH ALL FEATURES
+
+# Cosmic Ext Extra Sessions
+0. Cosmic Session with the latest patch
+1. Clone the repository
+2. Install just
+3. `git submodule update --init`
+4. `just build`
+5. `sudo just install-niri

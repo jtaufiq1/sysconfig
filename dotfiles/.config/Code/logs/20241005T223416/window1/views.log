@@ -1,0 +1,18 @@
+2024-10-05 22:34:18.424 [info] Added views:outline in workbench.view.explorer
+2024-10-05 22:34:18.424 [info] Added views:workbench.view.search in workbench.view.search
+2024-10-05 22:34:18.424 [info] Added views:workbench.scm in workbench.view.scm
+2024-10-05 22:34:18.424 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2024-10-05 22:34:18.424 [info] Added views:workbench.panel.output in workbench.panel.output
+2024-10-05 22:34:18.424 [info] Added views:terminal in terminal
+2024-10-05 22:34:18.424 [info] Added views:timeline in workbench.view.explorer
+2024-10-05 22:34:18.424 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2024-10-05 22:34:18.661 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2024-10-05 22:34:21.396 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2024-10-05 22:34:22.861 [info] Added views:workbench.scm.history in workbench.view.scm
+2024-10-05 22:34:23.067 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2024-10-05 22:38:01.550 [info] Showing view workbench.scm.repositories in the container workbench.view.scm
+2024-10-05 22:38:01.565 [info] Added views:workbench.scm.repositories in workbench.view.scm
+2024-10-05 22:38:11.256 [info] Removed views:workbench.scm.history from workbench.view.scm
+2024-10-05 22:38:15.091 [info] Removed views:workbench.scm from workbench.view.scm
+2024-10-05 22:38:49.978 [info] Showing view workbench.scm in the container workbench.view.scm
+2024-10-05 22:38:50.014 [info] Added views:workbench.scm in workbench.view.scm

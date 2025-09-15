@@ -1,0 +1,27 @@
+NIRI_REPO=
+TARGET_DIR=
+RES_DIR=
+BIN_DIR=
+
+# Binary
+cp $TARGET_DIR/niri $BIN_DIR
+cp $TARGET_DIR/niri-session $BIN_DIR
+
+# Resources
+## destop, portals, systemd service & target
+cp $RES_DIR/niri.desktop $RES_DEST
+cp $RES_DIR/niri-portals.conf $RES_DEST
+cp $RES_DIR/niri.service RES_DEST
+cp $RES_DIR/niri-shutdown-target RES_DEST
+
+
+
+#sudo cp target/release/niri /usr/local/bin/
+#sudo cp niri-session /usr/local/bin/
+
+#sudo cp niri.service niri-shutdown.target /etc/systemd/user
+#sudo cp niri.desktop /usr/local/share/wayland-sessions/
+
+#sudo cp niri-portals.conf /usr/local/share/xdg-desktop-portal/
+
+#sudo cp cosmic-ext-niri.desktop /usr/share/wayland-sessions/

@@ -1,0 +1,176 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Uw ebook kan niet worden geopend want de server vereist authenticatie."
+   },
+   "errorDownloading": {
+      "message": "Helaas is het downloaden van het ebook mislukt"
+   },
+   "errorEncrypted": {
+      "message": "Uw ebook is vergrendeld met Digital Rights Management (DRM). Om deze reden kan het helaas niet worden geopend."
+   },
+   "errorErrorCode": {
+      "message": "Uw ebook kon niet worden geopend, omdat de server de volgende foutmelding stuurde:"
+   },
+   "errorInvalid": {
+      "message": "Het epub bestand is niet compleet en kan helaas niet geopend worden."
+   },
+   "errorNotFound": {
+      "message": "Uw ebook kan niet worden geopend omdat het niet op de server staat op deze locatie."
+   },
+   "errorOther": {
+      "message": "Helaas ging er iets onverwacht mis tijdens het openen van uw ebook. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Het bestand is geen geldig epub bestand."
+   },
+   "extensionDescription": {
+      "message": "Lees epub bestanden direct in de browser"
+   },
+   "hintBookmark": {
+      "message": "Bladwijzer gezet"
+   },
+   "hintDownloading": {
+      "message": "Ebook downloaden..."
+   },
+   "hintFileaccess": {
+      "message": "Klik op onderstaande link en dan op 'Sta toegang tot file URLs toe' om ebooks op uw computer te openen."
+   },
+   "hintSave": {
+      "message": "Klik in het midden en dan op 'Bewaar ebook' om het ebook te bewaren."
+   },
+   "hintSetupFileaccess": {
+      "message": "Instellen bestandstoegang"
+   },
+   "hintStart": {
+      "message": "Start EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Klik / Tik in het midden om de gereedschapsbalk of een ander ebook te openen."
+   },
+   "installDownload": {
+      "message": "Klik in een website op een ebook download-link. Het ebook wordt opgehaald en daarna automatisch geopend."
+   },
+   "installFileExplorer": {
+      "message": "Dubbel-klik op een ebook bestand in de verkenner."
+   },
+   "installMiddle": {
+      "message": "Als je al een ebook open hebt staan, klik dan in het midden om de gereedschapsbalk te tonen en om een nieuw ebook te openen."
+   },
+   "installTitle": {
+      "message": "Verschillende manieren om ebooks te openen"
+   },
+   "installToolbar": {
+      "message": "Klik op de EPUBReader knop in de gereedschapsbalk in de browser. Klik daarna op de mappen-knop bovenaan."
+   },
+   "prefBkgColor": {
+      "message": "Achtergrondkleur"
+   },
+   "prefBook": {
+      "message": "Zoals gedefinieerd in het boek"
+   },
+   "prefColumnWidth": {
+      "message": "Kolombreedte"
+   },
+   "prefFontColor": {
+      "message": "Tekstkleur"
+   },
+   "prefFontFace": {
+      "message": "Lettertype"
+   },
+   "prefFontSize": {
+      "message": "Tekengrootte"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Ebooks openen trager"
+   },
+   "prefLineHeight": {
+      "message": "Regelhoogte"
+   },
+   "prefLoadFonts": {
+      "message": "Lettertypes laden"
+   },
+   "prefMarginLr": {
+      "message": "Marge grootte"
+   },
+   "prefNo": {
+      "message": "Nee"
+   },
+   "prefReadingDir": {
+      "message": "Leesrichting"
+   },
+   "prefReadingDirLtr": {
+      "message": "Links naar rechts"
+   },
+   "prefReadingDirRtl": {
+      "message": "Rechts naar links"
+   },
+   "prefReadingStyle": {
+      "message": "Lees stijl"
+   },
+   "prefReadingStyleBook": {
+      "message": "Boek"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Website"
+   },
+   "prefUser": {
+      "message": "Ingesteld door de gebruiker"
+   },
+   "prefYes": {
+      "message": "Ja"
+   },
+   "tooltipBookmark": {
+      "message": "Zet bladwijzer/D"
+   },
+   "tooltipDonate": {
+      "message": "Ondersteun EPUBReader!"
+   },
+   "tooltipFontLess": {
+      "message": "Verklein lettertype/-"
+   },
+   "tooltipFontMore": {
+      "message": "Vergroot lettertype/+"
+   },
+   "tooltipHelp": {
+      "message": "Help"
+   },
+   "tooltipOpen": {
+      "message": "Open ebook"
+   },
+   "tooltipPref": {
+      "message": "Instellingen"
+   },
+   "tooltipReadingStyle": {
+      "message": "Verander leesstijl"
+   },
+   "tooltipSave": {
+      "message": "Bewaar ebook/S"
+   },
+   "tooltipToc": {
+      "message": "Inhoudsopgave/T"
+   },
+   "updateExport": {
+      "message": "Exporteren werkt alleen nog tot en met Firefox 56."
+   },
+   "updateIntro": {
+      "message": "Dit is de geheel vernieuwde EPUBReader versie die werkt in de toekomstige Firefox."
+   },
+   "updateLibrary": {
+      "message": "De privé-bibliotheek bestaat niet meer, omdat de benodigde functies ontbreken in Firefox. Maar ebooks in de privé-bibliotheek bestaan nog wel. Om deze te exporteren kun je de nieuwe Firefox uitbreiding installeren:"
+   },
+   "updateMemory": {
+      "message": "EBooks worden nu in het geheugen geopend op de plaats waar ze zijn opgeslagen. Daardoor is geen extra opslagruimte nodig, en openen ebooks sneller."
+   },
+   "updateSize": {
+      "message": "Je kunt nu ebooks groter dan 250 MB lezen."
+   },
+   "updateSponsors": {
+      "message": "Deze sponsors hebben de nieuwe versie mogelijk gemaakt"
+   },
+   "updateTitle": {
+      "message": "EPUBReader veranderingen"
+   }
+}

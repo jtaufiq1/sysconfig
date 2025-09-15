@@ -1,0 +1,20 @@
+Initialize git repo on the command line
+git init
+
+Add files to staging area
+git add fileName or git add .
+
+Show current status (inspects content) between git working directory and staging area
+git status
+
+Show Difference between working file and staging area
+git diff fileName
+
+Make Permanent changes to Repo
+git commit -m "Commit Message in present tense"
+
+Show the previous commit made to git repo
+git log
+
+Shows Log and Latest commit and added line
+git show HEAD

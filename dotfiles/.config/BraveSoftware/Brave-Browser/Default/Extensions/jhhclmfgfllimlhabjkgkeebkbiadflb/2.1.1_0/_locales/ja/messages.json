@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "このePub書籍は開けません。サーバが認証を要求しています。"
+   },
+   "errorDownloading": {
+      "message": "申し訳ありません。ePub書籍のダウンロード中にエラーが発生しました。"
+   },
+   "errorEncrypted": {
+      "message": "このePub書籍は開けません。Digital Rights Management (DRM)により保護されています。"
+   },
+   "errorErrorCode": {
+      "message": "このePub書籍は開けません。サーバが以下のエラーを返しました："
+   },
+   "errorInvalid": {
+      "message": "このePub書籍は破損しているため開けません。"
+   },
+   "errorNotFound": {
+      "message": "このePub書籍は開けません。サーバ上にファイルが存在しません。"
+   },
+   "errorOther": {
+      "message": "申し訳ありません。ePub書籍を開く途中でエラーが発生したため、ファイルを開けません。"
+   },
+   "errorUnzip": {
+      "message": "このファイルは有効なePub書籍ではありません。"
+   },
+   "extensionDescription": {
+      "message": "このブラウザーでePub書籍を直接開くには"
+   },
+   "hintBookmark": {
+      "message": "ブックマークが設定されました"
+   },
+   "hintDownloading": {
+      "message": "ePub書籍をダウンロード中です..."
+   },
+   "hintFileaccess": {
+      "message": "ローカルに保存されたePub書籍を開くには、下のリンクをクリックして、その後「Allow access to file URLs」をクリックします。"
+   },
+   "hintSave": {
+      "message": "真ん中あたりをクリックして、「ePub書籍を保存」のボタンをクリックすると、ePub書籍が保存されます。"
+   },
+   "hintSetupFileaccess": {
+      "message": "ファイルアクセスを設定する"
+   },
+   "hintStart": {
+      "message": "EPUBReaderをはじめる"
+   },
+   "hintToolbar": {
+      "message": "ツールバーか他の本を開くには、真ん中あたりをクリック/タップします。"
+   },
+   "installDownload": {
+      "message": "ウェブサイト上のePub書籍ダウンロードリンクをクリックします。そのePub書籍はダウンロード後に自動で開きます。"
+   },
+   "installFileExplorer": {
+      "message": "ファイルエクスプローラー上のePub書籍をダブルクリックします。"
+   },
+   "installMiddle": {
+      "message": "もしすでにePub書籍を開いているのなら、真ん中あたりをクリックするだけでツールバーを表示するか新しい本を開けます。"
+   },
+   "installTitle": {
+      "message": "ePub書籍を開くにはいくつかの方法があります"
+   },
+   "installToolbar": {
+      "message": "ブラウザーのツールバー上にあるEPUBReaderボタンをクリックします。その後で一番上のフォルダーボタンをクリックします。"
+   },
+   "prefBkgColor": {
+      "message": "背景色"
+   },
+   "prefBook": {
+      "message": "bookでの定義に従う"
+   },
+   "prefColumnWidth": {
+      "message": "列幅"
+   },
+   "prefFontColor": {
+      "message": "フォント色"
+   },
+   "prefFontFace": {
+      "message": "フォント"
+   },
+   "prefFontSize": {
+      "message": "フォントサイズ"
+   },
+   "prefFontsLoadSlower": {
+      "message": "ePub書籍をゆっくり開く"
+   },
+   "prefLineHeight": {
+      "message": "行の高さ"
+   },
+   "prefLoadFonts": {
+      "message": "フォントの読み込み"
+   },
+   "prefMarginLr": {
+      "message": "マージン幅"
+   },
+   "prefNo": {
+      "message": "いいえ"
+   },
+   "prefReadingDir": {
+      "message": "見開き方向"
+   },
+   "prefReadingDirLtr": {
+      "message": "左から右"
+   },
+   "prefReadingDirRtl": {
+      "message": "右から左"
+   },
+   "prefReadingStyle": {
+      "message": "読書スタイル"
+   },
+   "prefReadingStyleBook": {
+      "message": "書籍"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "ウェブサイト"
+   },
+   "prefUser": {
+      "message": "ユーザ定義"
+   },
+   "prefYes": {
+      "message": "はい"
+   },
+   "tooltipBookmark": {
+      "message": "ブックマークの挿入/D"
+   },
+   "tooltipFontLess": {
+      "message": "フォントを小さく/-"
+   },
+   "tooltipFontMore": {
+      "message": "フォントを大きく/+"
+   },
+   "tooltipHelp": {
+      "message": "ヘルプ"
+   },
+   "tooltipOpen": {
+      "message": "ePub書籍を開く"
+   },
+   "tooltipPref": {
+      "message": "設定"
+   },
+   "tooltipReadingStyle": {
+      "message": "読み方のスタイルを変更"
+   },
+   "tooltipSave": {
+      "message": "ePub書籍を保存/S"
+   },
+   "tooltipToc": {
+      "message": "目次/T"
+   },
+   "updateExport": {
+      "message": "エクスポート機能はFirefox 56以上のみ動作します。"
+   },
+   "updateIntro": {
+      "message": "このEPUBReaderは将来のFirefoxでも動作する予定の完全に新しいバージョンです。"
+   },
+   "updateLibrary": {
+      "message": "プライベートライブラリは必要な機能がFirefoxから無くなったためにもう存在しません。しかし、プライベートライブラリにある、あなたのePub書籍はまだ残っています。もしエクスポートしたい場合は、新しいFireFoxアドオンのEPUBReader Libraryをインストールしてください:"
+   },
+   "updateMemory": {
+      "message": "ePub書籍を保存したメモリ上でそのまま開くようになりました。その結果、余分なディスクスペースは必要なくなり、ePub書籍をはやく開けます。"
+   },
+   "updateSize": {
+      "message": "250MB以上のePub書籍を開けるようになりました。"
+   },
+   "updateSponsors": {
+      "message": "こちらのスポンサーにより新しいバージョンの作成が可能になりました。"
+   },
+   "updateTitle": {
+      "message": "EPUBReaderの変更点"
+   }
+}

@@ -1,0 +1,3 @@
+2024-10-05 22:06:03.013 [info] Started initializing default profile extensions in extensions installation folder. file:///home/taufiq/.vscode/extensions
+2024-10-05 22:06:03.311 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/taufiq/.vscode/extensions Unable to create file 'vscode-userdata:/home/taufiq/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-10-05 22:06:03.312 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/taufiq/.vscode/extensions

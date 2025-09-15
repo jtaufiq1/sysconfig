@@ -1,0 +1,40 @@
+2025/05/22-10:50:36.154 222e Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/22-10:50:36.155 222e Recovering log #507
+2025/05/22-10:50:36.169 222e Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000507.log 
+2025/05/22-10:50:38.749 2240 Level-0 table #524: started
+2025/05/22-10:50:38.764 2240 Level-0 table #524: 273845 bytes OK
+2025/05/22-10:50:38.774 2240 Delete type=0 #507
+2025/05/22-10:50:38.774 223e Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1b\x00\x00\x05' @ 2014446 : 1
+2025/05/22-10:50:38.774 223e Compacting 1@0 + 1@1 files
+2025/05/22-10:50:38.786 223e Generated table #525@0: 5036 keys, 116425 bytes
+2025/05/22-10:50:38.800 223e Generated table #526@0: 7069 keys, 87403 bytes
+2025/05/22-10:50:38.800 223e Compacted 1@0 + 1@1 files => 203828 bytes
+2025/05/22-10:50:38.809 223e compacted to: files[ 0 2 15 0 0 0 0 ]
+2025/05/22-10:50:38.809 223e Delete type=2 #524
+2025/05/22-10:50:38.810 222f Manual compaction at level-0 from '\x00\x1b\x00\x00\x05' @ 2014446 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/22-10:50:41.520 222f Compacting 1@1 + 10@2 files
+2025/05/22-10:50:41.616 222f Generated table #527@1: 51740 keys, 2231124 bytes
+2025/05/22-10:50:41.670 222f Generated table #528@1: 5837 keys, 2155202 bytes
+2025/05/22-10:50:41.702 222f Generated table #529@1: 843 keys, 2132255 bytes
+2025/05/22-10:50:41.726 222f Generated table #530@1: 1521 keys, 2157561 bytes
+2025/05/22-10:50:41.754 222f Generated table #531@1: 2143 keys, 2150650 bytes
+2025/05/22-10:50:41.776 222f Generated table #532@1: 3044 keys, 2157609 bytes
+2025/05/22-10:50:41.827 222f Generated table #533@1: 26544 keys, 2250783 bytes
+2025/05/22-10:50:41.875 222f Generated table #534@1: 27817 keys, 2261825 bytes
+2025/05/22-10:50:41.900 222f Generated table #535@1: 9334 keys, 2140654 bytes
+2025/05/22-10:50:41.951 222f Generated table #536@1: 62625 keys, 2200272 bytes
+2025/05/22-10:50:41.952 222f Generated table #537@1: 485 keys, 10259 bytes
+2025/05/22-10:50:41.952 222f Compacted 1@1 + 10@2 files => 21848194 bytes
+2025/05/22-10:50:41.954 222f compacted to: files[ 0 1 16 0 0 0 0 ]
+2025/05/22-10:50:41.955 222f Delete type=2 #510
+2025/05/22-10:50:41.955 222f Delete type=2 #511
+2025/05/22-10:50:41.955 222f Delete type=2 #512
+2025/05/22-10:50:41.955 222f Delete type=2 #513
+2025/05/22-10:50:41.955 222f Delete type=2 #514
+2025/05/22-10:50:41.955 222f Delete type=2 #515
+2025/05/22-10:50:41.955 222f Delete type=2 #516
+2025/05/22-10:50:41.955 222f Delete type=2 #517
+2025/05/22-10:50:41.955 222f Delete type=2 #518
+2025/05/22-10:50:41.955 222f Delete type=2 #519
+2025/05/22-10:50:41.955 222f Delete type=2 #520
+2025/05/22-10:50:41.955 222f Delete type=2 #525

@@ -1,0 +1,45 @@
+2025/09/13-17:53:00.778 159d Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/09/13-17:53:00.783 159d Recovering log #1289
+2025/09/13-17:53:00.784 159d Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/001289.log 
+2025/09/13-17:58:59.987 1591 Level-0 table #1293: started
+2025/09/13-17:59:00.010 1591 Level-0 table #1293: 97127 bytes OK
+2025/09/13-17:59:00.016 1591 Delete type=0 #1289
+2025/09/13-18:13:04.701 158e Level-0 table #1295: started
+2025/09/13-18:13:04.705 158e Level-0 table #1295: 82421 bytes OK
+2025/09/13-18:13:04.708 158e Delete type=0 #1292
+2025/09/13-18:13:04.709 158e Compacting 4@0 + 1@1 files
+2025/09/13-18:13:04.715 158e Generated table #1296@0: 1118 keys, 120610 bytes
+2025/09/13-18:13:04.715 158e Compacted 4@0 + 1@1 files => 120610 bytes
+2025/09/13-18:13:04.718 158e compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/13-18:13:04.718 158e Delete type=2 #1286
+2025/09/13-18:13:04.718 158e Delete type=2 #1288
+2025/09/13-18:13:04.718 158e Delete type=2 #1290
+2025/09/13-18:13:04.718 158e Delete type=2 #1293
+2025/09/13-18:13:04.718 158e Delete type=2 #1295
+2025/09/14-22:28:40.520 15a0 Level-0 table #1298: started
+2025/09/14-22:28:40.537 15a0 Level-0 table #1298: 68805 bytes OK
+2025/09/14-22:28:40.558 15a0 Delete type=0 #1294
+2025/09/14-23:25:46.379 159d Level-0 table #1300: started
+2025/09/14-23:25:46.397 159d Level-0 table #1300: 55848 bytes OK
+2025/09/14-23:25:46.417 159d Delete type=0 #1297
+2025/09/14-23:41:32.524 15a0 Level-0 table #1302: started
+2025/09/14-23:41:32.534 15a0 Level-0 table #1302: 82284 bytes OK
+2025/09/14-23:41:32.537 15a0 Delete type=0 #1299
+2025/09/15-00:15:29.969 159e Level-0 table #1304: started
+2025/09/15-00:15:29.984 159e Level-0 table #1304: 72223 bytes OK
+2025/09/15-00:15:30.002 159e Delete type=0 #1301
+2025/09/15-00:15:30.003 159e Compacting 4@0 + 1@1 files
+2025/09/15-00:15:30.015 159e Generated table #1305@0: 1122 keys, 120017 bytes
+2025/09/15-00:15:30.015 159e Compacted 4@0 + 1@1 files => 120017 bytes
+2025/09/15-00:15:30.033 159e compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/15-00:15:30.033 159e Delete type=2 #1296
+2025/09/15-00:15:30.033 159e Delete type=2 #1298
+2025/09/15-00:15:30.033 159e Delete type=2 #1300
+2025/09/15-00:15:30.033 159e Delete type=2 #1302
+2025/09/15-00:15:30.033 159e Delete type=2 #1304
+2025/09/15-01:07:45.891 158e Level-0 table #1307: started
+2025/09/15-01:07:45.903 158e Level-0 table #1307: 62217 bytes OK
+2025/09/15-01:07:45.908 158e Delete type=0 #1303
+2025/09/15-01:23:06.226 159d Level-0 table #1309: started
+2025/09/15-01:23:06.239 159d Level-0 table #1309: 76221 bytes OK
+2025/09/15-01:23:06.250 159d Delete type=0 #1306

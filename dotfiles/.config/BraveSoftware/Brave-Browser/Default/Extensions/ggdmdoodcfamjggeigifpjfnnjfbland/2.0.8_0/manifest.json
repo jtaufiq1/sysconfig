@@ -1,0 +1,45 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "popup/index.html",
+      "default_title": "__MSG_extName__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "injected.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "onboarding.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiiBVRnjkzBEVh3tW9ry2Iwb1iQCFsXDdx74NqvZjyrueyFBQusdant2NoH75m3+Kc3FYYnFwLnELGxYhPDw1A4Jl9+GUfkYNlsk8jnbdfw7SCH3nuYtd6/MRquedwUfkAxNqo5ZrpjpPIY/kQdFCuH0fshsVeq7EmcS5eUH3iVqKaEdwZIMxwZ/LW32wHfpxqsZbGvttMDaS77++jTLh/i2tupV20SH+1pjeMvYP6mucKDhrBoH0//9niX1BrgJPyVBEDqZAtyQRb63SprKqjIRSeZJHR8fQXRVZa1pFxEWUvxTckNMoHOO4pycuRUgtggfqE+vyUrhEQws14O+UnwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "120",
+   "name": "OrangeMonkey Pro",
+   "options_page": "options/index.html",
+   "permissions": [ "tabs", "scripting", "notifications", "downloads", "storage", "unlimitedStorage", "offscreen", "webRequest", "userScripts" ],
+   "sandbox": {
+      "pages": [ "sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.8"
+}

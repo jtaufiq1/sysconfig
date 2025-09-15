@@ -1,0 +1,26 @@
+# Install Samba
+sudo apt update && sudo apt install samba -y
+
+# Enable Samba Authentication
+sudo smbpasswd -a $USER     # Setup password for smb user
+
+# Add $USER to smbshare group
+sudo usermod -aG sambashare $USER
+
+# Create the shared folder
+mkdir SharedDir
+
+# Install cifs-util for auto mount after reboot
+sudo apt install cifs-utils -y
+
+# Configure auto mount in fstab
+echo $UID
+
+# Add entry to the fstab file
+//<NordName|NodeIPAddress>/<ShareName> /Mount/point cifs username=<USERNAME>,password=<PASSWORD>,uid=<UID>,iocharset=utf8 0 0
+
+# Mount All
+sudo mount -a
+
+# Reload Systemd Daemon and apply changes
+sudo systemctl daemon-reload

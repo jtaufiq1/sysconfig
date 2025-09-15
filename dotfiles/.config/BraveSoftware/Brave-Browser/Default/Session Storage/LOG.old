@@ -1,0 +1,18 @@
+2025/09/11-23:58:29.664 5 Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2025/09/11-23:58:29.665 5 Recovering log #202
+2025/09/11-23:58:29.666 5 Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000202.log 
+2025/09/12-00:57:12.667 7 Level-0 table #206: started
+2025/09/12-00:57:12.678 7 Level-0 table #206: 15893 bytes OK
+2025/09/12-00:57:12.688 7 Delete type=0 #202
+2025/09/12-00:57:12.688 7 Compacting 4@0 + 1@1 files
+2025/09/12-00:57:12.697 7 Generated table #207@0: 7708 keys, 302586 bytes
+2025/09/12-00:57:12.697 7 Compacted 4@0 + 1@1 files => 302586 bytes
+2025/09/12-00:57:12.706 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/12-00:57:12.707 7 Delete type=2 #194
+2025/09/12-00:57:12.707 7 Delete type=2 #197
+2025/09/12-00:57:12.707 7 Delete type=2 #200
+2025/09/12-00:57:12.707 7 Delete type=2 #203
+2025/09/12-00:57:12.707 7 Delete type=2 #206
+2025/09/13-02:02:12.723 7 Level-0 table #209: started
+2025/09/13-02:02:12.726 7 Level-0 table #209: 15897 bytes OK
+2025/09/13-02:02:12.732 7 Delete type=0 #205

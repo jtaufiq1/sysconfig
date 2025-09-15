@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="parole" version="1.0">
+  <property name="subtitles" type="empty">
+    <property name="font" type="string" value="Sans Bold 20"/>
+  </property>
+  <property name="window" type="empty">
+    <property name="maximized" type="bool" value="false"/>
+    <property name="width" type="int" value="744"/>
+    <property name="height" type="int" value="795"/>
+  </property>
+  <property name="audio" type="empty">
+    <property name="volume" type="int" value="40"/>
+    <property name="visualization-enabled" type="bool" value="false"/>
+    <property name="visualization-name" type="string" value="spectrascope"/>
+  </property>
+  <property name="folders" type="empty">
+    <property name="last-used-media" type="string" value="/mnt/win11/myData/Islam/Quran"/>
+  </property>
+  <property name="playlist" type="empty">
+    <property name="remove-duplicates" type="bool" value="true"/>
+    <property name="remember-playlist" type="bool" value="true"/>
+    <property name="repeat" type="bool" value="true"/>
+  </property>
+</channel>

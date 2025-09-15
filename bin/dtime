@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Display Current System Stat
+echo "Date and Time"
+date -u
+

@@ -1,0 +1,84 @@
+2025/07/03-14:25:57.260 b17f Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_word-edit.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/03-14:25:57.260 b17f Recovering log #4
+2025/07/03-14:25:57.261 b17f Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_word-edit.officeapps.live.com_0.indexeddb.leveldb/000004.log 
+2025/07/03-20:20:22.804 b180 Level-0 table #8: started
+2025/07/03-20:20:22.839 b180 Level-0 table #8: 1025854 bytes OK
+2025/07/03-20:20:22.845 b180 Delete type=0 #4
+2025/07/03-20:31:22.759 b180 Level-0 table #10: started
+2025/07/03-20:31:22.770 b180 Level-0 table #10: 762666 bytes OK
+2025/07/03-20:31:22.775 b180 Delete type=0 #7
+2025/07/04-00:16:43.896 b181 Level-0 table #12: started
+2025/07/04-00:16:43.906 b181 Level-0 table #12: 713846 bytes OK
+2025/07/04-00:16:43.913 b181 Delete type=0 #9
+2025/07/04-05:49:50.321 b17f Compacting 2@0 + 1@1 files
+2025/07/04-05:49:50.359 b17f Generated table #13@0: 974 keys, 26534 bytes
+2025/07/04-05:49:50.359 b17f Compacted 2@0 + 1@1 files => 26534 bytes
+2025/07/04-05:49:50.367 b17f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/04-05:49:50.367 b17f Delete type=2 #8
+2025/07/04-05:49:50.368 b17f Delete type=2 #10
+2025/07/04-05:49:50.368 b17f Delete type=2 #12
+2025/07/04-05:59:58.392 b180 Level-0 table #15: started
+2025/07/04-05:59:58.416 b180 Level-0 table #15: 1008821 bytes OK
+2025/07/04-05:59:58.427 b180 Delete type=0 #11
+2025/07/04-06:07:58.348 b181 Compacting 1@0 + 1@1 files
+2025/07/04-06:07:58.371 b181 Generated table #16@0: 1498 keys, 24231 bytes
+2025/07/04-06:07:58.371 b181 Compacted 1@0 + 1@1 files => 24231 bytes
+2025/07/04-06:07:58.381 b181 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/04-06:07:58.381 b181 Delete type=2 #13
+2025/07/04-06:07:58.381 b181 Delete type=2 #15
+2025/07/04-06:09:58.361 b180 Level-0 table #18: started
+2025/07/04-06:09:58.380 b180 Level-0 table #18: 760185 bytes OK
+2025/07/04-06:09:58.389 b180 Delete type=0 #14
+2025/07/04-06:16:58.359 b181 Level-0 table #20: started
+2025/07/04-06:16:58.379 b181 Level-0 table #20: 698432 bytes OK
+2025/07/04-06:16:58.388 b181 Delete type=0 #17
+2025/07/04-06:21:58.365 b17f Compacting 2@0 + 1@1 files
+2025/07/04-06:21:58.369 b17f Level-0 table #23: started
+2025/07/04-06:21:58.387 b17f Level-0 table #23: 671125 bytes OK
+2025/07/04-06:21:58.395 b17f Delete type=0 #19
+2025/07/04-06:21:58.402 b17f Generated table #21@0: 1934 keys, 32794 bytes
+2025/07/04-06:21:58.403 b17f Compacted 2@0 + 1@1 files => 32794 bytes
+2025/07/04-06:21:58.412 b17f compacted to: files[ 1 1 1 0 0 0 0 ]
+2025/07/04-06:21:58.412 b17f Delete type=2 #16
+2025/07/04-06:21:58.412 b17f Delete type=2 #18
+2025/07/04-06:21:58.412 b17f Delete type=2 #20
+2025/07/04-06:26:58.382 b17f Level-0 table #25: started
+2025/07/04-06:26:58.399 b17f Level-0 table #25: 647350 bytes OK
+2025/07/04-06:26:58.409 b17f Delete type=0 #22
+2025/07/04-06:33:58.353 b17f Compacting 2@0 + 1@1 files
+2025/07/04-06:33:58.373 b17f Generated table #26@0: 2234 keys, 48633 bytes
+2025/07/04-06:33:58.373 b17f Compacted 2@0 + 1@1 files => 48633 bytes
+2025/07/04-06:33:58.383 b17f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/04-06:33:58.384 b17f Delete type=2 #21
+2025/07/04-06:33:58.384 b17f Delete type=2 #23
+2025/07/04-06:33:58.384 b17f Delete type=2 #25
+2025/07/04-06:47:58.378 b181 Compacting 1@1 + 1@2 files
+2025/07/04-06:47:58.392 b181 Generated table #27@1: 71 keys, 30383 bytes
+2025/07/04-06:47:58.393 b181 Compacted 1@1 + 1@2 files => 30383 bytes
+2025/07/04-06:47:58.403 b181 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/04-06:47:58.403 b181 Delete type=2 #5
+2025/07/04-06:47:58.403 b181 Delete type=2 #26
+2025/07/04-06:49:58.368 b181 Level-0 table #29: started
+2025/07/04-06:49:58.400 b181 Level-0 table #29: 3431882 bytes OK
+2025/07/04-06:49:58.409 b181 Delete type=0 #24
+2025/07/04-07:04:58.370 b180 Compacting 1@1 + 1@2 files
+2025/07/04-07:04:58.384 b180 Generated table #30@1: 67 keys, 29087 bytes
+2025/07/04-07:04:58.384 b180 Compacted 1@1 + 1@2 files => 29087 bytes
+2025/07/04-07:04:58.392 b180 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/04-07:04:58.393 b180 Delete type=2 #27
+2025/07/04-07:04:58.393 b180 Delete type=2 #29
+2025/07/04-07:08:58.364 b181 Level-0 table #32: started
+2025/07/04-07:08:58.398 b181 Level-0 table #32: 4170423 bytes OK
+2025/07/04-07:08:58.409 b181 Delete type=0 #28
+2025/07/04-07:25:14.353 b180 Level-0 table #34: started
+2025/07/04-07:25:14.391 b180 Level-0 table #34: 4164019 bytes OK
+2025/07/04-07:25:14.400 b180 Delete type=0 #31
+2025/07/04-07:37:17.358 b17f Compacting 1@0 + 1@1 files
+2025/07/04-07:37:17.375 b17f Generated table #35@0: 1002 keys, 50896 bytes
+2025/07/04-07:37:17.375 b17f Compacted 1@0 + 1@1 files => 50896 bytes
+2025/07/04-07:37:17.384 b17f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/04-07:37:17.384 b17f Delete type=2 #32
+2025/07/04-07:37:17.384 b17f Delete type=2 #34
+2025/07/04-07:37:58.368 b180 Level-0 table #37: started
+2025/07/04-07:37:58.419 b180 Level-0 table #37: 4189313 bytes OK
+2025/07/04-07:37:58.432 b180 Delete type=0 #33

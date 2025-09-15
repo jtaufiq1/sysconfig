@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "rtl"
+   },
+   "errorAuthentication": {
+      "message": "לא ניתן לפתוח את הספר שלך כיוון שהשרת דורש את זיהוי המשתמש."
+   },
+   "errorDownloading": {
+      "message": "ארעה שגיאה בהורדת הקובץ."
+   },
+   "errorEncrypted": {
+      "message": "הספר מוגן ע י מנגנון ניהול זכויות דיגיטלי. לכן, למרבה הצער, לא ניתן לקרוא אותו."
+   },
+   "errorErrorCode": {
+      "message": "לא ניתן לפתוח את הספר שלך כיוון שהשרת החזיר את השגיאה הבאה:"
+   },
+   "errorInvalid": {
+      "message": "הקובץ אינו תקין ולא ניתן לקריאה."
+   },
+   "errorNotFound": {
+      "message": "לא ניתן לפתוח את הספר שלך כיוון שהוא לא קיים על השרת במיקום זה."
+   },
+   "errorOther": {
+      "message": "למרבה הצער ארעה שגיאה תוך כדי נסיון קריאת הספר שלך."
+   },
+   "errorUnzip": {
+      "message": "הקובץ אינו ePub תקין."
+   },
+   "extensionDescription": {
+      "message": "הפעל את EPUBReader"
+   },
+   "hintBookmark": {
+      "message": "סימניה הוספה"
+   },
+   "hintDownloading": {
+      "message": "מוריד ספר אלקטרוני..."
+   },
+   "hintFileaccess": {
+      "message": "הקלק על הקישור מתחת ואז על 'אפשר גישה לקובץ קישורים' כדי לפתוח ספרים שמאוכסנים מקומית."
+   },
+   "hintSave": {
+      "message": "הקלק במרכז ואז על כפתור 'שמור ספר אלקטרוני' כדי לשמור את הספר."
+   },
+   "hintSetupFileaccess": {
+      "message": "הגדר גישה לקובץ"
+   },
+   "hintStart": {
+      "message": "הפעל את EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "הקלק באמצע כדי לפתוח את סרגל הכלים או ספר נוסף."
+   },
+   "installDownload": {
+      "message": "הקלק באתר על הקישור להורדת ספר אלקטרוני. הספר ירד ויפתח באופן אוטומטי לאחר ההורדה."
+   },
+   "installFileExplorer": {
+      "message": "הקלק פעמיים על ספר אלקטרוני בסייר הקבצים."
+   },
+   "installMiddle": {
+      "message": "במידה וכבר פתחת ספר אלקטרוני,  הקלק באמצע כדי להציג את סרגל הכלים ולפתוח ספר חדש."
+   },
+   "installTitle": {
+      "message": "מספר דרכים לפתוח ספרים אלקטרוניים"
+   },
+   "installToolbar": {
+      "message": "הקלק על כפתור ה-EPUBReader שבסרגל הדפדפן. לאחר מכן, הקלק על כפתור התיקיה שלמעלה."
+   },
+   "prefBkgColor": {
+      "message": "צבע הרקע"
+   },
+   "prefBook": {
+      "message": "כפי שמוגדר בספר"
+   },
+   "prefColumnWidth": {
+      "message": "רוחב עמודה"
+   },
+   "prefFontColor": {
+      "message": "צבע הגופן"
+   },
+   "prefFontFace": {
+      "message": "משפחת הגופן"
+   },
+   "prefFontSize": {
+      "message": "גודל הגופן"
+   },
+   "prefFontsLoadSlower": {
+      "message": "הספרים האלקטרוניים נפתחים באיטיות"
+   },
+   "prefLineHeight": {
+      "message": "אישור"
+   },
+   "prefLoadFonts": {
+      "message": "טען גופנים (פונטים)"
+   },
+   "prefMarginLr": {
+      "message": "רוחב המרווח"
+   },
+   "prefNo": {
+      "message": "לא"
+   },
+   "prefReadingDir": {
+      "message": "כיוון קריאה"
+   },
+   "prefReadingDirLtr": {
+      "message": "משמאל לימין"
+   },
+   "prefReadingDirRtl": {
+      "message": "מימין לשמאל"
+   },
+   "prefReadingStyle": {
+      "message": "סגנון קריאה"
+   },
+   "prefReadingStyleBook": {
+      "message": "ספר"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "אתר"
+   },
+   "prefUser": {
+      "message": "כפי שהגדרתי כאן"
+   },
+   "prefYes": {
+      "message": "כן"
+   },
+   "tooltipBookmark": {
+      "message": "הוסף סימניה/D"
+   },
+   "tooltipFontLess": {
+      "message": "הקטן גופן/-"
+   },
+   "tooltipFontMore": {
+      "message": "הגדל גופן/+"
+   },
+   "tooltipHelp": {
+      "message": "עזרה"
+   },
+   "tooltipOpen": {
+      "message": "פתח ספר"
+   },
+   "tooltipPref": {
+      "message": "העדפות"
+   },
+   "tooltipReadingStyle": {
+      "message": "שנה סגנון קריאה"
+   },
+   "tooltipSave": {
+      "message": "שמור ספר/S"
+   },
+   "tooltipToc": {
+      "message": "תוכן העניינים/T"
+   },
+   "updateExport": {
+      "message": "יצוא ספרים יעבוד רק עד גרסה 56 של דפדפן פיירפוקס."
+   },
+   "updateIntro": {
+      "message": "זו הגרסה החדשה של EPUBReader שתעבוד עם גרסאות דפדפן פיירפוקס החדשות."
+   },
+   "updateLibrary": {
+      "message": "הספריה הפרטית לא קיימת בגרסה זו כיוון שפונקציונליות הכרחית לא נתמכת בדפדפן פיירפוקס החדש. הספרים שהיו בספריה הפרטית שלך עדיין קיימים. כדי ליבא אותם, נדרש להתקין את התוסף לדפדפן פיירפוקס"
+   },
+   "updateMemory": {
+      "message": "ספרים אלקטרוניים נפתחים כעת בזיכרון במקום בו הם מאוכסנים. כתוצאה מכך, לא מתבזבז שטח אכסון נוסף בדיסק והספרים נפתחים במהירות גבוהה יותר."
+   },
+   "updateSize": {
+      "message": "מעתה ניתן לפתוח ספרים אלקטרוניים הגדולים מ-250MB."
+   },
+   "updateSponsors": {
+      "message": "הספונסרים האלו איפשרו את הגרסה החדשה הזו"
+   },
+   "updateTitle": {
+      "message": "שינויים ב-EPUBReader"
+   }
+}

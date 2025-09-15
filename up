@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Go Up in the directory stuck
+if [ $# -eq 0 ]; then
+       count=1
+else
+ count=$1
+fi
+
+i=0
+
+while [ $i -lt $count ]; do
+	builtin cd '..'
+	i=$((i+1));
+
+done
+
+ls

@@ -1,0 +1,77 @@
+#/bin/bash
+
+# VARIABLES
+LOG_DIR=/var/log
+ROOT_UID=0	# ROOT USER ID
+LINES=60 # Number of lines to clean
+E_XCD=86 # can't change directory
+E_NOTROOT=87 # Non-root exit error
+# E_WRONGARGS=85 # Non numerical arguments
+
+LOGFILE=sysinfo.log
+ERRLOG=sysinfo.error
+
+# run script as root
+if [ "$UID" -ne "$ROOT_UID" ]
+then 
+	echo "Must be root to run this script."
+	exit $E_NOTROOT >&2
+fi
+
+if [ -n "$1" ]
+	# Test whether command-line argument is present (non-empty).
+then
+	lines=$1
+	echo "clearing $1 lines"
+else
+	lines=$LINES 
+	# Default, if not specified on command-line.
+fi
+
+# Better way of checking command line arguments
+# E_WRONGARGS=85 # EXIT CODE FOR WRONG ARGS
+# 
+# case "$1" in
+# ""	) lines=50;;
+# *[!0-9]*) echo "Usage: `basename $0` lines-to-cleanup";
+#	exit $E_WRONGARGS;;
+# *	) lines=$1;;
+# esac
+#
+
+echo "Changing to $LOG_DIR"
+cd $LOG_DIR
+
+if [ `pwd` != "$LOG_DIR" ]	# or if [ "$PWD" != "$LOG_DIR" ]
+				# Not in /var/log	
+then
+	echo "can't change to $LOG_DIR."
+	exit $E_XCD >> $ERRLOG 
+fi  # Doublecheck if in right directory before messing with log files
+
+# More efficient way is:
+# cd /var/log || {
+#   echo "Can't change to necessary directory." >&2
+#   exit E_XCD;
+
+tail -n $lines messages > mesg.temp # Save last section of message log file.
+mv mesg.temp messages		# rename it as system log file
+
+#* cat /dev/null > messages
+
+: > sysinfo.log
+
+cat /dev/null > wtmp # ': > wtmp and > wtmp' have the same effect.
+
+echo "Log files cleaned up."
+
+## Efficient way of checking directory 
+#
+# cd /var/log/ || {
+#	echo "Cannot change to necessary Directory." >&2
+#	exit $E_XCD >> $ERRLOG 
+##
+
+exit 0
+#  zero return value from the script upon exit indicates a 
+#+ success to the shell

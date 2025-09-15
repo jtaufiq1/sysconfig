@@ -1,0 +1,13 @@
+2025/09/08-19:05:29.820 e4b Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_samfw.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/08-19:05:29.820 e4b Recovering log #6
+2025/09/08-19:05:29.820 e4b Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_samfw.com_0.indexeddb.leveldb/000006.log 
+2025/09/08-19:05:29.851 e4d Level-0 table #10: started
+2025/09/08-19:05:29.857 e4d Level-0 table #10: 648 bytes OK
+2025/09/08-19:05:29.867 e4d Delete type=0 #6
+2025/09/08-19:05:29.867 e4b Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 97 : 1
+2025/09/08-19:05:29.868 e4b Compacting 1@0 + 1@1 files
+2025/09/08-19:05:29.873 e4b Generated table #11@0: 42 keys, 1241 bytes
+2025/09/08-19:05:29.873 e4b Compacted 1@0 + 1@1 files => 1241 bytes
+2025/09/08-19:05:29.883 e4b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/08-19:05:29.884 e4b Delete type=2 #10
+2025/09/08-19:05:29.884 e4b Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 97 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

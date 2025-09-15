@@ -1,0 +1,40 @@
+# Utilities
+
+## Terminal Emulators
+Ptyxis
+Alacritty
+
+File Manager
+Gnome Files (Nautilus)
+
+# Browsers
+Brave Browser
+Tor Browser
+
+# Text Editor
+Vim | Neo vim
+Zed
+
+# Process Monitor
+htop
+btop++
+mission center
+whowatch
+
+# media players
+VLC
+Elisa 
+
+# Office
+LibreOffice
+Free Office
+
+# Misc
+Newelle (AI Assistant)
+Free Download Manager 
+Libre Torrent (Android Torrent client)
+Warehouse (Flatpak Manager)
+Timeshift (Backup)
+CPU-X (Hardware Info)
+DB Browser for SQLite
+GoldenDict-ng (Dictionary)

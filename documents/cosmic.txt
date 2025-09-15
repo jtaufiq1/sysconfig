@@ -1,0 +1,26 @@
+# COSMIC DE
+
+Desktop Environment developed in Rust programming language. Uses wayland as the display protocol.
+
+## Libraries
+1. iced - GUI Library
+2. Smithay - Cosmic compositor
+ 
+## Components
+1. Cosmic-comp
+2. Cosmic-applets
+3. Cosmic-app-library
+4. Cosmic-bg
+5. cosmic-icon-theme
+6. cosmic-launcher
+7. cosmic-notifications
+8. cosmic-osd - Onscreen Notification to overlay messages
+9. cosmic-panel - Panel & Dock
+10. cosmic-settings ...
+
+## Cosmic Apps
+files, text-editor, terminal, player, wallpaper
+
+## Display Manager
+cosmic-greeter based on greetd
+

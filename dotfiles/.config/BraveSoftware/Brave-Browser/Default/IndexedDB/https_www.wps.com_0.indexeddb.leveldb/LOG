@@ -1,0 +1,17 @@
+2025/05/10-00:33:12.641 15c4 Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.wps.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/10-00:33:12.641 15c4 Recovering log #29
+2025/05/10-00:33:12.641 15c4 Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.wps.com_0.indexeddb.leveldb/000029.log 
+2025/05/10-00:33:12.648 15d2 Level-0 table #35: started
+2025/05/10-00:33:12.649 15d2 Level-0 table #35: 623 bytes OK
+2025/05/10-00:33:12.651 15d2 Delete type=0 #29
+2025/05/10-00:33:12.651 15c4 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/10-00:33:14.339 15d4 Level-0 table #37: started
+2025/05/10-00:33:14.340 15d4 Level-0 table #37: 3662 bytes OK
+2025/05/10-00:33:14.343 15d4 Delete type=0 #34
+2025/05/10-00:33:14.343 15c3 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 619 : 1
+2025/05/10-00:33:14.343 15c3 Compacting 1@0 + 1@1 files
+2025/05/10-00:33:14.345 15c3 Generated table #38@0: 41 keys, 1278 bytes
+2025/05/10-00:33:14.345 15c3 Compacted 1@0 + 1@1 files => 1278 bytes
+2025/05/10-00:33:14.347 15c3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/10-00:33:14.348 15c3 Delete type=2 #37
+2025/05/10-00:33:14.348 15c3 Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 619 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)

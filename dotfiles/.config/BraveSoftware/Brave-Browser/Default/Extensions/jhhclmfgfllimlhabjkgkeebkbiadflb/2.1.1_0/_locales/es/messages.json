@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Tu archivo ePub no puede ser abierto por que el servidor requiere una autenticación."
+   },
+   "errorDownloading": {
+      "message": "Ocurrió un error al descargar el archivo ePub."
+   },
+   "errorEncrypted": {
+      "message": "Tu ePub está protegido por un Sistema de Gestión de Derechos Digitales (DRM). Por esta razón, no puede ser abierto."
+   },
+   "errorErrorCode": {
+      "message": "Tu archivo EPUB no se pudo abrir; el servidor envió el siguiente código de error:"
+   },
+   "errorInvalid": {
+      "message": "El archivo ePub está corrupto y no puede ser abierto."
+   },
+   "errorNotFound": {
+      "message": "Tu archivo ePub no puede ser abierto porque no existe en el servidor en la dirección indicada."
+   },
+   "errorOther": {
+      "message": "Disculpa, desafortunadamente ocurrió un error al abrir el archivo ePub. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "El archivo no es un archivo ePub válido."
+   },
+   "extensionDescription": {
+      "message": "Leer archivos epub directamente en el navegador"
+   },
+   "hintBookmark": {
+      "message": "Página sido Marcada"
+   },
+   "hintDownloading": {
+      "message": "Descargando archivo ePub..."
+   },
+   "hintFileaccess": {
+      "message": "Haz clic en el enlace de abajo y después en 'Permitir acceso a los archivos URLs' para abrir archivos ePub guardados en la computadora."
+   },
+   "hintSave": {
+      "message": "Clic en el centro y después en el butón 'Guardar archivo ePub' para guardar."
+   },
+   "hintSetupFileaccess": {
+      "message": "Configuración de acceso de archivo"
+   },
+   "hintStart": {
+      "message": "Iniciar EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Haz clic en el centro para abrir la barra de herramientas o abrir un archivo ePub."
+   },
+   "installDownload": {
+      "message": "Haz clic en el enlace de descarga del archivo ePub en el sitio web. Después de esto, el archivo ePub se descargará y abrirá automáticamente."
+   },
+   "installFileExplorer": {
+      "message": "Haz doble clic en un archivo ePub en el administrador de archivo."
+   },
+   "installMiddle": {
+      "message": "Si ya abriste un archivo ePub, sólo haz clic en el centro para mostrar la barra de herramientas y abrir otro archivo ePub."
+   },
+   "installTitle": {
+      "message": "Varias maneras de abrir archivos ePub"
+   },
+   "installToolbar": {
+      "message": "Haz clic en el butón EPUBReader en la barra de herramientas del navegador. Después, haz clic en la carpeta arriba."
+   },
+   "prefBkgColor": {
+      "message": "Color de fondo"
+   },
+   "prefBook": {
+      "message": "Como definido en el libro"
+   },
+   "prefColumnWidth": {
+      "message": "Ancho de columna"
+   },
+   "prefFontColor": {
+      "message": "Color de la letra"
+   },
+   "prefFontFace": {
+      "message": "Tipo de letra"
+   },
+   "prefFontSize": {
+      "message": "Tamaño de la letra"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Archivos ePub abren más lentamente"
+   },
+   "prefLineHeight": {
+      "message": "Altura de línea"
+   },
+   "prefLoadFonts": {
+      "message": "Cargar fuentes"
+   },
+   "prefMarginLr": {
+      "message": "Ancho de margen"
+   },
+   "prefNo": {
+      "message": "No"
+   },
+   "prefReadingDir": {
+      "message": "Dirección de lectura"
+   },
+   "prefReadingDirLtr": {
+      "message": "De izquierda a derecha"
+   },
+   "prefReadingDirRtl": {
+      "message": "De derecha a izquierda"
+   },
+   "prefReadingStyle": {
+      "message": "Estilo de lectura"
+   },
+   "prefReadingStyleBook": {
+      "message": "Libro"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Página Web"
+   },
+   "prefUser": {
+      "message": "Definido por el usuario"
+   },
+   "prefYes": {
+      "message": "Sí"
+   },
+   "tooltipBookmark": {
+      "message": "Crear marcado de página/D"
+   },
+   "tooltipFontLess": {
+      "message": "Disminuir el tamaño de la letra/-"
+   },
+   "tooltipFontMore": {
+      "message": "Aumentar el tamaño de la letra/+"
+   },
+   "tooltipHelp": {
+      "message": "Ayuda"
+   },
+   "tooltipOpen": {
+      "message": "Abrir archivo ePub"
+   },
+   "tooltipPref": {
+      "message": "Preferencias"
+   },
+   "tooltipReadingStyle": {
+      "message": "Cambiar estilo de lectura"
+   },
+   "tooltipSave": {
+      "message": "Guardar ePub/S"
+   },
+   "tooltipToc": {
+      "message": "Tabla de Contenidos/T"
+   },
+   "updateExport": {
+      "message": "Exportaciones sólo trabajarán hasta Firefox 56 (inclusivo)."
+   },
+   "updateIntro": {
+      "message": "Esta la versión de EPUBReader completamente nueva que trabajará con las nuevas versiones de Firefox."
+   },
+   "updateLibrary": {
+      "message": "La librería privada ya no existe dado que funciones necesarias no se encuentran en Firefox. Sin embargo, tus archivos ePub en la librería privada todavía existen. Si quieres exportarlos, por favor instala el nuevo Firefox Add-on"
+   },
+   "updateMemory": {
+      "message": "Archivos ePub pueden ser abiertos en la memoria en la cual están almacenados. Como resultado, no espacio extra es requirido y los archivos abren más rápidamente."
+   },
+   "updateSize": {
+      "message": "Ahora puedes abrir archivos ePub que son más de 250MB en tamaño."
+   },
+   "updateSponsors": {
+      "message": "Estos patrocinadores hicieron la nueva versión posible"
+   },
+   "updateTitle": {
+      "message": "Cambios de EPUBReader"
+   }
+}

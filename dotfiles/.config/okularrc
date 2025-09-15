@@ -1,0 +1,18 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[MainWindow]
+1280x800 screen: Height=411
+1280x800 screen: Width=846
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAHBAAACxPwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAAA7AAACxP////8A///+AAADTgAAAWAAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Public/learn-content/Linux/Linux Unveiled.pdf
+File2[$e]=/media/taufiq/BOOTCAMP/Users/Taufiq Gh/Desktop/Command Line Applications in Rust.pdf
+Name1[$e]=Linux Unveiled.pdf
+Name2[$e]=Command Line Applications in Rust.pdf

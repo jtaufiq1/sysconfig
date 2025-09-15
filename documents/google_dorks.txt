@@ -1,0 +1,10 @@
+filetype:pdf site:.edu "Sample Text"
+intitle:"index of" "log.txt"
+intitle:"index of" (txt|pdf|doc|docx)
+intitle:"index of" "sensitive"
+intitle:"index of" (.sql|.tar.gz|backup|*)
+inurl:"/view.shtml" # Live webcam
+
+# Github repo docks cheatsheet
+# Curated queries on exploitdb
+# shodan.io: Search internet connected devices, open ports & services...

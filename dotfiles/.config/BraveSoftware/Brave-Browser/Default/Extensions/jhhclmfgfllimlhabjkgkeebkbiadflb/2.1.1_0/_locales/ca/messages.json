@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "El seu arxiu ePub no ha pogut ser obert, degut a que el servidor requereix una autenticació."
+   },
+   "errorDownloading": {
+      "message": "Desafortunadament ha ocurregut un error mentre es baixava l'ebook."
+   },
+   "errorEncrypted": {
+      "message": "L'ebook està encriptat per DRM, desabortunadament no pot ser obert."
+   },
+   "errorErrorCode": {
+      "message": "El seu arxiu ePub no ha pogut ser obert, degut al següent codi d'error mostrat pel servidor:"
+   },
+   "errorInvalid": {
+      "message": "L'ebook està malmès i no s'ha pogut obrir."
+   },
+   "errorNotFound": {
+      "message": "El seu arxiu ePub no ha pogut ser obert, degut a que no existeix en el servidor, l'emplaçament assenyalat."
+   },
+   "errorOther": {
+      "message": "Desafortunadament ha ocurregut un error inesperat a l'obrir l'ebook. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "El fitxer no és fitxer un epub vàlid."
+   },
+   "extensionDescription": {
+      "message": "Llegir l'epud directament al navegador"
+   },
+   "hintBookmark": {
+      "message": "Marcador de pàgina establert"
+   },
+   "hintDownloading": {
+      "message": "Descarregant eBook…"
+   },
+   "hintFileaccess": {
+      "message": "Cliqui al link de sota i després a 'Permetre accés al fitxer des URLs' per obrir ebooks emmagatzemats en local."
+   },
+   "hintSave": {
+      "message": "Cliqueu al centre i aleshores al botó 'Desar ebook' per desar l'ebook."
+   },
+   "hintSetupFileaccess": {
+      "message": "Configuració d'accesos a fitxers"
+   },
+   "hintStart": {
+      "message": "Iniciar EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Cliqui al centre per obrir la barra d'eines de navegació o un altre ebook."
+   },
+   "installDownload": {
+      "message": "Clicar al link de descàrrega de l'ebook en una lloc web. L'ebook es descarregarà i després s'obrirà automàticament."
+   },
+   "installFileExplorer": {
+      "message": "Fer doble clic a l'ebook a l'explorador de fitxers."
+   },
+   "installMiddle": {
+      "message": "Si vosté ja ha obert un ebook, tant sols cliqui al centre per veure la barra d'eines de navegació i obrir un nou ebook."
+   },
+   "installTitle": {
+      "message": "Diverses formes d'obrir ebooks"
+   },
+   "installToolbar": {
+      "message": "Clicar al botó EPIBReader a la barra d’eines de navegació. Després clicar al botó de la carpeta a la part superior."
+   },
+   "prefBkgColor": {
+      "message": "Color de fons"
+   },
+   "prefBook": {
+      "message": "Tal com es defineix al llibre"
+   },
+   "prefColumnWidth": {
+      "message": "Amplada de columnes"
+   },
+   "prefFontColor": {
+      "message": "Color del text"
+   },
+   "prefFontFace": {
+      "message": "Tipus de lletra"
+   },
+   "prefFontSize": {
+      "message": "Mida dl text"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Ebooks obrint-se lentament"
+   },
+   "prefLineHeight": {
+      "message": "Alçada de la línia"
+   },
+   "prefLoadFonts": {
+      "message": "Carregant tipus de lletra"
+   },
+   "prefMarginLr": {
+      "message": "Amplada del marge"
+   },
+   "prefNo": {
+      "message": "No"
+   },
+   "prefReadingDir": {
+      "message": "Llegint adreça"
+   },
+   "prefReadingDirLtr": {
+      "message": "D'esquerra a dreta"
+   },
+   "prefReadingDirRtl": {
+      "message": "De dreta a esquerra"
+   },
+   "prefReadingStyle": {
+      "message": "Estil de lectura"
+   },
+   "prefReadingStyleBook": {
+      "message": "Llibre"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Lloc d'Internet"
+   },
+   "prefUser": {
+      "message": "Definit per l'usuari"
+   },
+   "prefYes": {
+      "message": "Sí"
+   },
+   "tooltipBookmark": {
+      "message": "Establir una marca de pàgina/D"
+   },
+   "tooltipFontLess": {
+      "message": "Disminuir tipus de lletra/-"
+   },
+   "tooltipFontMore": {
+      "message": "Incrementar tipus de lletra/+"
+   },
+   "tooltipHelp": {
+      "message": "Ajuda"
+   },
+   "tooltipOpen": {
+      "message": "Obrir l'ebook"
+   },
+   "tooltipPref": {
+      "message": "Preferències"
+   },
+   "tooltipReadingStyle": {
+      "message": "Bescanviar estil de lectura"
+   },
+   "tooltipSave": {
+      "message": "Desar l'ebook/S"
+   },
+   "tooltipToc": {
+      "message": "Índex/T"
+   },
+   "updateExport": {
+      "message": "La funció d'exportar només funciona a partir de la versió Firefox 56 (inclosa)."
+   },
+   "updateIntro": {
+      "message": "Aquesta és una versió totalment nova d'EPUBReader que funcionará al futur Firefox."
+   },
+   "updateLibrary": {
+      "message": "La llibreria privada ja no existeix com a funció a Firefox, però els seus ebooks a la llibreria privada seguiexen existint. Si vol exportar-los, si us plau, instal·li la nova extensió de Firefox"
+   },
+   "updateMemory": {
+      "message": "Els ebooks ara s'obren en memòria al lloc on estan emmagatzemats. Per tant, no fa falta espai extra al disk i l'obertura d'ebooks és més ràpida."
+   },
+   "updateSize": {
+      "message": "Vosté pot obrir ebooks més grans de 250MB."
+   },
+   "updateSponsors": {
+      "message": "Els patrocinadors han fet possible aquesta nova versió"
+   },
+   "updateTitle": {
+      "message": "Canvis a l'EPUBReader"
+   }
+}

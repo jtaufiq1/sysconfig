@@ -1,0 +1,7 @@
+2024-10-05 22:05:58.309 [info] update#setState idle
+2024-10-05 22:06:05.344 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2024-10-05 22:06:28.343 [info] update#setState checking for updates
+2024-10-05 22:06:29.086 [info] update#setState idle
+2024-10-05 22:07:12.093 [info] Extension host with pid 5502 exited with code: 0, signal: unknown.
+2024-10-05 22:07:12.138 [error] [UtilityProcessWorker]: terminated unexpectedly with code 224016240, signal: unknown
+2024-10-05 22:34:00.136 [info] Extension host with pid 5653 exited with code: 0, signal: unknown.

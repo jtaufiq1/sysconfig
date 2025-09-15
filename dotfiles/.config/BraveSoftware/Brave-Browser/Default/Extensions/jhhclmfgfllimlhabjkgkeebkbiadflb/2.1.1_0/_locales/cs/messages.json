@@ -1,0 +1,176 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Vaše e-kniha nemůže být otevřena, protože server vyžaduje autorizaci."
+   },
+   "errorDownloading": {
+      "message": "Boužel nastala chyba při stahování e-knihy."
+   },
+   "errorEncrypted": {
+      "message": "E-kniha je šifrována pomocí DRM a nemůže být otevřena."
+   },
+   "errorErrorCode": {
+      "message": "Vaše e-kniha nemůže být otevřena, protože server poslal následující chybový kód:"
+   },
+   "errorInvalid": {
+      "message": "E-kniha je nekompletní a nemůže být otevřena."
+   },
+   "errorNotFound": {
+      "message": "Vaše e-kniha nemůže být otevřena, protože není nalezena na serveru v uvedeném umístění."
+   },
+   "errorOther": {
+      "message": "Boužel nastala neočekávaná chyba při otevírání e-knihy. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Chybný formát epub souboru."
+   },
+   "extensionDescription": {
+      "message": "Čtení epub souborů přímo v prohlížeči"
+   },
+   "hintBookmark": {
+      "message": "Záložka byla nastavena"
+   },
+   "hintDownloading": {
+      "message": "Stahuji e-knihu..."
+   },
+   "hintFileaccess": {
+      "message": "Klik na link níže a volba 'Povolení přístupu na souborové URLs' otevře lokálně uložené e-knihy"
+   },
+   "hintSave": {
+      "message": "Klik ve středu a následně na tlačítko 'Ulož e-knihu' uloží e-knihu."
+   },
+   "hintSetupFileaccess": {
+      "message": "Konfigurace přístupu k souborům"
+   },
+   "hintStart": {
+      "message": "Start EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Klik/Stlačení do prostřed otevře nástrojovou lištu nebo jinou e-knihu."
+   },
+   "installDownload": {
+      "message": "Klik na odkaz na stažení na webové stránce. E-kniha je stažena a automaticky otevřena."
+   },
+   "installFileExplorer": {
+      "message": "Dvojklik na e-knihu v souborovém prohlížeči."
+   },
+   "installMiddle": {
+      "message": "Pokud máte otevřenou e-knihu, klik do středu zobrazí nástrojovou lištu a umožní otevřít novou e-knihu."
+   },
+   "installTitle": {
+      "message": "Několik způsobů, jak otevřít e-knihy"
+   },
+   "installToolbar": {
+      "message": "Klik na EPUBReader tlačítko v nástrojové liště prohlížeče. Po zobrazení klikněte na tlačítko složky, které je umístěné nahoře."
+   },
+   "prefBkgColor": {
+      "message": "Barva pozadí"
+   },
+   "prefBook": {
+      "message": "Nastaveno v e-knize"
+   },
+   "prefColumnWidth": {
+      "message": "Šířka sloupce"
+   },
+   "prefFontColor": {
+      "message": "Barva písma"
+   },
+   "prefFontFace": {
+      "message": "Font"
+   },
+   "prefFontSize": {
+      "message": "Velikost písma"
+   },
+   "prefFontsLoadSlower": {
+      "message": "E-kniha pomalejší otevření"
+   },
+   "prefLineHeight": {
+      "message": "Výška řádku"
+   },
+   "prefLoadFonts": {
+      "message": "Nahrání písma"
+   },
+   "prefMarginLr": {
+      "message": "Šířka okraje"
+   },
+   "prefNo": {
+      "message": "Ne"
+   },
+   "prefReadingDir": {
+      "message": "Směr čtení"
+   },
+   "prefReadingDirLtr": {
+      "message": "Z leva do prava"
+   },
+   "prefReadingDirRtl": {
+      "message": "Z prava do leva"
+   },
+   "prefReadingStyle": {
+      "message": "Styl čtení"
+   },
+   "prefReadingStyleBook": {
+      "message": "Kniha"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Webové stránky"
+   },
+   "prefUser": {
+      "message": "Nastaveno uživatelem"
+   },
+   "prefYes": {
+      "message": "Ano"
+   },
+   "tooltipBookmark": {
+      "message": "Přidej záložku/D"
+   },
+   "tooltipDonate": {
+      "message": "Podporujte EPUBReader!"
+   },
+   "tooltipFontLess": {
+      "message": "Zmenšení písma/-"
+   },
+   "tooltipFontMore": {
+      "message": "Zvětšení písma/+"
+   },
+   "tooltipHelp": {
+      "message": "Pomoc"
+   },
+   "tooltipOpen": {
+      "message": "Otevření e-knihy"
+   },
+   "tooltipPref": {
+      "message": "Nastavení"
+   },
+   "tooltipReadingStyle": {
+      "message": "Změna stylu"
+   },
+   "tooltipSave": {
+      "message": "Uložení e-knihy/S"
+   },
+   "tooltipToc": {
+      "message": "Obsah/T"
+   },
+   "updateExport": {
+      "message": "Export bude pracovat pouze do verze Firefoxu 56 (včetně)."
+   },
+   "updateIntro": {
+      "message": "To je nová verze EPUBReaderu která bude pracovat s budoucími verzemi Firefoxu."
+   },
+   "updateLibrary": {
+      "message": "Soukromá knihovna není podporována, protože požadovaná funkcionalita chybí v Firefoxu. Ale knihy v soukromé knihovně stále existují. Pokud je chcete exportovat, prosím naistalujte nový Firefox Add-on"
+   },
+   "updateMemory": {
+      "message": "E-kniha je nyní otevřena v paměti z umístění kde je uložena. Výsledkem je, že není zapotřebí další extra místo na diskua e-kniha je otevřena rychleji."
+   },
+   "updateSize": {
+      "message": "Nyní můžete otevřít e-knihu větší než 250MB."
+   },
+   "updateSponsors": {
+      "message": "Tito sponzoři umožnili vznik nové verze"
+   },
+   "updateTitle": {
+      "message": "Změny EPUBReader"
+   }
+}

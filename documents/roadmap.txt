@@ -1,0 +1,29 @@
++ Linux Sys Admin
+
+=== Software Developer/Engineer ===
+Basic of Software Development
+ Describe software, SDLC, Software Engineering, Tools, Technologies and Stack.
+ Outline approaches to application architecture and design, patterns and deployment architecture
+ List different types of programming languages and create basic programming construct in python
+ Summarise the skills required in software engineering and describe the career options it provides.
+ Who is a software developer
+[Software Engineering: Coursera: IBM]
+
+Technical Skills
+- Learn/Understand Fundamental Concepts
+- Learn Libraries & Advanced Concepts
+
+- DIY
+- Guided program (CourseCareers)
+- Choose&Learn Programming Language
+
+Build Projects
+- Simple|Moderate|Complex Project
+
+Non-Technical Skills
+- Right Attitude & Adaptation
+- Being Fast & Capable Learner
+- Stay updated
+
+Join Community
+Make Good Resume

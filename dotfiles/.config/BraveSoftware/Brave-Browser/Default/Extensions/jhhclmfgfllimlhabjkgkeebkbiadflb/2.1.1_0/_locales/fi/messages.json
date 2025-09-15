@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "ePub -kirjaasi ei voitu avata sillä palvelin vaatii tunnistautumisen."
+   },
+   "errorDownloading": {
+      "message": "Valitettavasti e-kirjan latauksessa tapahtui virhe."
+   },
+   "errorEncrypted": {
+      "message": "Kirjasi on (DRM) kopiosuojattu. Valitettavasti sen vuoksi sitä ei voi esittää."
+   },
+   "errorErrorCode": {
+      "message": "ePub -julkaisuasi ei voitu avata koska palvelin ilmoitti virheen:"
+   },
+   "errorInvalid": {
+      "message": "ePub -tiedosto on vioittunut ja sitä ei voi esittää"
+   },
+   "errorNotFound": {
+      "message": "ePub -kirjaasi ei voitu avata, sillä sitä ei ole palvelimella tässä osoitteessa."
+   },
+   "errorOther": {
+      "message": "Valitan, kirjaa avattaessa tapahtui odottamaton virhe. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Tiedosto ei ole kelvollinen epub tiedosto."
+   },
+   "extensionDescription": {
+      "message": "Lue epub-tiedostoja suoraan selaimessa"
+   },
+   "hintBookmark": {
+      "message": "Kirjanmerkki on asetettu"
+   },
+   "hintDownloading": {
+      "message": "Ladataan e-kirjaa..."
+   },
+   "hintFileaccess": {
+      "message": "Klikkaa allaolevaa linkkiä ja valitse 'Salli pääsy tiedosto URL:eihin' avataksesi paikallisesti tallennettuja e-kirjoja."
+   },
+   "hintSave": {
+      "message": "Paina keskeltä ja valitse 'Tallenna e-kirja' tallentaaksesi e-kirjan."
+   },
+   "hintSetupFileaccess": {
+      "message": "Aseta pääsy tiedostoihin"
+   },
+   "hintStart": {
+      "message": "Käynnistä EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Klikkaa tai napauta keskeltä avataksesi työkalurivin tai toisen e-kirjan."
+   },
+   "installDownload": {
+      "message": "Klikkaa verkkosivulla e-kirjan latauslinkkiä. Kirja ladataan ja se avautuu automaattisesti."
+   },
+   "installFileExplorer": {
+      "message": "Kaksoisklikkaa e-kirjaa tiedostoselaimessa."
+   },
+   "installMiddle": {
+      "message": "Jos olet jo avannut e-kirjan, napsauta keskeltä nähdäksesi työkalurivin, josta voit avata uuden e-kirjan."
+   },
+   "installTitle": {
+      "message": "Useita tapoja avata e-kirjoja"
+   },
+   "installToolbar": {
+      "message": "Paina EPUBReader nappulaa selaimen työkalurivillä. Sen jälkeen paina kansionappulaa yläreunassa."
+   },
+   "prefBkgColor": {
+      "message": "Taustaväri"
+   },
+   "prefBook": {
+      "message": "Sama kuin kirjassa"
+   },
+   "prefColumnWidth": {
+      "message": "Sarakeleveys"
+   },
+   "prefFontColor": {
+      "message": "Fontin väri"
+   },
+   "prefFontFace": {
+      "message": "Fonttiperhe"
+   },
+   "prefFontSize": {
+      "message": "Fonttikoko"
+   },
+   "prefFontsLoadSlower": {
+      "message": "E-kirjat avautuvat hitaammin"
+   },
+   "prefLineHeight": {
+      "message": "Rivikorkeus"
+   },
+   "prefLoadFonts": {
+      "message": "Lataa fontit"
+   },
+   "prefMarginLr": {
+      "message": "Reunukset"
+   },
+   "prefNo": {
+      "message": "Ei"
+   },
+   "prefReadingDir": {
+      "message": "Lukusuunta"
+   },
+   "prefReadingDirLtr": {
+      "message": "Vasemmalta oikealle"
+   },
+   "prefReadingDirRtl": {
+      "message": "Oikealta vasemmalle"
+   },
+   "prefReadingStyle": {
+      "message": "Lukutapa"
+   },
+   "prefReadingStyleBook": {
+      "message": "Kirja"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Verkkosivusto"
+   },
+   "prefUser": {
+      "message": "Oma asetus"
+   },
+   "prefYes": {
+      "message": "Kyllä"
+   },
+   "tooltipBookmark": {
+      "message": "Tallenna kirjanmerkki/D"
+   },
+   "tooltipFontLess": {
+      "message": "Pienennä fonttia/-"
+   },
+   "tooltipFontMore": {
+      "message": "Suurenna fonttia/+"
+   },
+   "tooltipHelp": {
+      "message": "Ohje"
+   },
+   "tooltipOpen": {
+      "message": "Avaa e-kirja"
+   },
+   "tooltipPref": {
+      "message": "Asetukset"
+   },
+   "tooltipReadingStyle": {
+      "message": "Muuta lukutapaa"
+   },
+   "tooltipSave": {
+      "message": "Tallenna e-kirja/S"
+   },
+   "tooltipToc": {
+      "message": "Sisällysluettelo/T"
+   },
+   "updateExport": {
+      "message": "Viimeinen Firefoxversio, jossa kirjaston ulostuonti toimii, on versio 56."
+   },
+   "updateIntro": {
+      "message": "Tämä on täysin uusi versio EPUBReader:ista, tehty toimimaan tulevilla FIrefox versioilla."
+   },
+   "updateLibrary": {
+      "message": "Oma kirjasto - toiminnallisuutta ei enää ole, koska tarvittavat toiminnot puuttuvat Firefoxista. Omassa kirjastossasi olevat tiedostot ovat vielä olemassa. Voit tuoda ne ulos käyttämällä uutta EPUBReader Library - lisäosaa:"
+   },
+   "updateMemory": {
+      "message": "E-kirjat avataan nyt muistiin suoraan tallennuspaikastaan. Tämän seurauksena ylimääräistä levytilaa ei tarvita ja kirjat avautuvat nopeammin."
+   },
+   "updateSize": {
+      "message": "Voi nyt avata yli 250MB kokoisia e-kirjoja."
+   },
+   "updateSponsors": {
+      "message": "Seuraavat sponsorit mahdollistivat uuden version"
+   },
+   "updateTitle": {
+      "message": "Muutoksia EPUBReader:iin"
+   }
+}

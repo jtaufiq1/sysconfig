@@ -1,0 +1,176 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Az ebook-ot nem lehet megnyitni, mert a szervernek azonositási kódra van szüksége."
+   },
+   "errorDownloading": {
+      "message": "Sajnos hiba történt az ebook fájl letöltése közben."
+   },
+   "errorEncrypted": {
+      "message": "Az ebook le van védve a Digitális Jogvédelem által (DRM). Sajnos ezért nem lehet kinyitni."
+   },
+   "errorErrorCode": {
+      "message": "Az ebook-ot nem lehetett megnyitni mert a szerver a következő hibaüzenetet küldte:"
+   },
+   "errorInvalid": {
+      "message": "Az ebook sérült, nem lehet kinyitni."
+   },
+   "errorNotFound": {
+      "message": "Az ebook-ot nem lehet megnyitni, mert nem létezik a szerveren a megadott elérési úton."
+   },
+   "errorOther": {
+      "message": "Elnézést, sajnos valamilyen hiba történt az ebook betöltése közben. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Ez a fájl nem egy érvényes ePub fájl."
+   },
+   "extensionDescription": {
+      "message": "Olvasson ePub fájlokat közvetlenül a böngészőben"
+   },
+   "hintBookmark": {
+      "message": "Könyvjelző beállitva"
+   },
+   "hintDownloading": {
+      "message": "Ebook letöltése..."
+   },
+   "hintFileaccess": {
+      "message": "Kattintson az alábbi linkre, majd válassza a 'Fájl URL-ek elérésének engedélyezése' lehetőséget a helyben tárolt ebook-ok megnyitásához."
+   },
+   "hintSave": {
+      "message": "Kattintson középre, azután az 'Ebook mentése' gombra ha menteni szeretne."
+   },
+   "hintSetupFileaccess": {
+      "message": "Fájl elérések beállítása"
+   },
+   "hintStart": {
+      "message": "EPUBReader elindítása"
+   },
+   "hintToolbar": {
+      "message": "Kattintson vagy érintsen középen, hogy megnyissa az eszköztárat vagy egy másik ebook-ot."
+   },
+   "installDownload": {
+      "message": "Kattintson egy weboldalon egy ebook letöltési linkjére. Az ebook automatikusan megnyílik majd letöltődés után."
+   },
+   "installFileExplorer": {
+      "message": "Kattintdon duplán egy ebook-on az Intézőben."
+   },
+   "installMiddle": {
+      "message": "Ha már megnyitott egy ebook-ot, egyszerűen kattintson középre az eszköztár megjelenítéséhez és új ebook megnyitásához."
+   },
+   "installTitle": {
+      "message": "Ebook-ok megnyitásának többféle módja"
+   },
+   "installToolbar": {
+      "message": "Kattintson az EPUBReader gombra a böngésző eszköztárában. Ezután kattintson a legfelső mappa gombra."
+   },
+   "prefBkgColor": {
+      "message": "Háttérszín"
+   },
+   "prefBook": {
+      "message": "A könyv definíciója szerint"
+   },
+   "prefColumnWidth": {
+      "message": "Oszlop szélesség"
+   },
+   "prefFontColor": {
+      "message": "Betűszín"
+   },
+   "prefFontFace": {
+      "message": "Betűtípus"
+   },
+   "prefFontSize": {
+      "message": "Betűméret"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Az ebook-ok lassabban nyílnak meg"
+   },
+   "prefLineHeight": {
+      "message": "Sor magasság"
+   },
+   "prefLoadFonts": {
+      "message": "Betűtípusok betöltése"
+   },
+   "prefMarginLr": {
+      "message": "Margó szélesség"
+   },
+   "prefNo": {
+      "message": "Nem"
+   },
+   "prefReadingDir": {
+      "message": "Olvasási irány"
+   },
+   "prefReadingDirLtr": {
+      "message": "Balról jobbra"
+   },
+   "prefReadingDirRtl": {
+      "message": "Jobbról balra"
+   },
+   "prefReadingStyle": {
+      "message": "Olvasási stílus"
+   },
+   "prefReadingStyleBook": {
+      "message": "Könyv"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Weboldal"
+   },
+   "prefUser": {
+      "message": "Felhasználó által meghatározott"
+   },
+   "prefYes": {
+      "message": "Igen"
+   },
+   "tooltipBookmark": {
+      "message": "Könyvjelző beállítása/D"
+   },
+   "tooltipDonate": {
+      "message": "Támogassa az EPUBReader!"
+   },
+   "tooltipFontLess": {
+      "message": "Betűnagyság csökkentése/-"
+   },
+   "tooltipFontMore": {
+      "message": "Betűnagyság növelése/+"
+   },
+   "tooltipHelp": {
+      "message": "Segítség"
+   },
+   "tooltipOpen": {
+      "message": "Ebook megnyitása"
+   },
+   "tooltipPref": {
+      "message": "Preferenciák"
+   },
+   "tooltipReadingStyle": {
+      "message": "Olvasási stílus megváltoztatása"
+   },
+   "tooltipSave": {
+      "message": "Ebook mentése/S"
+   },
+   "tooltipToc": {
+      "message": "Tartalomjegyzék/T"
+   },
+   "updateExport": {
+      "message": "Az exportálás csak a Firefox 56-os verziójáig fog működni (azt is beleértve)."
+   },
+   "updateIntro": {
+      "message": "Ez az EPUBReader teljes egészében megújult változata, amely működni fog a jövőbeni Firefox verziókkal."
+   },
+   "updateLibrary": {
+      "message": "A privát könyvtár nem létezik többé, mert a működéséhez szükséges funkcionalitás hiányzik a Firefox-ból. A privát könyvtárban tárolt ebook-ok azonban nem vesztek el. Ha szeretné exportálni őket, kérjük installálja a Firefox-hoz készült"
+   },
+   "updateMemory": {
+      "message": "Az ebook-ok most már a memóriában vannak megnyitva, közvetlenül arról a helyről ahol tárolva vannak. Ennek köszönhetően már nincs szükség extra lemezterületre, és a megnyitás is gyorsabb."
+   },
+   "updateSize": {
+      "message": "Immár 250 MB-nál nagyobb ebook-ok megnyitása is lehetséges."
+   },
+   "updateSponsors": {
+      "message": "A támogatók listája akiknek köszönhetően létrejöhetett az új verzió"
+   },
+   "updateTitle": {
+      "message": "EPUBReader változások"
+   }
+}

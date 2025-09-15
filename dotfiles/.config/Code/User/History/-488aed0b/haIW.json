@@ -1,0 +1,17 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "editor.minimap.autohide": true,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "issueReporter.experimental.auxWindow": false,
+    "telemetry.telemetryLevel": "off",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.experimental.showMoves": true,
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "window.customTitleBarVisibility": "auto",
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+    "workbench.editor.tabSizing": "shrink"
+}

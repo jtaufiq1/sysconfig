@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Run As root
+
+ROOT_UID=`id -u 0` # root uid
+E_NOTROOT=65       # Error Not Root 
+
+if [ "$UID" -ne "$ROOT_UID" ]
+then
+	echo "Run as root user"
+	exit $E_NOTROOT >&2
+else
+	# Reset  and Allow INPUT chain
+	iptables -F 
+	iptables -P INPUT ACCEPT
+	
+	# Redirect INPUT to ssh-http-imap chain
+	iptables -A INPUT -j ssh-http-imap
+
+	# Allow ONLY HTTP, SSH and IMAP 
+	iptables -A ssh-http-imap -m state --state NEW -p tcp --dport 22 -j ACCEPT
+	iptables -A ssh-http-imap -m state --state NEW -p tcp --dport 80 -j ACCEPT
+	iptables -A ssh-http-imap -m state --state NEW -p tcp --dport 143 -j ACCEPT
+fi
+
+exit 0

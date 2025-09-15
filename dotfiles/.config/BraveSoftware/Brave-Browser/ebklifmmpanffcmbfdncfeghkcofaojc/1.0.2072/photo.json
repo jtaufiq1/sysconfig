@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "5d55a9a0-215e-4065-97c9-1f7cde0b8676",
+      "logo": {
+        "imageUrl": "489815f8-3a83-40ff-b4f1-ba0c2290dfaf/d14e0d93-760a-4c28-8bc8-a89e448323c9.png",
+        "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend&utm_content=self_sovereign_spending",
+        "alt": "EtherFi - Get $50 on us, plus 3% back on everything. Learn more.",
+        "companyName": "EtherFi"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "489815f8-3a83-40ff-b4f1-ba0c2290dfaf/4378eb1d-371d-435e-b2b8-55d994bd09c6.jpg",
+          "creativeInstanceId": "b79eeaee-7a83-44cc-9b11-c6fc04717d79",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "6b767678-b623-4251-83ca-badc2920292b/71476fea-2152-43ff-8503-c3f5e2d5ab4a.jpg",
+          "creativeInstanceId": "228df31d-3968-4848-9133-3359fbafe3fb",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "6b767678-b623-4251-83ca-badc2920292b/589aa158-84dc-43ac-9499-06012abfc20d.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-card-that-pays-you?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend&utm_content=card_that_pays_you",
+            "alt": "EtherFi - Get $50 on us, plus 3% back on everything. Learn more.",
+            "companyName": "EtherFi"
+          }
+        },
+        {
+          "imageUrl": "c1506f96-c609-4f60-bb52-4240765e2f4f/246f1f5b-2cab-4edb-bfb5-517c098ceda9.jpg",
+          "creativeInstanceId": "d076b0a0-a2d5-47f2-b6a0-b3781dc1b695",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "c1506f96-c609-4f60-bb52-4240765e2f4f/20d8a2cc-3294-492b-85f4-991574f5b22a.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend&utm_content=best_crypto_card",
+            "alt": "EtherFi - Get $50 on us, plus 3% back on everything. Learn more.",
+            "companyName": "EtherFi"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "5d55a9a0-215e-4065-97c9-1f7cde0b8676",
+      "logo": {
+        "imageUrl": "489815f8-3a83-40ff-b4f1-ba0c2290dfaf/d14e0d93-760a-4c28-8bc8-a89e448323c9.png",
+        "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend&utm_content=self_sovereign_spending",
+        "alt": "EtherFi - Get $50 on us, plus 3% back on everything. Learn more.",
+        "companyName": "EtherFi"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "489815f8-3a83-40ff-b4f1-ba0c2290dfaf/4378eb1d-371d-435e-b2b8-55d994bd09c6.jpg",
+          "creativeInstanceId": "b79eeaee-7a83-44cc-9b11-c6fc04717d79",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "6b767678-b623-4251-83ca-badc2920292b/71476fea-2152-43ff-8503-c3f5e2d5ab4a.jpg",
+          "creativeInstanceId": "228df31d-3968-4848-9133-3359fbafe3fb",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "6b767678-b623-4251-83ca-badc2920292b/589aa158-84dc-43ac-9499-06012abfc20d.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-card-that-pays-you?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend&utm_content=card_that_pays_you",
+            "alt": "EtherFi - Get $50 on us, plus 3% back on everything. Learn more.",
+            "companyName": "EtherFi"
+          }
+        },
+        {
+          "imageUrl": "c1506f96-c609-4f60-bb52-4240765e2f4f/246f1f5b-2cab-4edb-bfb5-517c098ceda9.jpg",
+          "creativeInstanceId": "d076b0a0-a2d5-47f2-b6a0-b3781dc1b695",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "c1506f96-c609-4f60-bb52-4240765e2f4f/20d8a2cc-3294-492b-85f4-991574f5b22a.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend&utm_content=best_crypto_card",
+            "alt": "EtherFi - Get $50 on us, plus 3% back on everything. Learn more.",
+            "companyName": "EtherFi"
+          }
+        }
+      ]
+    }
+  ]
+}

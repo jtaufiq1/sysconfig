@@ -1,0 +1,34 @@
+{
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkeyLaZcgpbg0FYnrxk7NujaKL/uKMmJXzkciZ40OHr1SQedDklRSEh8fzZm/Wy8GFi/G2uVWe1RH0NC9CYXv6QTyTBZFgC5uJ88OlaEPjJsd4+YzDRYEhlx2BiMIedzQUx3EBGjzFdf0jKMQHgtzDCl4ODBMlfgekrsaoW8P0sm5vC3apDzwSqIddUCqzXhIvqIbc1FrfvVJsglNOCXsq/njoHIUSKckp2b6mI0jRWnZ0r9RMwVM5UtCmWbrbBcEtJOjIHnu4QxUrq9+kjByhtHkiKC6uLgF+bvbA8uEot2wk6ZHXqnifJOxFQlpw19TmBsDrIZli5TvIUuPzG/nCQIDAQAB",
+   "manifest_version": 2,
+   "name": "Space Sunrise",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "button_background": [ 10, 17, 27 ],
+         "frame": [ 255, 255, 255 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_section_link": [ 255, 255, 255 ],
+         "ntp_section_text": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 10, 17, 27 ]
+      },
+      "images": {
+         "theme_frame": "frame.png",
+         "theme_ntp_background": "background.png",
+         "theme_toolbar": "toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "center",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 1, 1, 1 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "5e4959b2-a69a-4aae-9682-e43bb51f3915",
+      "logo": {
+        "imageUrl": "32655658-3f9e-4103-82c8-e1aec5d978bf/cfb3e99f-2d02-4462-852f-20fef09e22f7.png",
+        "destinationUrl": "https://account.brave.com/?intent=checkout&product=vpn",
+        "alt": "Brave VPN can help you access your favorite content no matter where you are in the world.",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "32655658-3f9e-4103-82c8-e1aec5d978bf/9c96771f-738d-495c-afbd-758cfd4e7278.jpg",
+          "creativeInstanceId": "877290c0-9764-4c25-ad1a-1c91b97e9a6b",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "36e9854b-24a3-4ef8-9c09-d621c871cce2/91426378-7bab-400a-8e58-c7ab34891ad4.jpg",
+          "creativeInstanceId": "037fc04d-be15-4d8a-8370-e996c39b5805",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "36e9854b-24a3-4ef8-9c09-d621c871cce2/cfb3e99f-2d02-4462-852f-20fef09e22f7.png",
+            "destinationUrl": "https://account.brave.com/?intent=checkout&product=vpn",
+            "alt": "Brave VPN can help you access your favorite content no matter where you are in the world.",
+            "companyName": "Brave"
+          }
+        },
+        {
+          "imageUrl": "f18b27ac-2574-4211-95ec-2841d5914c82/00e3fc68-ebe0-40e4-9217-0a7e1c44fca2.jpg",
+          "creativeInstanceId": "e0565f47-9787-4cfc-9d23-1a07d73e943e",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "f18b27ac-2574-4211-95ec-2841d5914c82/cfb3e99f-2d02-4462-852f-20fef09e22f7.png",
+            "destinationUrl": "https://account.brave.com/?intent=checkout&product=vpn",
+            "alt": "Brave VPN can help you access your favorite content no matter where you are in the world.",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    },
+    {
+      "campaignId": "cf3347f4-01e6-4cd3-b49e-8d90899ec248",
+      "logo": {
+        "imageUrl": "a520900d-0ba0-4ec3-8aac-fe298abe4365/7eb76986-a6f8-4445-a394-985f162bc4f4.png",
+        "destinationUrl": "https://talk.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-talk&mtm_content=d2cd2a06-6e6a-49c8-b83c-ca559de38adc&mtm_date=20250913",
+        "alt": "Zoom out with Brave Talk. Unlimited, private video calls, right in your browser. No apps. No login.",
+        "companyName": "Brave Software"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "a520900d-0ba0-4ec3-8aac-fe298abe4365/652fb70c-850c-4ef2-bfea-bd167f00508c.jpg",
+          "creativeInstanceId": "d2cd2a06-6e6a-49c8-b83c-ca559de38adc",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "b27abb2a-f562-4b60-a6a3-d0d6865c01fd/8d5d7812-8b2a-4796-b907-b51c62704a35.jpg",
+          "creativeInstanceId": "87b8a3b6-351a-47bb-ac48-18bd15669ae7",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "b27abb2a-f562-4b60-a6a3-d0d6865c01fd/7eb76986-a6f8-4445-a394-985f162bc4f4.png",
+            "destinationUrl": "https://talk.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-talk&mtm_content=87b8a3b6-351a-47bb-ac48-18bd15669ae7&mtm_date=20250913",
+            "alt": "Zoom out with Brave Talk. Unlimited, private video calls, right in your browser. No apps. No login.",
+            "companyName": "Brave Software"
+          }
+        },
+        {
+          "imageUrl": "bf4b09a8-5d5f-4013-8025-7e92420f92d2/32e0b520-5c5c-4966-98be-f2e5ab020447.jpg",
+          "creativeInstanceId": "927302d9-09d3-4c16-8db8-f1de5491e93a",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "bf4b09a8-5d5f-4013-8025-7e92420f92d2/7eb76986-a6f8-4445-a394-985f162bc4f4.png",
+            "destinationUrl": "https://talk.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-talk&mtm_content=927302d9-09d3-4c16-8db8-f1de5491e93a&mtm_date=20250913",
+            "alt": "Zoom out with Brave Talk. Unlimited, private video calls, right in your browser. No apps. No login.",
+            "companyName": "Brave Software"
+          }
+        },
+        {
+          "imageUrl": "eb526e9d-7e29-403e-824f-426d90e24e82/39caa084-41ce-4604-9fae-b4b668e2a7d8.jpg",
+          "creativeInstanceId": "03ba0f6b-549f-4789-80db-00f9ba4fe91c",
+          "focalPoint": {
+            "x": 1010,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "eb526e9d-7e29-403e-824f-426d90e24e82/b3cd9437-f483-4504-a6f9-64137b94603b.png",
+            "destinationUrl": "https://talk.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-talk&mtm_content=03ba0f6b-549f-4789-80db-00f9ba4fe91c&mtm_date=20250913",
+            "alt": "Experience Secure and Private Web 3 Video Calls with Brave Talk",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "5e4959b2-a69a-4aae-9682-e43bb51f3915",
+      "logo": {
+        "imageUrl": "32655658-3f9e-4103-82c8-e1aec5d978bf/cfb3e99f-2d02-4462-852f-20fef09e22f7.png",
+        "destinationUrl": "https://account.brave.com/?intent=checkout&product=vpn",
+        "alt": "Brave VPN can help you access your favorite content no matter where you are in the world.",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "32655658-3f9e-4103-82c8-e1aec5d978bf/9c96771f-738d-495c-afbd-758cfd4e7278.jpg",
+          "creativeInstanceId": "877290c0-9764-4c25-ad1a-1c91b97e9a6b",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "36e9854b-24a3-4ef8-9c09-d621c871cce2/91426378-7bab-400a-8e58-c7ab34891ad4.jpg",
+          "creativeInstanceId": "037fc04d-be15-4d8a-8370-e996c39b5805",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "36e9854b-24a3-4ef8-9c09-d621c871cce2/cfb3e99f-2d02-4462-852f-20fef09e22f7.png",
+            "destinationUrl": "https://account.brave.com/?intent=checkout&product=vpn",
+            "alt": "Brave VPN can help you access your favorite content no matter where you are in the world.",
+            "companyName": "Brave"
+          }
+        },
+        {
+          "imageUrl": "f18b27ac-2574-4211-95ec-2841d5914c82/00e3fc68-ebe0-40e4-9217-0a7e1c44fca2.jpg",
+          "creativeInstanceId": "e0565f47-9787-4cfc-9d23-1a07d73e943e",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "f18b27ac-2574-4211-95ec-2841d5914c82/cfb3e99f-2d02-4462-852f-20fef09e22f7.png",
+            "destinationUrl": "https://account.brave.com/?intent=checkout&product=vpn",
+            "alt": "Brave VPN can help you access your favorite content no matter where you are in the world.",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    },
+    {
+      "campaignId": "cf3347f4-01e6-4cd3-b49e-8d90899ec248",
+      "logo": {
+        "imageUrl": "a520900d-0ba0-4ec3-8aac-fe298abe4365/7eb76986-a6f8-4445-a394-985f162bc4f4.png",
+        "destinationUrl": "https://talk.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-talk&mtm_content=d2cd2a06-6e6a-49c8-b83c-ca559de38adc&mtm_date=20250913",
+        "alt": "Zoom out with Brave Talk. Unlimited, private video calls, right in your browser. No apps. No login.",
+        "companyName": "Brave Software"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "a520900d-0ba0-4ec3-8aac-fe298abe4365/652fb70c-850c-4ef2-bfea-bd167f00508c.jpg",
+          "creativeInstanceId": "d2cd2a06-6e6a-49c8-b83c-ca559de38adc",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "b27abb2a-f562-4b60-a6a3-d0d6865c01fd/8d5d7812-8b2a-4796-b907-b51c62704a35.jpg",
+          "creativeInstanceId": "87b8a3b6-351a-47bb-ac48-18bd15669ae7",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "b27abb2a-f562-4b60-a6a3-d0d6865c01fd/7eb76986-a6f8-4445-a394-985f162bc4f4.png",
+            "destinationUrl": "https://talk.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-talk&mtm_content=87b8a3b6-351a-47bb-ac48-18bd15669ae7&mtm_date=20250913",
+            "alt": "Zoom out with Brave Talk. Unlimited, private video calls, right in your browser. No apps. No login.",
+            "companyName": "Brave Software"
+          }
+        },
+        {
+          "imageUrl": "bf4b09a8-5d5f-4013-8025-7e92420f92d2/32e0b520-5c5c-4966-98be-f2e5ab020447.jpg",
+          "creativeInstanceId": "927302d9-09d3-4c16-8db8-f1de5491e93a",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "bf4b09a8-5d5f-4013-8025-7e92420f92d2/7eb76986-a6f8-4445-a394-985f162bc4f4.png",
+            "destinationUrl": "https://talk.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-talk&mtm_content=927302d9-09d3-4c16-8db8-f1de5491e93a&mtm_date=20250913",
+            "alt": "Zoom out with Brave Talk. Unlimited, private video calls, right in your browser. No apps. No login.",
+            "companyName": "Brave Software"
+          }
+        },
+        {
+          "imageUrl": "eb526e9d-7e29-403e-824f-426d90e24e82/39caa084-41ce-4604-9fae-b4b668e2a7d8.jpg",
+          "creativeInstanceId": "03ba0f6b-549f-4789-80db-00f9ba4fe91c",
+          "focalPoint": {
+            "x": 1010,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "eb526e9d-7e29-403e-824f-426d90e24e82/b3cd9437-f483-4504-a6f9-64137b94603b.png",
+            "destinationUrl": "https://talk.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-talk&mtm_content=03ba0f6b-549f-4789-80db-00f9ba4fe91c&mtm_date=20250913",
+            "alt": "Experience Secure and Private Web 3 Video Calls with Brave Talk",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ]
+}

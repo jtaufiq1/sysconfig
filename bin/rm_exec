@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# ToDo: Use `find` to search for binaries
+# Search binaries for $USER
+# List Binaries (Dry Run) -
+
+TEMP=$HOME/.tmp_bin_list
+
+# OS KERNEL (Mac OS & Linux)
+OS_KERN=$(uname -s)
+case "$OS_KERN" in
+    "Darwin" ) PATTERN="Mach-O";;
+    "*"  ) PATTERN="ELF";;
+esac
+
+BIN_LIST="$(file * | grep $PATTERN | cut -f1 -s -d":" | tee $TEMP)"
+
+# Found some binaries?
+if [ -z "$BIN_LIST" ]
+then
+    echo "No executables found"
+    exit
+fi
+
+if [ -s $TEMP ]
+then
+    TOTAL_BIN="$(wc -l $TEMP | cut -c8 && rm -f $TEMP)"
+fi
+
+# Delete Binaries
+echo -e $"\nRemoving..."
+for binary in $BIN_LIST
+do
+        echo -e $"\t$binary"
+        rm -f $binary
+	sleep 1s
+done
+
+BIN_DIR=$(pwd)
+echo -e $"Removed $TOTAL_BIN executable(s) in $BIN_DIR"
+# ======================================================================================

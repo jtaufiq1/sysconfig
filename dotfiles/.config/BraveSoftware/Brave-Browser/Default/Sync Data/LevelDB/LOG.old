@@ -1,0 +1,63 @@
+2025/09/11-23:58:26.237 16ce Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/09/11-23:58:26.238 16ce Recovering log #1263
+2025/09/11-23:58:26.240 16ce Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/001263.log 
+2025/09/11-23:59:38.061 16e0 Level-0 table #1267: started
+2025/09/11-23:59:38.070 16e0 Level-0 table #1267: 101730 bytes OK
+2025/09/11-23:59:38.088 16e0 Delete type=0 #1263
+2025/09/11-23:59:38.088 16e0 Compacting 4@0 + 1@1 files
+2025/09/11-23:59:38.096 16e0 Generated table #1268@0: 1114 keys, 117808 bytes
+2025/09/11-23:59:38.097 16e0 Compacted 4@0 + 1@1 files => 117808 bytes
+2025/09/11-23:59:38.114 16e0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/11-23:59:38.114 16e0 Delete type=2 #1257
+2025/09/11-23:59:38.114 16e0 Delete type=2 #1259
+2025/09/11-23:59:38.114 16e0 Delete type=2 #1262
+2025/09/11-23:59:38.115 16e0 Delete type=2 #1264
+2025/09/11-23:59:38.115 16e0 Delete type=2 #1267
+2025/09/12-00:50:06.896 16de Level-0 table #1270: started
+2025/09/12-00:50:06.910 16de Level-0 table #1270: 59315 bytes OK
+2025/09/12-00:50:06.921 16de Delete type=0 #1266
+2025/09/12-01:47:45.646 16c8 Level-0 table #1272: started
+2025/09/12-01:47:45.659 16c8 Level-0 table #1272: 55041 bytes OK
+2025/09/12-01:47:45.671 16c8 Delete type=0 #1269
+2025/09/12-02:45:20.008 16de Level-0 table #1274: started
+2025/09/12-02:45:20.024 16de Level-0 table #1274: 55024 bytes OK
+2025/09/12-02:45:20.042 16de Delete type=0 #1271
+2025/09/12-03:42:24.380 16de Level-0 table #1276: started
+2025/09/12-03:42:24.391 16de Level-0 table #1276: 55012 bytes OK
+2025/09/12-03:42:24.394 16de Delete type=0 #1273
+2025/09/12-03:42:24.394 16de Compacting 4@0 + 1@1 files
+2025/09/12-03:42:24.400 16de Generated table #1277@0: 1114 keys, 118150 bytes
+2025/09/12-03:42:24.400 16de Compacted 4@0 + 1@1 files => 118150 bytes
+2025/09/12-03:42:24.404 16de compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/12-03:42:24.404 16de Delete type=2 #1268
+2025/09/12-03:42:24.404 16de Delete type=2 #1270
+2025/09/12-03:42:24.404 16de Delete type=2 #1272
+2025/09/12-03:42:24.404 16de Delete type=2 #1274
+2025/09/12-03:42:24.404 16de Delete type=2 #1276
+2025/09/12-16:32:37.669 16de Level-0 table #1279: started
+2025/09/12-16:32:37.686 16de Level-0 table #1279: 79041 bytes OK
+2025/09/12-16:32:37.704 16de Delete type=0 #1275
+2025/09/12-16:43:25.044 16ca Level-0 table #1281: started
+2025/09/12-16:43:25.053 16ca Level-0 table #1281: 69632 bytes OK
+2025/09/12-16:43:25.057 16ca Delete type=0 #1278
+2025/09/12-16:51:22.487 16ce Level-0 table #1283: started
+2025/09/12-16:51:22.508 16ce Level-0 table #1283: 70190 bytes OK
+2025/09/12-16:51:22.514 16ce Delete type=0 #1280
+2025/09/12-17:03:48.315 16e0 Level-0 table #1285: started
+2025/09/12-17:03:48.326 16e0 Level-0 table #1285: 72060 bytes OK
+2025/09/12-17:03:48.329 16e0 Delete type=0 #1282
+2025/09/12-17:03:48.330 16e0 Compacting 4@0 + 1@1 files
+2025/09/12-17:03:48.335 16e0 Generated table #1286@0: 1118 keys, 120524 bytes
+2025/09/12-17:03:48.335 16e0 Compacted 4@0 + 1@1 files => 120524 bytes
+2025/09/12-17:03:48.338 16e0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/12-17:03:48.339 16e0 Delete type=2 #1277
+2025/09/12-17:03:48.339 16e0 Delete type=2 #1279
+2025/09/12-17:03:48.339 16e0 Delete type=2 #1281
+2025/09/12-17:03:48.339 16e0 Delete type=2 #1283
+2025/09/12-17:03:48.339 16e0 Delete type=2 #1285
+2025/09/12-18:04:44.415 16ce Level-0 table #1288: started
+2025/09/12-18:04:44.432 16ce Level-0 table #1288: 79932 bytes OK
+2025/09/12-18:04:44.451 16ce Delete type=0 #1284
+2025/09/12-22:18:05.558 16de Level-0 table #1290: started
+2025/09/12-22:18:05.566 16de Level-0 table #1290: 64057 bytes OK
+2025/09/12-22:18:05.571 16de Delete type=0 #1287

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "d5e1c9ea-3436-4803-90a0-5d1c15cfa51d",
+      "logo": {
+        "imageUrl": "0117e7f1-e732-4f67-bef2-ae66c0c01434/7131bf57-041d-45f0-a849-029c0a6c0475.png",
+        "destinationUrl": "https://get.unstoppabledomains.com/brave/?utm_campaign=Brave%20Brave%20Ads",
+        "alt": "Unstoppable Domains x Brave Earn Badges for owning multiple .brave domains. - Learn More",
+        "companyName": "Unstoppable Domains"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "0117e7f1-e732-4f67-bef2-ae66c0c01434/b69160d2-b09e-476f-ab20-f4ff758bb092.jpg",
+          "creativeInstanceId": "51e53749-9ca3-44bd-aad8-0fd5ba5fb344",
+          "focalPoint": {
+            "x": 1250,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "d5e1c9ea-3436-4803-90a0-5d1c15cfa51d",
+      "logo": {
+        "imageUrl": "0117e7f1-e732-4f67-bef2-ae66c0c01434/7131bf57-041d-45f0-a849-029c0a6c0475.png",
+        "destinationUrl": "https://get.unstoppabledomains.com/brave/?utm_campaign=Brave%20Brave%20Ads",
+        "alt": "Unstoppable Domains x Brave Earn Badges for owning multiple .brave domains. - Learn More",
+        "companyName": "Unstoppable Domains"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "0117e7f1-e732-4f67-bef2-ae66c0c01434/b69160d2-b09e-476f-ab20-f4ff758bb092.jpg",
+          "creativeInstanceId": "51e53749-9ca3-44bd-aad8-0fd5ba5fb344",
+          "focalPoint": {
+            "x": 1250,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Kill ssh session for $USER
+kill -9 $(pgrep -al ssh | grep $USER | cut -f1 -d" ")

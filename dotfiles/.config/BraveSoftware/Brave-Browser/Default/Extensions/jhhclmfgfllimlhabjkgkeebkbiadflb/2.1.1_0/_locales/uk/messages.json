@@ -1,0 +1,173 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "errorAuthentication": {
+      "message": "Ваша книга не може бути відкрита, томущо сервер вимагає авторизації."
+   },
+   "errorDownloading": {
+      "message": "На жаль, трапилась помилка при завантаженні вашої книги."
+   },
+   "errorEncrypted": {
+      "message": "Ця книга зашифрована за допомогою DRM тому її неможливо відкрити."
+   },
+   "errorErrorCode": {
+      "message": "Ваша книга не може бути відкрита, томущо сервер надіслав наступну помилку:"
+   },
+   "errorInvalid": {
+      "message": "ePub файл пошкоджений і тому не може бути відкритий."
+   },
+   "errorNotFound": {
+      "message": "Ваша книга не може бути відкрита, томущо вона не існує за вказаною адресою."
+   },
+   "errorOther": {
+      "message": "На жаль, трапилась помилка при відкритті вашої книги. Please send the following error message to epubread@gmail.com. Thanks!"
+   },
+   "errorUnzip": {
+      "message": "Цей файл не є дійсним epub файлом."
+   },
+   "extensionDescription": {
+      "message": "Читайте ePub книги безпосередньо у браузері"
+   },
+   "hintBookmark": {
+      "message": "Закладка встановлена"
+   },
+   "hintDownloading": {
+      "message": "Книга завантажується..."
+   },
+   "hintFileaccess": {
+      "message": "Перейдіть за наступним посиланням, а потім натисніть на 'Allow access to file URLs' щоб читати книги збережені на цьому ком’пютері."
+   },
+   "hintSave": {
+      "message": "Клацніть по середині, а потім на кнопку 'Зберегти книгу' щоб завантажити книгу."
+   },
+   "hintSetupFileaccess": {
+      "message": "Налаштування доступу до файлів"
+   },
+   "hintStart": {
+      "message": "Запустити EPUBReader"
+   },
+   "hintToolbar": {
+      "message": "Клацніть або доторкнитесь по середині щоб відкрити панель інструментів або іншу книгу."
+   },
+   "installDownload": {
+      "message": "Перейдіть за посиланням на завантаження книги. Вона буде завантажена та відкрита автоматично."
+   },
+   "installFileExplorer": {
+      "message": "Двічі клацніть на книгу в провіднику файлів."
+   },
+   "installMiddle": {
+      "message": "Якщо ви вже відкрили книгу, просто клацніть в центрі, щоб показати панель інструментів і відкрити нову книгу."
+   },
+   "installTitle": {
+      "message": "Декілька способів відкривання електронних книг"
+   },
+   "installToolbar": {
+      "message": "Натисніть на кнопку EPUBReader в панелі інструментів браузера. Потім натисніть на кнопку папки у верхній частині."
+   },
+   "prefBkgColor": {
+      "message": "Колір фону"
+   },
+   "prefBook": {
+      "message": "Як визначено в книзі"
+   },
+   "prefColumnWidth": {
+      "message": "Ширина стовпця"
+   },
+   "prefFontColor": {
+      "message": "Колір шрифту"
+   },
+   "prefFontFace": {
+      "message": "Шрифт"
+   },
+   "prefFontSize": {
+      "message": "Розмір шрифту"
+   },
+   "prefFontsLoadSlower": {
+      "message": "Книги відкриваються повільніше"
+   },
+   "prefLineHeight": {
+      "message": "Висота строки"
+   },
+   "prefLoadFonts": {
+      "message": "Завантажити шрифти"
+   },
+   "prefMarginLr": {
+      "message": "Ширина відступу"
+   },
+   "prefNo": {
+      "message": "Ні"
+   },
+   "prefReadingDir": {
+      "message": "Напрямок читання"
+   },
+   "prefReadingDirLtr": {
+      "message": "Зліва направо"
+   },
+   "prefReadingDirRtl": {
+      "message": "Cправа наліво"
+   },
+   "prefReadingStyle": {
+      "message": "Стиль читання"
+   },
+   "prefReadingStyleBook": {
+      "message": "Книга"
+   },
+   "prefReadingStyleWebsite": {
+      "message": "Веб-сайт"
+   },
+   "prefUser": {
+      "message": "Визначено користувачем"
+   },
+   "prefYes": {
+      "message": "Так"
+   },
+   "tooltipBookmark": {
+      "message": "Встановити закладку/D"
+   },
+   "tooltipFontLess": {
+      "message": "Зменшити шрифт/-"
+   },
+   "tooltipFontMore": {
+      "message": "Збільшити шрифт/+"
+   },
+   "tooltipHelp": {
+      "message": "Допомога"
+   },
+   "tooltipOpen": {
+      "message": "Відкрити книгу"
+   },
+   "tooltipPref": {
+      "message": "Налаштування"
+   },
+   "tooltipReadingStyle": {
+      "message": "Змінити стиль відображення"
+   },
+   "tooltipSave": {
+      "message": "Зберегти книгу/S"
+   },
+   "tooltipToc": {
+      "message": "Зміст/T"
+   },
+   "updateExport": {
+      "message": "Функція експортування буде працювати лише в версії Firefox менше за 56 (включно)."
+   },
+   "updateIntro": {
+      "message": "Це повністю нова версія EPUBReader, яка буде працювати в майбутніх версіях Firefox."
+   },
+   "updateLibrary": {
+      "message": "Особиста бібліотека більше не існує, томущо необхідні функції відсутні в нових версіях FIrefox. Проте ващі книги, які були в ній, все ще збережені. Якщо ви бажаєте їх експортувати, будь ласка, встановіть нове доповнення"
+   },
+   "updateMemory": {
+      "message": "Тепер книги завантажуються в оперативну пам’ять одразу з того місця, де вони збережені. В результаті не потребується додатковий дисковий простір і книги відкриваються бистріше."
+   },
+   "updateSize": {
+      "message": "Тепер можна відкривати книги, розмір яких перевищує 250 МБ."
+   },
+   "updateSponsors": {
+      "message": "Вихід нової версії став можливим завдяки цим спонсорам"
+   },
+   "updateTitle": {
+      "message": "Список змін в EPUBReader"
+   }
+}

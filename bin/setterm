@@ -1,0 +1,5 @@
+setterm --term linux
+setterm --foreground green
+setterm --background black 
+setterm --bold on
+setterm --store

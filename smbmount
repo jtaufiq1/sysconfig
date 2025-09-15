@@ -1,0 +1,32 @@
+#!/bin/bash
+
+if [ $UID -ne `id -u 0` ]
+then
+    echo "Run as root"
+    exit
+fi
+
+# ARGUMENTS
+#if [ $# -ge 1 ]
+
+# SMB Share & Mount Point
+SMB_SRC="192.168.56.1"
+SMB_SHARE="Downloads"
+MNT_POINT="mnt"
+MNT_OPTIONS="username=taufiq,uid=taufiq,gid=taufiq,rw"
+
+mount -r -t cifs //$SMB_SRC/$SMB_SHARE/ /$MNT_POINT -o $MNT_OPTIONS;
+sleep 1s;
+echo "Done"
+
+# Create symlink to $HOME directory
+#if [ -d "$src_dir" -a ! -h "$des_dir" ]
+#then 
+#	echo "Linking Shared folder ..."
+#	ln --symbolic "$src_dir" "$des_dir"
+#	echo "Done"
+#fi
+
+unset $SMB_SHARE
+unset $MNT_POINT
+#unset $MNT_OPTIONS

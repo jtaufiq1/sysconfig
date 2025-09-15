@@ -1,0 +1,23 @@
+[
+   {
+      "id": 1,
+      "priority": 1,
+      "action":
+      {
+         "type": "redirect",
+         "redirect":
+         {
+            "regexSubstitution": "chrome-extension://jhhclmfgfllimlhabjkgkeebkbiadflb/reader.html?filename=\\0"
+         }
+      },
+      "condition":
+      {
+         "regexFilter": "^(http|https|file)://.*/.*\\.epub.*",
+         "resourceTypes":
+         [
+            "main_frame",
+            "sub_frame"
+         ]
+      }
+   }
+]

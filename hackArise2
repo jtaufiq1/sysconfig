@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Reading input
+echo 
+echo "What's your name?"
+read my_name
+
+echo 
+echo "Your Current Chapter: "
+read chapter
+
+echo
+echo "Your name is $my_name and you are on the chapter $chapter."
+echo

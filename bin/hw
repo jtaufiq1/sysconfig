@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Print Hardware info
+
+dmesg | grep CPU0:
+
+lspci -v -s `lspci | grep VGA | cut -f1 -d\ `
+
+free -h && df -h
+
+uname -a
