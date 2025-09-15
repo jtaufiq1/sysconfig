@@ -1,2 +1,3 @@
-dotfiles/.config/libreoffice/
-dotfiles/.config/BraveSoftware/
+dotfiles/.config/
+!dotfiles/.config/niri
+!dotfiles/.config/alacritty
