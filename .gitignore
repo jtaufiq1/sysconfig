@@ -1,3 +1,4 @@
 dotfiles/.config/
 !dotfiles/.config/niri
 !dotfiles/.config/alacritty
+*.pdf
