@@ -1,2 +1,0 @@
-sudo apt install laptop-mode-tools
-sudo apt install tlp

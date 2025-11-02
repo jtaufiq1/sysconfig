@@ -1,37 +1,44 @@
 # Utilities
+eza | exa (ls-alternative)
+fzf (fuzzy-finder)
+zoxide (cd-alternative)
+flatpak
+powertop, thermald, tlp (Laptop)
 
 ## Terminal Emulators
 Ptyxis
 Alacritty
 
-File Manager
+File Managers
 Gnome Files (Nautilus)
 
-# Browsers
+# Web Browsers
 Brave Browser
-Tor Browser
+Zen Browser
 
 # Text Editor
-Vim | Neo vim
+Vim | Neovim
 Zed
 
-# Process Monitor
-htop
-btop++
-mission center
+# System Info | Process Monitor
+fastfetch
+htop | btop++
 whowatch
+mission center
 
-# media players
+# Media Players
 VLC
-Elisa 
+QMPlay2
+Elisa
 
 # Office
 LibreOffice
 Free Office
 
 # Misc
+Winboat
 Newelle (AI Assistant)
-Free Download Manager 
+Free Download Manager
 Libre Torrent (Android Torrent client)
 Warehouse (Flatpak Manager)
 Timeshift (Backup)

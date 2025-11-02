@@ -3,6 +3,17 @@ TARGET_DIR=
 RES_DIR=
 BIN_DIR=
 
+# [RECOMMENDS]
+# alacritty, fuzzel, waybar, mako-notifier, xdg-desktop-portal-{gtk,gnome}, gnome-keyring
+# swaybg, swayidle, swaylock
+# xwayland-satellite
+
+# Create and add systemd service for swaybg & swayidle.
+# Add to graphical-want (user) and manage by systemd
+
+# Configure waybar & mako: add service to niri
+# Install applets: pavucontrol, pasystray, blueman-applet
+
 # Binary
 cp $TARGET_DIR/niri $BIN_DIR
 cp $TARGET_DIR/niri-session $BIN_DIR
@@ -13,7 +24,6 @@ cp $RES_DIR/niri.desktop $RES_DEST
 cp $RES_DIR/niri-portals.conf $RES_DEST
 cp $RES_DIR/niri.service RES_DEST
 cp $RES_DIR/niri-shutdown-target RES_DEST
-
 
 
 #sudo cp target/release/niri /usr/local/bin/
