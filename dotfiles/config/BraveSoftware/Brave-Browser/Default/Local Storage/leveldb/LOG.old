@@ -1,0 +1,15 @@
+2025/11/02-13:16:06.332 5 Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/11/02-13:16:06.336 5 Recovering log #115
+2025/11/02-13:16:06.336 5 Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000115.log 
+2025/11/02-13:17:06.347 7 Level-0 table #119: started
+2025/11/02-13:17:06.355 7 Level-0 table #119: 19380 bytes OK
+2025/11/02-13:17:06.358 7 Delete type=0 #115
+2025/11/02-13:17:06.358 7 Compacting 4@0 + 1@1 files
+2025/11/02-13:17:06.372 7 Generated table #120@0: 260 keys, 770719 bytes
+2025/11/02-13:17:06.372 7 Compacted 4@0 + 1@1 files => 770719 bytes
+2025/11/02-13:17:06.375 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/02-13:17:06.375 7 Delete type=2 #109
+2025/11/02-13:17:06.375 7 Delete type=2 #112
+2025/11/02-13:17:06.375 7 Delete type=2 #114
+2025/11/02-13:17:06.375 7 Delete type=2 #116
+2025/11/02-13:17:06.375 7 Delete type=2 #119

@@ -1,0 +1,378 @@
+{
+   "checksum": "df10e8c4b16f47d29f3b0ba6a205a435",
+   "checksum_sha256": "5732e4c2bdc8b163070c27c5672ffe38696966e92672197b5d1a782ae0a56caa",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13333359922499606",
+               "date_last_used": "0",
+               "guid": "e05c3221-8bb5-4242-85ce-49f92eed2ce8",
+               "id": "3",
+               "name": "How to manage users and groups in Linux | Enable Sysadmin",
+               "type": "url",
+               "url": "https://www.redhat.com/sysadmin/linux-user-group-management"
+            }, {
+               "date_added": "13333359922499732",
+               "date_last_used": "0",
+               "guid": "4561946a-d0f6-47e2-803e-975453a76334",
+               "id": "4",
+               "name": "Getting Started With SSH in Linux",
+               "type": "url",
+               "url": "https://linuxhandbook.com/ssh-basics/"
+            }, {
+               "date_added": "13333359922499854",
+               "date_last_used": "0",
+               "guid": "c2b9e80c-fa96-44ad-956a-5a5905a760a8",
+               "id": "5",
+               "name": "What is the Secure Shell (SSH) Protocol? | SSH Academy",
+               "type": "url",
+               "url": "https://www.ssh.com/academy/ssh/protocol"
+            }, {
+               "date_added": "13333359922499976",
+               "date_last_used": "0",
+               "guid": "a1d246ba-3a72-4975-b558-e1a10a97142c",
+               "id": "6",
+               "name": "How To Configure SSH Key-Based Authentication on a Linux Server | DigitalOcean",
+               "type": "url",
+               "url": "https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server#step-4-disabling-password-authentication-on-your-server"
+            }, {
+               "date_added": "13341104867901243",
+               "date_last_used": "13341104938648213",
+               "guid": "9ed7a744-488e-498a-91d4-61c52593a377",
+               "id": "7",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Small Example - Comprehensive Rust 🦀",
+               "type": "url",
+               "url": "https://google.github.io/comprehensive-rust/hello-world/small-example.html"
+            }, {
+               "date_added": "13333359922498888",
+               "date_last_used": "0",
+               "guid": "404ddf5a-72f1-4043-b740-04d3ef49ffbd",
+               "id": "8",
+               "name": "Linux Professional Institute LPIC-1 | Linux Professional Institute",
+               "type": "url",
+               "url": "https://www.lpi.org/our-certifications/lpic-1-overview"
+            }, {
+               "date_added": "13333359922499165",
+               "date_last_used": "0",
+               "guid": "dc416126-3771-44f7-a7f6-b61231d25bc1",
+               "id": "9",
+               "name": "101.1 Determine and configure hardware settings",
+               "type": "url",
+               "url": "https://learning.lpi.org/en/learning-materials/101-500/101/101.1/"
+            } ],
+            "date_added": "13333359922499497",
+            "date_last_used": "0",
+            "date_modified": "13341104867901243",
+            "guid": "5cb138e8-f1d3-4edd-ad95-4c9d1ffcbef5",
+            "id": "2",
+            "name": "SysAdmin - Linux",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13333359922500255",
+               "date_last_used": "0",
+               "guid": "7252d81e-c546-4854-8e4c-bc146b739188",
+               "id": "11",
+               "name": "Curlie - Computers: Software: Software Engineerin­g: Books",
+               "type": "url",
+               "url": "https://curlie.org/en/Computers/Software/Software_Engineering/Books"
+            }, {
+               "date_added": "13333359922501865",
+               "date_last_used": "0",
+               "guid": "1e14838d-736c-4fb1-b703-de4c84cb621f",
+               "id": "12",
+               "name": "The Craft of Computer Programming - Craig Jensen",
+               "type": "url",
+               "url": "http://www.craftof.com/preview/Default.asp"
+            }, {
+               "date_added": "13333359922501999",
+               "date_last_used": "0",
+               "guid": "6b7e3dcf-66bd-4aa2-9016-78b1df7cf907",
+               "id": "13",
+               "name": "Programming 101: Tips to become a good programmer - Wisdom Geek",
+               "type": "url",
+               "url": "https://www.wisdomgeek.com/development/programming/tips-become-good-programmer/"
+            }, {
+               "date_added": "13333359922502133",
+               "date_last_used": "0",
+               "guid": "c5eca445-ddb5-4987-852e-4f2416fde1ec",
+               "id": "14",
+               "name": "Programming Fundamentals/Introduction - Wikiversity",
+               "type": "url",
+               "url": "https://en.wikiversity.org/wiki/Programming_Fundamentals/Introduction"
+            }, {
+               "date_added": "13333359922502256",
+               "date_last_used": "0",
+               "guid": "66dc6dca-6314-420d-92f8-ec145356b232",
+               "id": "15",
+               "name": "C++ Examples – Programming Fundamentals",
+               "type": "url",
+               "url": "https://harpercollege.pressbooks.pub/programmingfundamentals/chapter/cpp-examples-1/"
+            }, {
+               "date_added": "13367352248404436",
+               "date_last_used": "0",
+               "guid": "2a08e284-bc2d-447b-9425-f27f107bcfb7",
+               "id": "16",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Programming Projects for Advanced Beginners | Robert Heaton",
+               "type": "url",
+               "url": "https://robertheaton.com/2018/12/08/programming-projects-for-advanced-beginners/"
+            }, {
+               "date_added": "13352080686883347",
+               "date_last_used": "0",
+               "guid": "dea364b1-3a1c-4466-9679-9211e7e45fdf",
+               "id": "17",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials",
+               "type": "url",
+               "url": "https://github.com/practical-tutorials/project-based-learning"
+            }, {
+               "date_added": "13340576837283259",
+               "date_last_used": "13370961867809074",
+               "guid": "c02882b4-efcf-4abd-8ba3-7b7ccceef250",
+               "id": "18",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Are we web yet? Yes, and it's freaking fast!",
+               "type": "url",
+               "url": "https://www.arewewebyet.org/"
+            }, {
+               "date_added": "13214571229000000",
+               "date_last_used": "13370859442504583",
+               "guid": "3faa4bed-f489-4399-a44c-c26651076b09",
+               "id": "19",
+               "name": "Introduction to Computer Programming - Robot Program",
+               "type": "url",
+               "url": "http://guyhaas.com/bfoit/itp/Robot.html"
+            }, {
+               "date_added": "13277589862000000",
+               "date_last_used": "13370310371069875",
+               "guid": "32320146-82c7-4477-b52e-b531fd0aeadb",
+               "id": "20",
+               "name": "C++ Beginner's Guide for Python/Java/... Programmers | hacking C++",
+               "type": "url",
+               "url": "https://hackingcpp.com/cpp/beginners_guide.html#first-steps"
+            }, {
+               "children": [ {
+                  "date_added": "13333359922503878",
+                  "date_last_used": "0",
+                  "guid": "6d2d8452-acc6-4640-b966-9ebb5768643a",
+                  "id": "22",
+                  "name": "The Python Tutorial — Python 3.11.4 documentation",
+                  "type": "url",
+                  "url": "https://docs.python.org/3/tutorial/index.html"
+               }, {
+                  "date_added": "13333359922504001",
+                  "date_last_used": "0",
+                  "guid": "4665d946-5abd-4034-8a94-cd9018237a26",
+                  "id": "23",
+                  "name": "3. An Informal Introduction to Python — Python 3.11.4 documentation",
+                  "type": "url",
+                  "url": "https://docs.python.org/3/tutorial/introduction.html"
+               }, {
+                  "date_added": "13333359922504186",
+                  "date_last_used": "0",
+                  "guid": "6d570fc1-d47c-4e42-b68c-eb4a17e727f2",
+                  "id": "24",
+                  "name": "Namespaces and Scope in Python – Real Python",
+                  "type": "url",
+                  "url": "https://realpython.com/python-namespaces-scope/"
+               }, {
+                  "date_added": "13333359922504346",
+                  "date_last_used": "0",
+                  "guid": "81b792da-c348-4c5d-820a-01b6221c602a",
+                  "id": "25",
+                  "name": "PEP 8 – Style Guide for Python Code | peps.python.org",
+                  "type": "url",
+                  "url": "https://peps.python.org/pep-0008/"
+               } ],
+               "date_added": "13333359922503642",
+               "date_last_used": "0",
+               "date_modified": "13333359922504346",
+               "guid": "806542c2-53e7-49b5-83f3-8c6b6c325e08",
+               "id": "21",
+               "name": "backend-dev",
+               "type": "folder"
+            } ],
+            "date_added": "13333359922500122",
+            "date_last_used": "0",
+            "date_modified": "13367352248404436",
+            "guid": "2f9e07e3-b678-473f-a749-7f9b3a54f0c7",
+            "id": "10",
+            "name": "programming",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13333359922502514",
+               "date_last_used": "0",
+               "guid": "2c852dc2-6e03-4536-a449-b7abe15fb9b7",
+               "id": "27",
+               "name": "What Is Devops? What Does It Really Mean?",
+               "type": "url",
+               "url": "https://devopscube.com/what-is-devops-what-does-it-really-mean/"
+            }, {
+               "date_added": "13333359922502695",
+               "date_last_used": "0",
+               "guid": "e0ae1459-d0fb-49be-ae25-76cbe98b47fe",
+               "id": "28",
+               "name": "Basic Usage - Synced Folders | Vagrant | HashiCorp Developer",
+               "type": "url",
+               "url": "https://developer.hashicorp.com/vagrant/docs/synced-folders/basic_usage"
+            }, {
+               "date_added": "13333359922502884",
+               "date_last_used": "0",
+               "guid": "582bbca1-7068-44ec-af13-111ec8614f26",
+               "id": "29",
+               "name": "The Complete DevOps Engineer Roadmap Course [2023]",
+               "type": "url",
+               "url": "https://techiescamp.com/courses/devops-engineer-roadmap-course/"
+            }, {
+               "date_added": "13333359922503101",
+               "date_last_used": "0",
+               "guid": "841e8d56-d9c2-4552-8460-dc4eb2893553",
+               "id": "30",
+               "name": "Vagrant vs. Docker | Vagrant | HashiCorp Developer",
+               "type": "url",
+               "url": "https://developer.hashicorp.com/vagrant/intro/vs/docker"
+            }, {
+               "date_added": "13333359922503241",
+               "date_last_used": "0",
+               "guid": "22606624-abb1-418d-b38d-6c1c00e5b9e9",
+               "id": "31",
+               "name": "Ansible concepts — Ansible Documentation",
+               "type": "url",
+               "url": "https://docs.ansible.com/ansible/latest/getting_started/basic_concepts.html"
+            }, {
+               "date_added": "13333359922503367",
+               "date_last_used": "0",
+               "guid": "1fbd939c-7cab-4183-a7e0-e53f871bb596",
+               "id": "32",
+               "name": "YAML Syntax — Ansible Documentation",
+               "type": "url",
+               "url": "https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html"
+            }, {
+               "date_added": "13333359922503491",
+               "date_last_used": "0",
+               "guid": "38a3f41e-a89f-4ebf-9e30-f8477a0ed4ce",
+               "id": "33",
+               "name": "An Introduction to Configuration Management with Ansible | DigitalOcean",
+               "type": "url",
+               "url": "https://www.digitalocean.com/community/conceptual-articles/an-introduction-to-configuration-management-with-ansible"
+            } ],
+            "date_added": "13333359922502411",
+            "date_last_used": "0",
+            "date_modified": "13333359922503491",
+            "guid": "3d8777da-e842-4b8d-885e-580097010a85",
+            "id": "26",
+            "name": "devOps",
+            "type": "folder"
+         }, {
+            "date_added": "13214571217000000",
+            "date_last_used": "13405094500632926",
+            "guid": "77324782-1fa8-42cd-868b-95ddc5020bcc",
+            "id": "34",
+            "name": "Rootless Root",
+            "type": "url",
+            "url": "http://www.catb.org/~esr/writings/unix-koans/"
+         }, {
+            "date_added": "13216496016000000",
+            "date_last_used": "13370858696968462",
+            "guid": "b52774c2-bed9-4b65-9e11-3f5db9e65478",
+            "id": "35",
+            "name": "Hacker Highschool - Lessons",
+            "type": "url",
+            "url": "http://www.hackerhighschool.org/lessons.html"
+         }, {
+            "date_added": "13224568675000000",
+            "date_last_used": "13405165135651187",
+            "guid": "e42d73c7-7128-4de7-b34c-822a76d8d6d5",
+            "id": "36",
+            "name": "The TCP/IP Guide - Networking Fundamentals",
+            "type": "url",
+            "url": "http://www.tcpipguide.com/free/t_NetworkingFundamentals.htm"
+         } ],
+         "date_added": "13405147598493097",
+         "date_last_used": "0",
+         "date_modified": "13405165163947823",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13370512067105957",
+            "date_last_used": "0",
+            "guid": "5843cef6-46a6-49e9-95f7-b61613aa60b8",
+            "id": "38",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "2048 Game by Gabriele Cirulli • Play free online",
+            "type": "url",
+            "url": "https://play2048.co/"
+         }, {
+            "date_added": "13369418280258475",
+            "date_last_used": "13370304989458137",
+            "guid": "0890ac38-ebbf-45fd-809b-9886686d54c5",
+            "id": "39",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - leon-ai/leon: 🧠 Leon is your open-source personal assistant.",
+            "type": "url",
+            "url": "https://github.com/leon-ai/leon"
+         }, {
+            "date_added": "13371045511806358",
+            "date_last_used": "13405165225430523",
+            "guid": "1bfcee6f-d999-4779-8a25-b19ccb6e982b",
+            "id": "40",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Our mission | Don’t kill my app!",
+            "type": "url",
+            "url": "https://dontkillmyapp.com/problem"
+         } ],
+         "date_added": "13405147598493097",
+         "date_last_used": "0",
+         "date_modified": "13378470743794593",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "37",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13387313453685261",
+            "date_last_used": "0",
+            "guid": "3e2d46d9-7a8e-4df8-b4af-f23864615299",
+            "id": "42",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Slow down or speed up a video - change video speed",
+            "type": "url",
+            "url": "https://ezgif.com/video-speed"
+         } ],
+         "date_added": "13405147598493097",
+         "date_last_used": "0",
+         "date_modified": "13387313453685261",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "41",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgqO7bCWvmYAAAAAEgAaWE9VYml6ekh0aWFPOGVTdzFjR2R6UmVpMlNtbFlqaHBrWEJCQk5DUlloRlBUVTdnVVVXVjRNakJsMGYzNzBMdFZnQ3BWRTd0c0RoRUlRek5jbXpheUtRPT0qGFQzeEFWZjRDOGJLNGtCQW5XcHFUUVE9PUgDEqgBCCgSowEKHFUyaVNOalI3aEo4UWY5RHo0SWswUEFJU0RaWT0SJGE3OTYyZmEyLTc5ZDktNGUxMy1iZmM0LTE3OGIxMTk2ZWY0OBgAIAAoADCy7dn9nzI4/7TS/Z8yQP+00v2fMkocdmlTa3M2akFSb2VFZlFoMUNGbVZLbzlmaVpFPVofIh39YlA3cFU2MlBvS2RPT0J1M3ZVd1JmR3A1bTVBPWUAAAAAEoMBCCUSfwocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkM2FkZmM1ZDEtNGZjMy00MmMxLWE2ZmQtZDQ5MzFiOTQ2YWU3GAAgACgAMAE4zsWss6sxQM7FrLOrMUocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASqAEIJBKjAQocMnpWNnR6RFNsa20rTWVnaGdWNWFycDRoeWxVPRIkNWEyZDExODctNmFkYi00NWI4LWJjNzItM2ViN2Q3ZjRhZGM3GAAgACgAMPjxlIufMzi2/5OlrDFAtv+TpawxShxpcFl1UEVBSUJ6b01SU1FlY1V2YnR5ZmVwR2s9Wh8iHftORnNLQ1BES09EbnNUNmVLNXBrWVk3WjFZS3M9ZTar4WgSqAEIIBKjAQocY3ZxVG50VzBQbCtnWDRHdGlOOEVVdWZOZ0p3PRIkMjc4ZDFmMDgtNTFiOS00YzdiLWIwZDUtZTJkMjA4OGYzMTg5GAAgACgAMMSYlKWsMTi2/5OlrDFAtv+TpawxShxtR3NIcXhVZXE0bmgvcFdMRklOU2tTMitUa3c9Wh8iHfVTRkVpV1QrcFYyTkZ1MkxaeFJYSjBHZy9BUHM9ZbD5KLESqAEIHxKjAQocOGp0ZzlBMnBKVE1MN0ZEMHpCSTFleE1oOXhvPRIkNzQwYmU4OTAtNzNlOC00NzljLWFiMzktYzMzYjIwMTU0ODA4GAAgACgAMLWYlKWsMTi2/5OlrDFAtv+TpawxShxpWGpPYVAzYno0U245d1NyVTJEaEZkVjkwTmc9Wh8iHesvTXJ5c2JkNlZLNkdjMGFrSFZGanRpTmtmbUE9ZbD5KLESqAEIHhKjAQocOGxiTjkyWlloVkVGTm9KMy9YeEdtZFMzNHJrPRIkNjI2YTZlYjYtMWFjZi00ZGU2LThlYzAtZDg4ZjA0MmUyYzAyGAAgACgAMKSYlKWsMTi2/5OlrDFAtv+TpawxShxPY1V2SU1MWXpLb1BIL3lSajBYQ3BKSDNWQUk9Wh8iHdZjYjgyZDYwQ1B6Sk50SE1EaDkzNWhuUDU5bWc9ZQPdg00SpwEIHBKiAQocdSthb2VnbXY3cEpkNWh1am1mSzZ4RWRtN09jPRIkMjQ1YTQ4ZTQtMjgyOS00MWMyLTliOWQtOTlkYWQ0Nzc1Yzc4GAAgACgAMIGYlKWsMTi2/5OlrDFAtv+TpawxShxVUWRFK0lZUGZFa0c3SVhpRG50eTZDNy9mUDg9Wh4iHFlJNEF5Ylltald1dExQYnpxUkhYdldZU3BjST1lA92DTRKoAQgaEqMBChxQeHZ2MmMvQlExd1didWMzOGZqcUVmc21SWlU9EiQwMTMwODNkYS04ZWYyLTQzMGUtYWViNC03ZjQzZWZmOGIyOWEYACAAKAAwwKHjpJ8yOLb/k6WsMUC2/5OlrDFKHGtZUHE2OXZndTlRU1g5RmpNclNHakR2YkdVMD1aHyIdU3NpU0tyOFpud2ZWYWZnSzhVZVdQVGxNWGxVUT1lAAAAABKoAQgZEqMBChxEUEpDNUlOSjVDbGR5YU44NGhYTHZxZWE4dHM9EiQyMDg4MTdmMi0zNTUzLTQ1MTctOWI1Zi05MjFlZWM1ZmU1M2EYACAAKAAwvJmUpawxOLb/k6WsMUC2/5OlrDFKHHhkQzVVMWxXVjY5NHFUTlhUK3ZzTUNSKy9PMD1aHyId7nh1aHYrRC9KQndMZk02YnVnYW05c2JCZi91VT1l1VLb8RKoAQgdEqMBChxIREx4L2ROcGlBclh3dG9tdVhtWHRiRmxzL1k9EiRjZGYyZTE0YS1mNGMwLTRhZmQtYjUwOC04OTk0NzRiODk0ODEYACAAKAAwrbDUlpEyOLb/k6WsMUC2/5OlrDFKHE96elAwRHdGMHVjUVByNi96ZE1LN2x4N1U1UT1aHyIdrDJpdkV0Mk1wOThtOVNCUWJBK1VTTVlxV1g5MD1lunVjJBKoAQgYEqMBChxvUU5ienkreHlPTDNvTGU0azBtc1p0RngxYmM9EiQxODAxMmU4My1lYjI2LTQxMTMtYTgyZC04ZjRmZmZiOTFmN2YYACAAKAAwq5mUpawxOLb/k6WsMUC2/5OlrDFKHFBXOTVHVVJ4eVN4bnJOSjhtR3RRQ0I5d0Vybz1aHyId3FFJMVpFZ3gyVll1Vm5pU01ZbkNBaVhqU2FqZz1lqP5IBBKoAQgXEqMBChwzcDgvN2J5eWlSRFdPb0gxZGVVN0tZZmxpblE9EiQzZWFiMmZmZi05ODEyLTRkNWUtODIzNC1hYzE5YWJhNGRkNjMYACAAKAAwvpzKpJ8yOLb/k6WsMUC2/5OlrDFKHGJLc2psQjhBS1VGTTlxbjhiVTE1Z0pTbVJRZz1aHyIduThNQUlxRkYrYW1OUHJzZWI5dVNyczZiQzV1WT1l8bCkbxKnAQgWEqIBChxCTm5jV1Z1cjAvaXRBOUZKV1FPSTBMcmFSYlk9EiRiYzYwMjdmNi0wOWRjLTQzY2UtOTIxZS1jM2MzYjI0MjhiMjUYACAAKAAwwpzKpJ8yOLb/k6WsMUC2/5OlrDFKHGhsa01panNsOE1NMlkwZVVjWVlHWWx4eFhuVT1aHiIcclhQR0lKWFVwVm1aM0JUSGN4YlJhZGhRN3VvPWXxsKRvEqkBCBUSpAEKHE9qNVRpZVJtcmVBMFVqWjJzUndaRS9Fd0lRST0SJGE1NGI4MzQ4LWM1M2UtNDNjOS05ZWE4LTdmZWUyYzQ5NWJiZBgAIAAoADD84rvVnzI4tv+TpawxQLb/k6WsMUocZWNDb1dKV0FidGRpWWhEaEIvWG1HUm9SQlFVPVogIh7/3DMwN1NzMlpVWWVQWnlFb1d5RndIcHhmTVBYQT1lAAAAABKoAQgIEqMBChx3aWoyOUdZYm84V0Fac3NFVElYMnR4SmtBQ3M9EiRmNzIyZjc0Ni1iYTBjLTQwZDgtOWZlNC1jOTc3ZWQ0ZGM4ZmEYACAAKAAwutz0pJ8yOLb/k6WsMUC2/5OlrDFKHDQxeU5hSXhLTEc3QWV2MmdsdFdlZzNvUHVhbz1aHyId+29scWt0VUlCbE5Ub3dyYzd0bUxkOWtGL3AxRT1l9Zq96BKpAQgUEqQBChxyZFZHcUdOZ2JVeFRzcVhXUHBnL1dlM0poTWM9EiQ4YjdkMjRiYS1kZDcwLTRmNWMtYTU0Yi03MjAwODZiNmY4NDUYACAAKAAw1PH3pJ8yOLb/k6WsMUC2/5OlrDFKHHEyS0RnWEt1b0FGZlFLS0RWV21kYmZJOGNVQT1aICIe/7kydzkxUk5ESnJreXRBYTRpN2Q1UTRLQVdmbFU9Zbjt0ZASqAEIEBKjAQocVVRmNDhRWGllZkxxQTEvdHM4RUFhc0Z1d2FZPRIkZTdmMTE2OTktOWRjNi00ZTYwLWJlMjYtNTk1ZmI4ZDY1MGE2GAAgACgAMLzu7aSfMjjUwMeckjJA1MDHnJIyShxFWkEzZE5GSUxVdXFKaWRPc2pYUkRFMEtycU09Wh8iHfoyOHBWdTJhaEx3VWZuaWs0Z0xPUlNDRk9KTm89Zahxi5ISpwEICxKiAQocSnAxK3ZJYUhjN3hGVUc2QVFaWklrYk9SbDN3PRIkMzQxN2FkYTYtZTYxYy00Zjk5LThjOWMtMTY5MTk0YTBlYTFjGAAgACgAMIqXlKWsMTi2/5OlrDFAtv+TpawxShxsSndJRFl3Mjdkc1dMV2xoekZtdlhXZG5lK0k9Wh4iHFBVS3VlWE9keCtoMWdvT2sySlRSdjMwVEQvOD1l8DetFBKoAQgNEqMBChw3am8vS1BBYWprUnhmMm1pSHY5R3pPQWdPL1k9EiRhYjRmNDQ0NC0xY2UxLTQ0NzYtOWNhMS1jMDVjZTgxODA4NzQYACAAKAAwnYaknrUxOLb/k6WsMUC2/5OlrDFKHEJidjllMHFNTmdZN1hTaFZiN2VOM1pveGxUbz1aHyId1ERlUkhDbkhDK2hEaFRISnhzVU1tRGVnT0N4ND1lk4DJUBKoAQgmEqMBChxGWUVQV2IvTUF1bmVrQndsK3p5Ty9qekRPejQ9EiQyYWZlZWI3Ni1jMDlhLTQ3NmEtYmIwZS03MWI5MDkwYWVkNTAYACAAKAAw6vHWr6QyOKLEo/+dMkCixKP/nTJKHGJpTmlkVmUrYTFsWFoxeTdHR2ZMa3lEalNiOD1aHyIdu0c5M1NNM05GandaTXBRcHlKT0JNUkR2ZFBCTT1l8ZEGlxKoAQgPEqMBChwyRVl1dElxMzhmemRnK0s3Q3ZaRDRtME5RT0k9EiQ2YzY3YWQyZi02NTM1LTRkZTYtYTNjNi0wYWRkZjY1NWI2YjYYACAAKAAwyZeUpawxOLb/k6WsMUC2/5OlrDFKHHIvbVZmempwTzNaR21TSnRPMWcvcStvY1JVcz1aHyId9XVPRFZNcll3SE1LeE5JaGJJTitOTVprc1dHMD1lWWeVMRKoAQghEqMBChxpelhuSjBwQ2VxZ3hXT0lQNGR0YzJVeVNxUnc9EiRhOWY4NjRiOS1jN2ExLTRiNGQtYmYxYS02MzNmNTVkNzI1ZmIYACAAKAAw1JiUpawxOLb/k6WsMUC2/5OlrDFKHDJobTgwSGVtZ1lmU0pmQzBtRXY1b3U2ZUpKdz1aHyId+kxsUkZPeTdNamlMTXd2ZFNJWUlCM1NIS2RDWT1lIgoTGxKnAQgbEqIBChxtdGkrWjQ0K2xJWG5nQmtFSVFLSTJkYU1pbmM9EiQ0MjkyODllNi1kYTNlLTRiNGMtOWM2MS0zNjBlMDZkNjRiM2EYACAAKAAw7peUpawxOLb/k6WsMUC2/5OlrDFKHHVPaittYnRaRWRLN3RhUzVSQUxvdmhpMHh4TT1aHiIcS1BDbCs3TWFkdzlkclh1WUJWUnk0VDJrZW13PWXc+1LJEqgBCAwSowEKHGdqMXJPUmJkOGZ6enU2NzY4RzdRb0VNN2tudz0SJGUyYzYzYTU2LTAyNjQtNGM5OC05MGJjLTI2ODlhYzgxY2EzNBgAIAAoADCal5SlrDE4tv+TpawxQLb/k6WsMUoccVc4UHZRbElGZC84djJnSlJsR3pXaHRxK0V3PVofIh2oSnJKd3NnWkdXZkRXU2JnTkdGTDNnRlpld1RVPWXMK5coEqcBCCoSogEKHGQvL045SFB0N0xrQyswa3MxVmJzY3o2SUJwMD0SJGMzYmFhYzY0LTMxNmYtNDdmZC04MDgzLWQyNjQ4MTMyNzAxNBgAIAAoADDA8+bK3DI49eTmytwyQPXk5srcMkocSm1Fam1QcjNyK2d2ZnVzdTlwZHp4cHU3QVo4PVoeIhxtVENYck0zNkVIYmxYQzk3d3BodjB3UW1wK0E9ZS+NVBgSqAEIJxKjAQocV3dORGVLd3pOMkIrc0hDdGRRMEtXU2NMQUo4PRIkNzU3ZWVmZTQtMjlhNy00YjJmLWI0OWUtZTlkMzdlNmFjYmQxGAAgACgAMN3NnvKPMzjDitz1mTJAw4rc9ZkyShxQVXZaRUlzY3k2K1JHZm8xcXZYWGRDTHgya0U9Wh8iHftyaU5sczE4T3dlckIyNUlNVTNnd01seHpmRnc9ZdeRPTkSqAEIExKjAQocY2tSaTF2cmUwdS9HVFlsMDY0MDA3MlcvMUxRPRIkZDdhMjkxM2MtNjc1Yi00NTNkLTliMTUtNDZiMDQwZTNhOTIzGAAgACgAMOzN96SfMji1/5OlrDFAtf+TpawxShxydVB0cUhhQmV3MTNmcVdiVTgvVm8vL2VHSnc9Wh8iHf9zcFNtUkFEd2RsVDZUQlhBSEVTcGdCVFc2T1E9ZQAAAAASqAEICRKjAQoccXVLK2E0aWhTNk1LeWg5dk9qZHRLZ29JbDdrPRIkMzNmNTY1N2MtY2YzYS00YTBkLWFmYWUtOTA4Yjg0MTZhNjRmGAAgACgAMP7b9KSfMji2/5OlrDFAtv+TpawxShxTQ1RzaW9uNXR0bnlIamVPQnZHbkpRMFByMm89Wh8iHf1OZUVXbjVDQnd4LytXdzJ1VkZoT0pYQ2YrZjQ9ZfLecRESqAEIDhKjAQocakUzanpJVjdKUmtYZjlicHRoVHNhUE1GT2dzPRIkOWYwYjM5NDYtMjUxMC00ZTVlLWFjMDctN2M2OWE3MzQ4MDI0GAAgACgAMLmXlKWsMTi2/5OlrDFAtv+TpawxShx0cWphblBvdGJiUThjVUpUeFRNSGJORkROL0E9Wh8iHepxZ1hYemcybEhGUTJINURYYVBpK1FKZW00ejQ9ZcpeEn8SqAEIAhKjAQocZjFqdkdBNk9seElQNDE4UWd6OHhaQ3NEKytJPRIkNjQ3Zjg4ZjYtMDNlOC00YmRhLTkwYTktYzJlYTE3OGFmMWU0GAAgACgAMMve76SfMji2/5OlrDFAtv+TpawxShxuVWxUUmJPZkJyOFVuTktwSGY1UTRCWWNnQjg9Wh8iHTxwQ0VYZEFYeUdzWTJXbTBmVXlVQjNFeldKOEU9ZQAAAAASqAEIIxKjAQocYWw3Mm5BcUZ1MDlHamZYUGpvS1VjSU53Z2pVPRIkNGE3Y2UzOWUtMmU1ZS00NTMzLWEzZDQtMDQwYTllZTk2N2JlGAAgACgAMLitlIufMzi1/5OlrDFAtf+TpawxShxsUzA5SUpPNXNHcDlUcnJneFhVZ1FJZVZtSzQ9Wh8iHfY4TmtYeXJTaWRuS3ZScURjVWY1RmtYby9lNmc9ZUWQ9qoSqAEIERKjAQocanVyMzFucFBZZWc0Z3RHQ3pGZHpBT2RJMW1FPRIkZjA4ZDQ4Y2EtYTg5ZS00MTA1LTg2ODEtZDRlMzc3Mzk5ZWI2GAAgACgAMJOpnIKYMziorsGq2TFAqK7BqtkxShxJbmJrZm84Wjl5ZEczR2lQTEo3ektBblBqY2c9Wh8iHf03WXNET0p3eW91SytZZXFacTJON29zcnN2U1U9ZYVn7Q8SqAEIBBKjAQocWExhVitPSmQxOGQ0WlRnajk5Z1JTVFBPMjJRPRIkNTExZjc1ZmMtYzkxMC00OGZlLWI4ZmYtZGQ5MDY1ZWM0MTE4GAAgACgAMPTb3KasMTi2/5OlrDFAtv+TpawxShx6VGVDY0diTDl1NEJubTh0M0pLL0VZSmpnV1k9Wh8iHbxIRWpxMjZya2NuZXNPUlQ3RHF5Y0RRM2U5eW89ZR1Ee/YSqAEIBxKjAQocOVlWQU1ZZ1hWVFVNV3lKSEJjVHI1K1Y5T0JVPRIkZTU3MWJmYzEtMmRjYS00NjA0LTkyOTQtOWNlMWFiYWRiZDcyGAAgACgAMO/+7qSfMjjuxOq4sDFA7sTquLAxShw0TndJZzgvSlVGUFdzalBFdEhuWDNWK1RoRFU9Wh8iHfdaa2RzQTFZRE1rNHMyU3BCbG5VbVNSYlVrRFk9Zb+ce9cSqAEIEhKjAQocaFRUam9zd0RhK3JRWFJ4MmVrU0E4KytTS25rPRIkYzgwNWRiZjctZWU4MS00NjJmLTk1YWItYWJhNWI2N2NhYjczGAAgACgAMJa14dWfMjjEjYa9rjFAxI2Gva4xShx2bUJ0eVZxcUNFb1pqa1paUXhQWnlGYlRMY3M9Wh8iHf5oUi9pcStybDF3M0FaUXhxYVY3bFd5SG9jRUU9Za/gb4oSqAEIIhKjAQocdWludVF6Q0FTdUNvb0JXYmFPd3hGVVkxUHB3PRIkN2RjYTIzYTUtZTllNC00ZTEyLTk0NTgtNzAyZTQwNDI2MTcxGAAgACgAMKH8u+meMzi1/5OlrDFAtf+TpawxShxRLy9OUHpXeHp0TmxoVnovQzRURWw2TWp2OVE9Wh8iHe1kSlF0TERwV1VvaGhaK2dXaHdlRjZ4NXVZcEE9ZdqQf+ASqAEIBhKjAQocNXpReFhuVlJOM2lCV3VzZHRFdEt0M01ZbXlBPRIkZmZmMTQxM2UtZWZhYi00NjZjLTg1MzEtMWZhMmRhNzJhMjY4GAAgACgAMOqWlKWsMTi2/5OlrDFAtv+TpawxShx6QTZ5OG5xQTlmT1VaT0Q4blpIWVpGRVZjRzg9Wh8iHe9aL1Q4MHBMVCs3RzZVZnU0SzJSdmNIMWdTZTg9ZSIKExsSqAEIBRKjAQocZitHV2hLUHZvUDJhS0p5c254czRyeHZNT3BVPRIkNzYzZmY3MWQtOTBkMS00NmI3LTk1NjUtYzVmYzdmMzU3NjQwGAAgACgAMNmWlKWsMTi2/5OlrDFAtv+TpawxShwyOW1YVEpkaUhNR1hVQWRoTnVERmc4SlNEL3c9Wh8iHd42VTFJRGdVUjlLb0o5YllRNGpodzBBbG4xdVE9ZcGnQzgSgwEIKRJ/ChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQyOGFhZmIxMC04ZGE4LTQ3ZmMtOWVhZC02M2NhNjVhMDQ3YjAYACAAKAAwATjOxayzqzFAzsWss6sxShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKoAQgKEqMBChxsd3VuRjZXUm9KUkpsYThHK3ZTOE5ETEdNM2M9EiRhNDQyZTUyYy0wMTZiLTQ0M2QtOWIwNC1hNzJiNWViNWU3NjAYACAAKAAwjdbipJ8yOLb/k6WsMUC2/5OlrDFKHFEvV0UzS2lEU2M4SVREdXRackNMOVlxMEtDMD1aHyIdTSs2SUVlNGZoSGxabStvYVRRWlF6anVHMzBjST1lAAAAABKnAQgDEqIBChxWWVBaUlo5WlNHYXg5K1RnNXRnZCtqNGNWSG89EiQ1YTI0ODkzYi04ZWJhLTQwOTYtOGJkZi02YWIyYzM0MWM1ZjUYACAAKAAwupaUpawxOLb/k6WsMUC2/5OlrDFKHDF5dHBMRmpiZTBKeVZOR3FkRmU5aWpZZ09xOD1aHiIceHNRT2ZxME42QktnbTVyNGpMSjRnNWF0VHYwPWUmmbBAEoMBCAESfwoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkNDIwOTk2NTAtMDZiOC00NDA4LTg3NTYtZDcwN2VjNTg5MTdiGAAgACgAMAE4zsWss6sxQM7FrLOrMUocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAwATgA",
+   "version": 1
+}

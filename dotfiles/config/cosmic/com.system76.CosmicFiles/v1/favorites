@@ -1,0 +1,7 @@
+[
+    Home,
+    Documents,
+    Downloads,
+    Path("/mnt/ld2"),
+    Path("/mnt/ld2/school"),
+]

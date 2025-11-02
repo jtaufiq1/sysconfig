@@ -1,0 +1,21 @@
+2025/11/02-17:25:09.584 4cb8 Reusing MANIFEST /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/11/02-17:25:09.585 4cb8 Recovering log #231
+2025/11/02-17:25:09.586 4cb8 Reusing old log /home/taufiq/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000231.log 
+2025/11/02-17:46:01.233 4cc7 Level-0 table #235: started
+2025/11/02-17:46:01.239 4cc7 Level-0 table #235: 74104 bytes OK
+2025/11/02-17:46:01.243 4cc7 Delete type=0 #231
+2025/11/02-21:17:56.337 4cc6 Level-0 table #237: started
+2025/11/02-21:17:56.343 4cc6 Level-0 table #237: 58762 bytes OK
+2025/11/02-21:17:56.347 4cc6 Delete type=0 #234
+2025/11/02-21:17:56.348 4cc6 Compacting 4@0 + 1@1 files
+2025/11/02-21:17:56.357 4cc6 Generated table #238@0: 750 keys, 108990 bytes
+2025/11/02-21:17:56.357 4cc6 Compacted 4@0 + 1@1 files => 108990 bytes
+2025/11/02-21:17:56.361 4cc6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/02-21:17:56.361 4cc6 Delete type=2 #227
+2025/11/02-21:17:56.361 4cc6 Delete type=2 #230
+2025/11/02-21:17:56.361 4cc6 Delete type=2 #232
+2025/11/02-21:17:56.361 4cc6 Delete type=2 #235
+2025/11/02-21:17:56.361 4cc6 Delete type=2 #237
+2025/11/02-21:54:17.721 4cc6 Level-0 table #240: started
+2025/11/02-21:54:17.728 4cc6 Level-0 table #240: 67704 bytes OK
+2025/11/02-21:54:17.734 4cc6 Delete type=0 #236

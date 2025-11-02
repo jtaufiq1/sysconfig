@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "0c2f3714-59d8-43e1-aa51-e35bca3761dd",
+      "logo": {
+        "imageUrl": "e21cabe2-236a-4f58-a0e7-cb9471f65bf5/7b4b22dd-e987-4653-b0f8-ae042977f7e6.png",
+        "destinationUrl": "https://brave.com/wallet/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-wallet&mtm_content=97d704ab-8165-4d55-9acf-94a84ef5700a&mtm_date=20250707",
+        "alt": "Trade crypto seamlessly, all from one place.",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "e21cabe2-236a-4f58-a0e7-cb9471f65bf5/e1a795ce-158b-433d-91e1-e303dd33c29f.jpg",
+          "creativeInstanceId": "97d704ab-8165-4d55-9acf-94a84ef5700a",
+          "focalPoint": {
+            "x": 891,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "0c2f3714-59d8-43e1-aa51-e35bca3761dd",
+      "logo": {
+        "imageUrl": "e21cabe2-236a-4f58-a0e7-cb9471f65bf5/7b4b22dd-e987-4653-b0f8-ae042977f7e6.png",
+        "destinationUrl": "https://brave.com/wallet/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-wallet&mtm_content=97d704ab-8165-4d55-9acf-94a84ef5700a&mtm_date=20250707",
+        "alt": "Trade crypto seamlessly, all from one place.",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "e21cabe2-236a-4f58-a0e7-cb9471f65bf5/e1a795ce-158b-433d-91e1-e303dd33c29f.jpg",
+          "creativeInstanceId": "97d704ab-8165-4d55-9acf-94a84ef5700a",
+          "focalPoint": {
+            "x": 891,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}
